@@ -396,6 +396,20 @@
         if (done) return;
         if (e.target && e.target.tagName === 'INPUT') return;
         const opts2 = U.$$('.opt:not([disabled])', area);
+        // Flechas del teclado: mueven la selección entre las opciones; Enter o espacio eligen
+        if (e.key.startsWith('Arrow') && (q.tipo === 'mc' || q.tipo === 'listen' || q.tipo === 'tf') && opts2.length) {
+          e.preventDefault(); e.stopPropagation();
+          const cols = Math.max(1, opts2.filter((b) => b.offsetTop === opts2[0].offsetTop).length);
+          let i = opts2.indexOf(document.activeElement);
+          if (i < 0) i = e.key === 'ArrowUp' || e.key === 'ArrowLeft' ? opts2.length : -1;
+          const n = opts2.length;
+          const step = { ArrowLeft: -1, ArrowRight: 1, ArrowUp: -cols, ArrowDown: cols }[e.key];
+          let j = i + step;
+          if (j < 0 || j >= n) j = ((j % n) + n) % n;
+          opts2[j].focus({ preventScroll: true });
+          EZ.audio.play('tick');
+          return;
+        }
         const map = { 1: 0, 2: 1, 3: 2, 4: 3, a: 0, b: 1, c: 2, d: 3, v: 0, f: 1 };
         const k = map[e.key.toLowerCase()];
         if (q.tipo === 'tf' && (e.key === 'v' || e.key === 'f' || e.key === '1' || e.key === '2')) { e.preventDefault(); area.querySelectorAll('.opt')[k].click(); return; }
@@ -407,6 +421,10 @@
         void opts2;
       };
       document.addEventListener('keydown', keyHandler, true);
+      if (q.tipo === 'mc' || q.tipo === 'listen' || q.tipo === 'tf') {
+        const tip = U.el('p', { class: 'ch-keys muted small' }, 'Teclado: flechas ← ↑ ↓ → para moverte y Enter para elegir (también 1-4 o A-D).');
+        area.after(tip);
+      }
       setTimeout(() => { const f = card.querySelector('.opt, .chip, .hot, .gap, input'); if (f && q.tipo !== 'input') f.focus({ preventScroll: true }); }, 80);
 
       function showFeedback(correct, fb, next) {
