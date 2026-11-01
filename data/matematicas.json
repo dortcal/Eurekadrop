@@ -1,0 +1,1207 @@
+{
+ "area": "mat",
+ "nombre": "Matemáticas",
+ "version": 1,
+ "preguntas": [
+  {
+   "id": "mat-001",
+   "bloque": "Números naturales",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "¿Cómo se escribe «tres millones cuarenta mil doce»?",
+   "opciones": [
+    "3 040 012",
+    "3 400 012",
+    "3 040 120",
+    "30 040 012"
+   ],
+   "correcta": 0,
+   "pista": "Separa en clases: millones | millares | unidades.",
+   "explicacion": "3 millones | 040 mil | 012 → 3 040 012."
+  },
+  {
+   "id": "mat-002",
+   "bloque": "Números naturales",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "En el número 4 572 381, ¿qué valor tiene la cifra 5?",
+   "opciones": [
+    "500 000",
+    "50 000",
+    "5 000",
+    "500"
+   ],
+   "correcta": 0,
+   "pista": "Cuenta posiciones desde la derecha: U, D, C, UM, DM, CM…",
+   "explicacion": "El 5 ocupa las centenas de millar: vale 500 000."
+  },
+  {
+   "id": "mat-003",
+   "bloque": "Números naturales",
+   "nivel": 1,
+   "tipo": "input",
+   "enunciado": "Redondea 48 763 a los millares.",
+   "respuestas": [
+    "49000"
+   ],
+   "pista": "Mira la cifra de las centenas: si es 5 o más, se sube.",
+   "explicacion": "La cifra de las centenas es 7, así que 48 763 ≈ 49 000."
+  },
+  {
+   "id": "mat-004",
+   "bloque": "Números naturales",
+   "nivel": 2,
+   "tipo": "order",
+   "enunciado": "Ordena de menor a mayor.",
+   "elementos": [
+    "98 999",
+    "99 899",
+    "99 989",
+    "100 001"
+   ],
+   "separador": " < ",
+   "pista": "Compara cifra a cifra empezando por la izquierda.",
+   "explicacion": "El de seis cifras es el mayor; entre los demás, compara millares y centenas."
+  },
+  {
+   "id": "mat-005",
+   "bloque": "Operaciones combinadas",
+   "nivel": 1,
+   "tipo": "input",
+   "enunciado": "Calcula: 6 + 4 × 5",
+   "respuestas": [
+    "26"
+   ],
+   "pista": "Primero multiplicaciones y divisiones; después sumas y restas.",
+   "explicacion": "4 × 5 = 20 y 6 + 20 = 26."
+  },
+  {
+   "id": "mat-006",
+   "bloque": "Operaciones combinadas",
+   "nivel": 2,
+   "tipo": "input",
+   "enunciado": "Calcula: (18 − 6) : 3 + 2 × 4",
+   "respuestas": [
+    "12"
+   ],
+   "pista": "Resuelve primero el paréntesis.",
+   "explicacion": "18 − 6 = 12; 12 : 3 = 4; 2 × 4 = 8; 4 + 8 = 12."
+  },
+  {
+   "id": "mat-007",
+   "bloque": "Operaciones combinadas",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "¿Cuál es el resultado de 30 − 2 × (3 + 4)?",
+   "opciones": [
+    "16",
+    "196",
+    "24",
+    "14"
+   ],
+   "correcta": 0,
+   "pista": "Paréntesis, luego multiplicación y por último la resta.",
+   "explicacion": "3 + 4 = 7; 2 × 7 = 14; 30 − 14 = 16."
+  },
+  {
+   "id": "mat-008",
+   "bloque": "Operaciones combinadas",
+   "nivel": 3,
+   "tipo": "input",
+   "enunciado": "Calcula: 5 + 3 × (8 − 2) : 2 − 4",
+   "respuestas": [
+    "10"
+   ],
+   "pista": "Multiplicaciones y divisiones se hacen de izquierda a derecha.",
+   "explicacion": "8 − 2 = 6; 3 × 6 = 18; 18 : 2 = 9; 5 + 9 − 4 = 10."
+  },
+  {
+   "id": "mat-009",
+   "bloque": "Números decimales",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "¿Qué número es el mayor?",
+   "opciones": [
+    "0,9",
+    "0,89",
+    "0,099",
+    "0,809"
+   ],
+   "correcta": 0,
+   "pista": "Compara primero las décimas.",
+   "explicacion": "0,9 tiene 9 décimas; los demás tienen 8 o 0."
+  },
+  {
+   "id": "mat-010",
+   "bloque": "Números decimales",
+   "nivel": 1,
+   "tipo": "input",
+   "enunciado": "Calcula: 3,25 + 1,8",
+   "respuestas": [
+    "5,05"
+   ],
+   "pista": "Coloca las comas una debajo de otra: 1,8 = 1,80.",
+   "explicacion": "3,25 + 1,80 = 5,05."
+  },
+  {
+   "id": "mat-011",
+   "bloque": "Números decimales",
+   "nivel": 2,
+   "tipo": "input",
+   "enunciado": "Calcula: 1,5 × 1,2",
+   "respuestas": [
+    "1,8",
+    "1,80"
+   ],
+   "pista": "Multiplica 15 × 12 y luego cuenta los decimales (2).",
+   "explicacion": "15 × 12 = 180 → 1,80 = 1,8."
+  },
+  {
+   "id": "mat-012",
+   "bloque": "Números decimales",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "Ana compra 3 cuadernos de 1,35 € cada uno. ¿Cuánto paga?",
+   "opciones": [
+    "4,05 €",
+    "3,95 €",
+    "4,15 €",
+    "3,105 €"
+   ],
+   "correcta": 0,
+   "pista": "Multiplica 1,35 × 3.",
+   "explicacion": "1,35 × 3 = 4,05 €."
+  },
+  {
+   "id": "mat-013",
+   "bloque": "Números decimales",
+   "nivel": 3,
+   "tipo": "place",
+   "enunciado": "Completa las equivalencias.",
+   "texto": "0,25 = ___ % = ___ (fracción irreducible)",
+   "huecos": [
+    "25",
+    "1/4"
+   ],
+   "distractores": [
+    "2,5",
+    "1/25",
+    "4/1"
+   ],
+   "pista": "0,25 son 25 centésimas.",
+   "explicacion": "25 centésimas = 25 % = 25/100 = 1/4."
+  },
+  {
+   "id": "mat-014",
+   "bloque": "Fracciones",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "¿Qué fracción del círculo está coloreada?",
+   "opciones": [
+    "3/8",
+    "5/8",
+    "3/5",
+    "8/3"
+   ],
+   "correcta": 0,
+   "pista": "El denominador indica en cuántas partes iguales se divide.",
+   "explicacion": "Hay 8 partes y 3 coloreadas: 3/8.",
+   "visual": {
+    "tipo": "fraccion",
+    "num": 3,
+    "den": 8
+   }
+  },
+  {
+   "id": "mat-015",
+   "bloque": "Fracciones",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "¿Qué fracción es equivalente a 2/3?",
+   "opciones": [
+    "8/12",
+    "6/8",
+    "4/5",
+    "3/2"
+   ],
+   "correcta": 0,
+   "pista": "Multiplica numerador y denominador por el mismo número.",
+   "explicacion": "2 × 4 = 8 y 3 × 4 = 12, así que 2/3 = 8/12."
+  },
+  {
+   "id": "mat-016",
+   "bloque": "Fracciones",
+   "nivel": 2,
+   "tipo": "input",
+   "enunciado": "Calcula 3/4 de 60.",
+   "respuestas": [
+    "45"
+   ],
+   "pista": "Divide entre el denominador y multiplica por el numerador.",
+   "explicacion": "60 : 4 = 15; 15 × 3 = 45."
+  },
+  {
+   "id": "mat-017",
+   "bloque": "Fracciones",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "¿Cuál es la fracción MENOR?",
+   "opciones": [
+    "2/9",
+    "2/5",
+    "2/3",
+    "2/7"
+   ],
+   "correcta": 0,
+   "pista": "Si el numerador es el mismo, piensa en trozos de una pizza: ¿más trozos o menos?",
+   "explicacion": "Con el mismo numerador, es menor la de mayor denominador (partes más pequeñas)."
+  },
+  {
+   "id": "mat-018",
+   "bloque": "Fracciones",
+   "nivel": 3,
+   "tipo": "mc",
+   "enunciado": "¿Cuánto es 1/2 + 1/3?",
+   "opciones": [
+    "5/6",
+    "2/5",
+    "1/5",
+    "2/6"
+   ],
+   "correcta": 0,
+   "pista": "Busca un denominador común.",
+   "explicacion": "1/2 = 3/6 y 1/3 = 2/6; 3/6 + 2/6 = 5/6."
+  },
+  {
+   "id": "mat-019",
+   "bloque": "Fracciones",
+   "nivel": 3,
+   "tipo": "tf",
+   "enunciado": "3/5 es igual a 0,6.",
+   "correcta": true,
+   "pista": "Divide el numerador entre el denominador.",
+   "explicacion": "3 : 5 = 0,6."
+  },
+  {
+   "id": "mat-020",
+   "bloque": "Múltiplos y divisores",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "¿Cuál de estos números es múltiplo de 6?",
+   "opciones": [
+    "42",
+    "38",
+    "26",
+    "15"
+   ],
+   "correcta": 0,
+   "pista": "Repasa la tabla del 6.",
+   "explicacion": "6 × 7 = 42."
+  },
+  {
+   "id": "mat-021",
+   "bloque": "Múltiplos y divisores",
+   "nivel": 1,
+   "tipo": "tf",
+   "enunciado": "El número 1 es un número primo.",
+   "correcta": false,
+   "pista": "Un primo tiene exactamente dos divisores distintos.",
+   "explicacion": "El 1 solo tiene un divisor (él mismo), por eso no es primo."
+  },
+  {
+   "id": "mat-022",
+   "bloque": "Múltiplos y divisores",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "¿Cuál de estos números es primo?",
+   "opciones": [
+    "29",
+    "27",
+    "33",
+    "51"
+   ],
+   "correcta": 0,
+   "pista": "Prueba a dividir entre 2, 3, 5 y 7.",
+   "explicacion": "27 = 3 × 9, 33 = 3 × 11, 51 = 3 × 17. El 29 solo es divisible por 1 y por 29."
+  },
+  {
+   "id": "mat-023",
+   "bloque": "Múltiplos y divisores",
+   "nivel": 2,
+   "tipo": "input",
+   "enunciado": "¿Cuál es el máximo común divisor de 12 y 18?",
+   "respuestas": [
+    "6"
+   ],
+   "pista": "Escribe los divisores de cada uno y busca el mayor que se repite.",
+   "explicacion": "Divisores comunes: 1, 2, 3 y 6. El mayor es 6."
+  },
+  {
+   "id": "mat-024",
+   "bloque": "Múltiplos y divisores",
+   "nivel": 3,
+   "tipo": "input",
+   "enunciado": "Un faro se enciende cada 6 segundos y otro cada 8 segundos. Si acaban de encenderse a la vez, ¿cuántos segundos pasan hasta que vuelven a coincidir?",
+   "respuestas": [
+    "24"
+   ],
+   "pista": "Busca el mínimo común múltiplo.",
+   "explicacion": "Múltiplos de 6: 6, 12, 18, 24… De 8: 8, 16, 24… El m.c.m. es 24.",
+   "unidad": "s"
+  },
+  {
+   "id": "mat-025",
+   "bloque": "Múltiplos y divisores",
+   "nivel": 2,
+   "tipo": "match",
+   "enunciado": "Relaciona cada criterio con su divisibilidad.",
+   "pares": [
+    [
+     "Última cifra par",
+     "Divisible por 2"
+    ],
+    [
+     "La suma de sus cifras es múltiplo de 3",
+     "Divisible por 3"
+    ],
+    [
+     "Termina en 0 o en 5",
+     "Divisible por 5"
+    ]
+   ],
+   "pista": "Prueba con números: 24, 51, 35…",
+   "explicacion": "Son los criterios de divisibilidad por 2, 3 y 5."
+  },
+  {
+   "id": "mat-026",
+   "bloque": "Porcentajes",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "¿Cuánto es el 50 % de 84?",
+   "opciones": [
+    "42",
+    "48",
+    "34",
+    "168"
+   ],
+   "correcta": 0,
+   "pista": "El 50 % es la mitad.",
+   "explicacion": "84 : 2 = 42."
+  },
+  {
+   "id": "mat-027",
+   "bloque": "Porcentajes",
+   "nivel": 2,
+   "tipo": "input",
+   "enunciado": "Unas zapatillas cuestan 60 € y tienen un 25 % de descuento. ¿Cuántos euros te ahorras?",
+   "respuestas": [
+    "15"
+   ],
+   "pista": "El 25 % es la cuarta parte.",
+   "explicacion": "60 : 4 = 15 €.",
+   "unidad": "€"
+  },
+  {
+   "id": "mat-028",
+   "bloque": "Porcentajes",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "En una clase de 25 alumnos, 10 juegan al baloncesto. ¿Qué porcentaje es?",
+   "opciones": [
+    "40 %",
+    "10 %",
+    "25 %",
+    "35 %"
+   ],
+   "correcta": 0,
+   "pista": "Convierte la fracción 10/25 en otra con denominador 100.",
+   "explicacion": "10/25 = 40/100 = 40 %."
+  },
+  {
+   "id": "mat-029",
+   "bloque": "Porcentajes",
+   "nivel": 3,
+   "tipo": "input",
+   "enunciado": "Un videojuego cuesta 40 €. Su precio sube un 10 %. ¿Cuál es el nuevo precio?",
+   "respuestas": [
+    "44"
+   ],
+   "pista": "Calcula el 10 % y súmalo.",
+   "explicacion": "10 % de 40 = 4; 40 + 4 = 44 €.",
+   "unidad": "€"
+  },
+  {
+   "id": "mat-030",
+   "bloque": "Proporcionalidad",
+   "nivel": 1,
+   "tipo": "input",
+   "enunciado": "Si 3 bocadillos cuestan 6 €, ¿cuánto cuestan 7 bocadillos?",
+   "respuestas": [
+    "14"
+   ],
+   "pista": "Averigua primero cuánto cuesta uno.",
+   "explicacion": "Cada bocadillo cuesta 2 €; 7 × 2 = 14 €.",
+   "unidad": "€"
+  },
+  {
+   "id": "mat-031",
+   "bloque": "Proporcionalidad",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "Para una tarta para 4 personas se usan 200 g de harina. ¿Cuánta harina hace falta para 10 personas?",
+   "opciones": [
+    "500 g",
+    "800 g",
+    "400 g",
+    "2 000 g"
+   ],
+   "correcta": 0,
+   "pista": "¿Cuánta harina corresponde a una persona?",
+   "explicacion": "200 : 4 = 50 g por persona; 50 × 10 = 500 g."
+  },
+  {
+   "id": "mat-032",
+   "bloque": "Proporcionalidad",
+   "nivel": 3,
+   "tipo": "mc",
+   "enunciado": "En un mapa a escala 1 : 100 000, 3 cm representan en la realidad…",
+   "opciones": [
+    "3 km",
+    "300 m",
+    "30 km",
+    "3 000 km"
+   ],
+   "correcta": 0,
+   "pista": "Cada centímetro del mapa son 100 000 cm reales.",
+   "explicacion": "3 × 100 000 cm = 300 000 cm = 3 000 m = 3 km."
+  },
+  {
+   "id": "mat-033",
+   "bloque": "Números enteros",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "El termómetro marca 3 grados bajo cero. ¿Cómo se escribe?",
+   "opciones": [
+    "−3 °C",
+    "+3 °C",
+    "3− °C",
+    "−0,3 °C"
+   ],
+   "correcta": 0,
+   "pista": "Bajo cero = número negativo.",
+   "explicacion": "Las temperaturas bajo cero se escriben con signo menos: −3 °C."
+  },
+  {
+   "id": "mat-034",
+   "bloque": "Números enteros",
+   "nivel": 2,
+   "tipo": "order",
+   "enunciado": "Ordena de menor a mayor.",
+   "elementos": [
+    "−7",
+    "−2",
+    "0",
+    "3",
+    "5"
+   ],
+   "separador": " < ",
+   "pista": "Cuanto más lejos del cero hacia la izquierda, menor.",
+   "explicacion": "En la recta numérica: −7 < −2 < 0 < 3 < 5."
+  },
+  {
+   "id": "mat-035",
+   "bloque": "Números enteros",
+   "nivel": 2,
+   "tipo": "input",
+   "enunciado": "Por la mañana hay −4 °C y a mediodía la temperatura sube 9 grados. ¿Qué temperatura hace a mediodía?",
+   "respuestas": [
+    "5",
+    "+5"
+   ],
+   "pista": "Imagina la recta numérica: desde −4 avanza 9 pasos.",
+   "explicacion": "−4 + 9 = 5 °C.",
+   "unidad": "°C"
+  },
+  {
+   "id": "mat-036",
+   "bloque": "Números enteros",
+   "nivel": 3,
+   "tipo": "mc",
+   "enunciado": "Un submarino está a −120 m y sube 45 m. ¿A qué profundidad queda?",
+   "opciones": [
+    "−75 m",
+    "−165 m",
+    "75 m",
+    "−85 m"
+   ],
+   "correcta": 0,
+   "pista": "Subir es sumar.",
+   "explicacion": "−120 + 45 = −75 m."
+  },
+  {
+   "id": "mat-037",
+   "bloque": "Potencias y raíces",
+   "nivel": 1,
+   "tipo": "input",
+   "enunciado": "Calcula 5².",
+   "respuestas": [
+    "25"
+   ],
+   "pista": "5² = 5 × 5.",
+   "explicacion": "5 × 5 = 25."
+  },
+  {
+   "id": "mat-038",
+   "bloque": "Potencias y raíces",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "¿Cuál es el valor de 2⁵?",
+   "opciones": [
+    "32",
+    "10",
+    "25",
+    "16"
+   ],
+   "correcta": 0,
+   "pista": "Multiplica el 2 por sí mismo cinco veces.",
+   "explicacion": "2 × 2 × 2 × 2 × 2 = 32."
+  },
+  {
+   "id": "mat-039",
+   "bloque": "Potencias y raíces",
+   "nivel": 2,
+   "tipo": "input",
+   "enunciado": "¿Cuál es la raíz cuadrada de 81?",
+   "respuestas": [
+    "9"
+   ],
+   "pista": "¿Qué número multiplicado por sí mismo da 81?",
+   "explicacion": "9 × 9 = 81."
+  },
+  {
+   "id": "mat-040",
+   "bloque": "Potencias y raíces",
+   "nivel": 3,
+   "tipo": "tf",
+   "enunciado": "10⁴ = 10 000",
+   "correcta": true,
+   "pista": "Las potencias de 10 son un 1 seguido de tantos ceros como indica el exponente.",
+   "explicacion": "10⁴ = 10 × 10 × 10 × 10 = 10 000."
+  },
+  {
+   "id": "mat-041",
+   "bloque": "Medida",
+   "nivel": 1,
+   "tipo": "input",
+   "enunciado": "¿Cuántos centímetros son 2,5 metros?",
+   "respuestas": [
+    "250"
+   ],
+   "pista": "1 m = 100 cm.",
+   "explicacion": "2,5 × 100 = 250 cm.",
+   "unidad": "cm"
+  },
+  {
+   "id": "mat-042",
+   "bloque": "Medida",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "¿Qué unidad usarías para medir el agua de una piscina?",
+   "opciones": [
+    "Litros o kilolitros",
+    "Mililitros",
+    "Gramos",
+    "Centímetros"
+   ],
+   "correcta": 0,
+   "pista": "Es una medida de capacidad y muy grande.",
+   "explicacion": "Para grandes capacidades se usan litros o kilolitros."
+  },
+  {
+   "id": "mat-043",
+   "bloque": "Medida",
+   "nivel": 2,
+   "tipo": "input",
+   "enunciado": "¿Cuántos gramos son 3,2 kg?",
+   "respuestas": [
+    "3200"
+   ],
+   "pista": "1 kg = 1 000 g.",
+   "explicacion": "3,2 × 1 000 = 3 200 g.",
+   "unidad": "g"
+  },
+  {
+   "id": "mat-044",
+   "bloque": "Medida",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "¿Cuántos mililitros caben en 1,5 L?",
+   "opciones": [
+    "1 500 mL",
+    "150 mL",
+    "15 mL",
+    "15 000 mL"
+   ],
+   "correcta": 0,
+   "pista": "1 L = 1 000 mL.",
+   "explicacion": "1,5 × 1 000 = 1 500 mL."
+  },
+  {
+   "id": "mat-045",
+   "bloque": "Medida",
+   "nivel": 3,
+   "tipo": "mc",
+   "enunciado": "¿Cuántos metros cuadrados tiene 1 hectárea?",
+   "opciones": [
+    "10 000 m²",
+    "1 000 m²",
+    "100 m²",
+    "100 000 m²"
+   ],
+   "correcta": 0,
+   "pista": "Una hectárea es un cuadrado de 100 m de lado.",
+   "explicacion": "100 m × 100 m = 10 000 m²."
+  },
+  {
+   "id": "mat-046",
+   "bloque": "Tiempo",
+   "nivel": 1,
+   "tipo": "input",
+   "enunciado": "¿Cuántos minutos hay en 2 horas y cuarto?",
+   "respuestas": [
+    "135"
+   ],
+   "pista": "Un cuarto de hora son 15 minutos.",
+   "explicacion": "2 × 60 + 15 = 135 minutos.",
+   "unidad": "min"
+  },
+  {
+   "id": "mat-047",
+   "bloque": "Tiempo",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "Una película empieza a las 17:45 y dura 1 h 50 min. ¿A qué hora termina?",
+   "opciones": [
+    "19:35",
+    "19:25",
+    "18:95",
+    "19:45"
+   ],
+   "correcta": 0,
+   "pista": "Suma primero la hora y después los minutos (60 min = 1 h).",
+   "explicacion": "17:45 + 1 h = 18:45; + 50 min = 19:35."
+  },
+  {
+   "id": "mat-048",
+   "bloque": "Tiempo",
+   "nivel": 2,
+   "tipo": "tf",
+   "enunciado": "Un siglo son 100 años y un milenio, 1 000 años.",
+   "correcta": true,
+   "explicacion": "Siglo = 100 años; milenio = 1 000 años."
+  },
+  {
+   "id": "mat-049",
+   "bloque": "Dinero",
+   "nivel": 1,
+   "tipo": "input",
+   "enunciado": "Pagas con un billete de 20 € una compra de 13,60 €. ¿Cuánto te devuelven?",
+   "respuestas": [
+    "6,40",
+    "6,4"
+   ],
+   "pista": "Resta 20 − 13,60.",
+   "explicacion": "20,00 − 13,60 = 6,40 €.",
+   "unidad": "€"
+  },
+  {
+   "id": "mat-050",
+   "bloque": "Perímetros y áreas",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "¿Cuál es el perímetro de este rectángulo?",
+   "opciones": [
+    "26 cm",
+    "40 cm",
+    "13 cm",
+    "20 cm"
+   ],
+   "correcta": 0,
+   "pista": "El perímetro es la suma de todos los lados.",
+   "explicacion": "8 + 5 + 8 + 5 = 26 cm.",
+   "visual": {
+    "tipo": "figura",
+    "forma": "rect",
+    "base": 8,
+    "altura": 5,
+    "unidad": "cm"
+   }
+  },
+  {
+   "id": "mat-051",
+   "bloque": "Perímetros y áreas",
+   "nivel": 2,
+   "tipo": "input",
+   "enunciado": "¿Cuál es el área de este rectángulo?",
+   "respuestas": [
+    "40"
+   ],
+   "pista": "Área del rectángulo = base × altura.",
+   "explicacion": "8 × 5 = 40 cm².",
+   "unidad": "cm²",
+   "visual": {
+    "tipo": "figura",
+    "forma": "rect",
+    "base": 8,
+    "altura": 5,
+    "unidad": "cm"
+   }
+  },
+  {
+   "id": "mat-052",
+   "bloque": "Perímetros y áreas",
+   "nivel": 2,
+   "tipo": "input",
+   "enunciado": "¿Cuál es el área de este triángulo?",
+   "respuestas": [
+    "30"
+   ],
+   "pista": "Área del triángulo = base × altura : 2.",
+   "explicacion": "10 × 6 : 2 = 30 cm².",
+   "unidad": "cm²",
+   "visual": {
+    "tipo": "figura",
+    "forma": "triangulo",
+    "base": 10,
+    "altura": 6,
+    "unidad": "cm"
+   }
+  },
+  {
+   "id": "mat-053",
+   "bloque": "Perímetros y áreas",
+   "nivel": 3,
+   "tipo": "mc",
+   "enunciado": "La longitud de una circunferencia de 10 cm de diámetro es aproximadamente… (π ≈ 3,14)",
+   "opciones": [
+    "31,4 cm",
+    "314 cm",
+    "15,7 cm",
+    "62,8 cm"
+   ],
+   "correcta": 0,
+   "pista": "Longitud = π × diámetro.",
+   "explicacion": "3,14 × 10 = 31,4 cm."
+  },
+  {
+   "id": "mat-054",
+   "bloque": "Ángulos y figuras",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "¿Qué tipo de ángulo es este?",
+   "opciones": [
+    "Recto",
+    "Agudo",
+    "Obtuso",
+    "Llano"
+   ],
+   "correcta": 0,
+   "pista": "Fíjate en si forma una esquina como la de un folio.",
+   "explicacion": "Mide 90°: es un ángulo recto.",
+   "visual": {
+    "tipo": "angulo",
+    "grados": 90
+   }
+  },
+  {
+   "id": "mat-055",
+   "bloque": "Ángulos y figuras",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "Este ángulo mide más de 90° y menos de 180°. ¿Cómo se llama?",
+   "opciones": [
+    "Obtuso",
+    "Agudo",
+    "Recto",
+    "Llano"
+   ],
+   "correcta": 0,
+   "pista": "Agudo < 90° < … < 180°.",
+   "explicacion": "Los ángulos entre 90° y 180° son obtusos.",
+   "visual": {
+    "tipo": "angulo",
+    "grados": 135
+   }
+  },
+  {
+   "id": "mat-056",
+   "bloque": "Ángulos y figuras",
+   "nivel": 2,
+   "tipo": "input",
+   "enunciado": "Los ángulos de un triángulo suman 180°. Si dos miden 50° y 70°, ¿cuánto mide el tercero?",
+   "respuestas": [
+    "60"
+   ],
+   "pista": "Resta a 180 la suma de los otros dos.",
+   "explicacion": "180 − (50 + 70) = 60°.",
+   "unidad": "°"
+  },
+  {
+   "id": "mat-057",
+   "bloque": "Ángulos y figuras",
+   "nivel": 1,
+   "tipo": "match",
+   "enunciado": "Relaciona cada polígono con su número de lados.",
+   "pares": [
+    [
+     "Pentágono",
+     "5 lados"
+    ],
+    [
+     "Hexágono",
+     "6 lados"
+    ],
+    [
+     "Octógono",
+     "8 lados"
+    ],
+    [
+     "Decágono",
+     "10 lados"
+    ]
+   ],
+   "pista": "Penta = 5, hexa = 6, octo = 8, deca = 10.",
+   "explicacion": "El prefijo indica el número de lados."
+  },
+  {
+   "id": "mat-058",
+   "bloque": "Cuerpos geométricos",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "¿Qué cuerpo geométrico tiene forma de lata de refresco?",
+   "opciones": [
+    "Cilindro",
+    "Cono",
+    "Esfera",
+    "Prisma"
+   ],
+   "correcta": 0,
+   "pista": "Tiene dos bases circulares.",
+   "explicacion": "La lata tiene dos círculos iguales como bases: es un cilindro."
+  },
+  {
+   "id": "mat-059",
+   "bloque": "Cuerpos geométricos",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "¿Cuántas aristas tiene un cubo?",
+   "opciones": [
+    "12",
+    "6",
+    "8",
+    "24"
+   ],
+   "correcta": 0,
+   "pista": "Las aristas son los bordes donde se juntan dos caras.",
+   "explicacion": "4 arriba + 4 abajo + 4 verticales = 12 aristas."
+  },
+  {
+   "id": "mat-060",
+   "bloque": "Cuerpos geométricos",
+   "nivel": 3,
+   "tipo": "tf",
+   "enunciado": "Un prisma triangular tiene 5 caras.",
+   "correcta": true,
+   "pista": "Cuenta las bases y las caras laterales.",
+   "explicacion": "2 bases triangulares + 3 caras laterales rectangulares = 5 caras."
+  },
+  {
+   "id": "mat-061",
+   "bloque": "Coordenadas",
+   "nivel": 1,
+   "tipo": "hotspot",
+   "enunciado": "Pulsa el punto de coordenadas (4, 2).",
+   "visual": {
+    "tipo": "cuadricula",
+    "max": 6
+   },
+   "correcta": "4,2",
+   "correctaTexto": "(4, 2)",
+   "pista": "Primero avanzas en horizontal (x) y después subes (y).",
+   "explicacion": "x = 4 en horizontal, y = 2 en vertical."
+  },
+  {
+   "id": "mat-062",
+   "bloque": "Coordenadas",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "¿Qué punto tiene coordenadas (5, 1)?",
+   "opciones": [
+    "B",
+    "A",
+    "C",
+    "D"
+   ],
+   "correcta": 0,
+   "pista": "Primero el eje horizontal (x), luego el vertical (y).",
+   "explicacion": "B está 5 a la derecha y 1 arriba.",
+   "visual": {
+    "tipo": "cuadricula",
+    "max": 6,
+    "puntos": [
+     {
+      "n": "A",
+      "x": 1,
+      "y": 5
+     },
+     {
+      "n": "B",
+      "x": 5,
+      "y": 1
+     },
+     {
+      "n": "C",
+      "x": 3,
+      "y": 3
+     },
+     {
+      "n": "D",
+      "x": 5,
+      "y": 5
+     }
+    ]
+   }
+  },
+  {
+   "id": "mat-063",
+   "bloque": "Coordenadas",
+   "nivel": 3,
+   "tipo": "hotspot",
+   "enunciado": "Un barco está en (1, 2). Avanza 3 unidades a la derecha y 2 hacia arriba. Pulsa dónde queda.",
+   "visual": {
+    "tipo": "cuadricula",
+    "max": 6,
+    "puntos": [
+     {
+      "n": "Barco",
+      "x": 1,
+      "y": 2
+     }
+    ]
+   },
+   "correcta": "4,4",
+   "correctaTexto": "(4, 4)",
+   "pista": "Suma 3 a la x y 2 a la y.",
+   "explicacion": "(1 + 3, 2 + 2) = (4, 4)."
+  },
+  {
+   "id": "mat-064",
+   "bloque": "Estadística",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "Observa el gráfico. ¿Quién leyó más libros?",
+   "opciones": [
+    "Sara",
+    "Ana",
+    "Luis",
+    "Iván"
+   ],
+   "correcta": 0,
+   "pista": "Busca la barra más alta.",
+   "explicacion": "La barra de Sara es la más alta (9 libros).",
+   "visual": {
+    "tipo": "barras",
+    "titulo": "Libros leídos en marzo",
+    "etiquetas": [
+     "Ana",
+     "Luis",
+     "Sara",
+     "Iván"
+    ],
+    "valores": [
+     6,
+     4,
+     9,
+     5
+    ]
+   }
+  },
+  {
+   "id": "mat-065",
+   "bloque": "Estadística",
+   "nivel": 2,
+   "tipo": "input",
+   "enunciado": "Observa el gráfico. ¿Cuál es la media de libros leídos?",
+   "respuestas": [
+    "6"
+   ],
+   "pista": "Suma todos los valores y divide entre el número de personas.",
+   "explicacion": "(6 + 4 + 9 + 5) : 4 = 24 : 4 = 6.",
+   "visual": {
+    "tipo": "barras",
+    "titulo": "Libros leídos en marzo",
+    "etiquetas": [
+     "Ana",
+     "Luis",
+     "Sara",
+     "Iván"
+    ],
+    "valores": [
+     6,
+     4,
+     9,
+     5
+    ],
+    "mostrarValores": true
+   }
+  },
+  {
+   "id": "mat-066",
+   "bloque": "Estadística",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "Notas de un examen: 7, 5, 8, 7, 9, 7, 6. ¿Cuál es la moda?",
+   "opciones": [
+    "7",
+    "8",
+    "6",
+    "5"
+   ],
+   "correcta": 0,
+   "pista": "La moda es el valor que más se repite.",
+   "explicacion": "El 7 aparece tres veces."
+  },
+  {
+   "id": "mat-067",
+   "bloque": "Estadística",
+   "nivel": 3,
+   "tipo": "hotspot",
+   "enunciado": "Pulsa la barra del mes en el que llovió el doble que en febrero.",
+   "visual": {
+    "tipo": "barras",
+    "titulo": "Lluvia (mm)",
+    "etiquetas": [
+     "Ene",
+     "Feb",
+     "Mar",
+     "Abr",
+     "May"
+    ],
+    "valores": [
+     45,
+     30,
+     60,
+     25,
+     10
+    ],
+    "mostrarValores": true
+   },
+   "correcta": "2",
+   "correctaTexto": "Marzo",
+   "etiquetas": {
+    "0": "Enero",
+    "1": "Febrero",
+    "2": "Marzo",
+    "3": "Abril",
+    "4": "Mayo"
+   },
+   "pista": "Primero lee cuánto llovió en febrero.",
+   "explicacion": "Febrero: 30 mm. El doble es 60 mm: marzo."
+  },
+  {
+   "id": "mat-068",
+   "bloque": "Probabilidad",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "En una bolsa hay 3 bolas rojas y 1 azul. Si sacas una sin mirar, ¿qué es más probable?",
+   "opciones": [
+    "Sacar roja",
+    "Sacar azul",
+    "Es igual de probable",
+    "Es imposible saberlo"
+   ],
+   "correcta": 0,
+   "pista": "¿De qué color hay más bolas?",
+   "explicacion": "Hay 3 rojas frente a 1 azul: es más probable roja."
+  },
+  {
+   "id": "mat-069",
+   "bloque": "Probabilidad",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "Al lanzar un dado de 6 caras, ¿cuál es la probabilidad de sacar un número par?",
+   "opciones": [
+    "3/6 (la mitad)",
+    "1/6",
+    "2/6",
+    "4/6"
+   ],
+   "correcta": 0,
+   "pista": "Cuenta los números pares del 1 al 6.",
+   "explicacion": "Pares: 2, 4 y 6 → 3 de 6 casos."
+  },
+  {
+   "id": "mat-070",
+   "bloque": "Probabilidad",
+   "nivel": 3,
+   "tipo": "tf",
+   "enunciado": "Al lanzar una moneda, si ha salido cara 5 veces seguidas, es más probable que la siguiente vez salga cruz.",
+   "correcta": false,
+   "pista": "¿La moneda «recuerda» lo que salió antes?",
+   "explicacion": "Cada lanzamiento es independiente: la probabilidad sigue siendo 1/2."
+  },
+  {
+   "id": "mat-071",
+   "bloque": "Problemas",
+   "nivel": 1,
+   "tipo": "input",
+   "enunciado": "Un refugio necesita 4 tablas por pared y tiene 4 paredes. Además, el tejado lleva 9 tablas. ¿Cuántas tablas hacen falta en total?",
+   "respuestas": [
+    "25"
+   ],
+   "pista": "Calcula primero las tablas de las paredes.",
+   "explicacion": "4 × 4 = 16; 16 + 9 = 25 tablas."
+  },
+  {
+   "id": "mat-072",
+   "bloque": "Problemas",
+   "nivel": 2,
+   "tipo": "input",
+   "enunciado": "Un autobús lleva 48 pasajeros. En la primera parada bajan la cuarta parte y suben 7. ¿Cuántos pasajeros hay ahora?",
+   "respuestas": [
+    "43"
+   ],
+   "pista": "La cuarta parte de 48 es 48 : 4.",
+   "explicacion": "48 : 4 = 12; 48 − 12 + 7 = 43."
+  },
+  {
+   "id": "mat-073",
+   "bloque": "Problemas",
+   "nivel": 3,
+   "tipo": "mc",
+   "enunciado": "Tres amigos se reparten 54 €. Leo recibe el doble que Mía y Noa recibe lo mismo que Mía. ¿Cuánto recibe Leo?",
+   "opciones": [
+    "27 €",
+    "18 €",
+    "13,50 €",
+    "36 €"
+   ],
+   "correcta": 0,
+   "pista": "Si Mía recibe 1 parte, Noa 1 parte y Leo 2 partes, ¿cuántas partes hay?",
+   "explicacion": "4 partes: 54 : 4 = 13,50 € cada parte; Leo recibe 2 partes = 27 €."
+  },
+  {
+   "id": "mat-074",
+   "bloque": "Problemas",
+   "nivel": 3,
+   "tipo": "input",
+   "enunciado": "Un ciclista recorre 18 km en 45 minutos. Si mantiene la misma velocidad, ¿cuántos km recorre en 2 horas?",
+   "respuestas": [
+    "48"
+   ],
+   "pista": "¿Cuántos km recorre en 15 minutos?",
+   "explicacion": "18 : 3 = 6 km cada 15 min; 2 h = 8 × 15 min → 8 × 6 = 48 km.",
+   "unidad": "km"
+  }
+ ]
+}

@@ -1,0 +1,1227 @@
+{
+ "area": "ing",
+ "nombre": "Inglés",
+ "version": 1,
+ "preguntas": [
+  {
+   "id": "ing-001",
+   "bloque": "Animals",
+   "nivel": 1,
+   "tipo": "listen",
+   "enunciado": "Listen. Which animal is it?",
+   "audio": "It's very big and grey. It has got a long trunk and big ears.",
+   "opciones": [
+    "Elephant",
+    "Giraffe",
+    "Monkey",
+    "Lion"
+   ],
+   "correcta": 0,
+   "pista": "Trunk = the long nose.",
+   "explicacion": "A big grey animal with a trunk is an elephant."
+  },
+  {
+   "id": "ing-002",
+   "bloque": "Colours",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "Mix blue and yellow. What colour do you get?",
+   "opciones": [
+    "Green",
+    "Purple",
+    "Orange",
+    "Pink"
+   ],
+   "correcta": 0,
+   "explicacion": "Blue + yellow = green."
+  },
+  {
+   "id": "ing-003",
+   "bloque": "Family",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "Your mother's brother is your…",
+   "opciones": [
+    "uncle",
+    "cousin",
+    "grandfather",
+    "nephew"
+   ],
+   "correcta": 0,
+   "explicacion": "Your mum's or dad's brother is your uncle."
+  },
+  {
+   "id": "ing-004",
+   "bloque": "Food",
+   "nivel": 1,
+   "tipo": "match",
+   "enunciado": "Match the food with its picture word in Spanish.",
+   "pares": [
+    [
+     "apple",
+     "manzana"
+    ],
+    [
+     "bread",
+     "pan"
+    ],
+    [
+     "cheese",
+     "queso"
+    ],
+    [
+     "chicken",
+     "pollo"
+    ]
+   ],
+   "explicacion": "Food vocabulary: apple, bread, cheese, chicken."
+  },
+  {
+   "id": "ing-005",
+   "bloque": "Animals",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "Which animal can fly?",
+   "opciones": [
+    "eagle",
+    "shark",
+    "horse",
+    "snake"
+   ],
+   "correcta": 0,
+   "explicacion": "An eagle is a bird: it can fly."
+  },
+  {
+   "id": "ing-006",
+   "bloque": "School",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "You use them to cut paper.",
+   "opciones": [
+    "scissors",
+    "ruler",
+    "rubber",
+    "glue"
+   ],
+   "correcta": 0,
+   "explicacion": "Scissors cut paper; a rubber deletes pencil."
+  },
+  {
+   "id": "ing-007",
+   "bloque": "House",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "Where do you sleep?",
+   "opciones": [
+    "In the bedroom",
+    "In the kitchen",
+    "In the garage",
+    "In the bathroom"
+   ],
+   "correcta": 0,
+   "explicacion": "We sleep in the bedroom."
+  },
+  {
+   "id": "ing-008",
+   "bloque": "Clothes",
+   "nivel": 1,
+   "tipo": "listen",
+   "enunciado": "Listen. What must you put on?",
+   "audio": "Put on your coat, it's cold outside!",
+   "opciones": [
+    "A coat",
+    "A T-shirt",
+    "Shorts",
+    "Sandals"
+   ],
+   "correcta": 0,
+   "pista": "It's cold!",
+   "explicacion": "When it's cold, you put on a coat."
+  },
+  {
+   "id": "ing-009",
+   "bloque": "Body",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "You hear with your…",
+   "opciones": [
+    "ears",
+    "eyes",
+    "nose",
+    "knees"
+   ],
+   "correcta": 0,
+   "explicacion": "We hear with our ears."
+  },
+  {
+   "id": "ing-010",
+   "bloque": "Sports",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "In which sport do you use a racket?",
+   "opciones": [
+    "tennis",
+    "football",
+    "swimming",
+    "basketball"
+   ],
+   "correcta": 0,
+   "explicacion": "Tennis players use a racket."
+  },
+  {
+   "id": "ing-011",
+   "bloque": "Daily routines",
+   "nivel": 1,
+   "tipo": "order",
+   "enunciado": "Put the daily routine in order.",
+   "elementos": [
+    "I wake up",
+    "I get dressed",
+    "I go to school",
+    "I go to bed"
+   ],
+   "separador": " → ",
+   "pista": "What do you do first in the morning?",
+   "explicacion": "Wake up → get dressed → go to school → go to bed."
+  },
+  {
+   "id": "ing-012",
+   "bloque": "Places in town",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "Where can you buy medicine?",
+   "opciones": [
+    "At the pharmacy",
+    "At the bakery",
+    "At the cinema",
+    "At the library"
+   ],
+   "correcta": 0,
+   "explicacion": "Medicine is sold at the pharmacy."
+  },
+  {
+   "id": "ing-013",
+   "bloque": "Weather",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "It's raining. Take your…",
+   "opciones": [
+    "umbrella",
+    "sunglasses",
+    "sun cream",
+    "swimsuit"
+   ],
+   "correcta": 0,
+   "explicacion": "Rain → umbrella."
+  },
+  {
+   "id": "ing-014",
+   "bloque": "Months and seasons",
+   "nivel": 1,
+   "tipo": "order",
+   "enunciado": "Put the months in order.",
+   "elementos": [
+    "January",
+    "March",
+    "June",
+    "September",
+    "December"
+   ],
+   "separador": " → ",
+   "explicacion": "January (1), March (3), June (6), September (9), December (12)."
+  },
+  {
+   "id": "ing-015",
+   "bloque": "Months and seasons",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "In Spain, which months are in summer?",
+   "opciones": [
+    "June, July and August",
+    "December, January and February",
+    "March, April and May",
+    "September, October and November"
+   ],
+   "correcta": 0,
+   "explicacion": "In Spain, summer is in June, July and August."
+  },
+  {
+   "id": "ing-016",
+   "bloque": "Numbers",
+   "nivel": 1,
+   "tipo": "listen",
+   "enunciado": "Listen. Which number is it?",
+   "audio": "thirteen",
+   "opciones": [
+    "13",
+    "30",
+    "3",
+    "33"
+   ],
+   "correcta": 0,
+   "pista": "-teen or -ty?",
+   "explicacion": "Thirteen = 13. Thirty = 30."
+  },
+  {
+   "id": "ing-017",
+   "bloque": "Numbers",
+   "nivel": 2,
+   "tipo": "input",
+   "enunciado": "Write the number in figures: «one hundred and fifty-six».",
+   "respuestas": [
+    "156"
+   ],
+   "explicacion": "One hundred (100) and fifty-six (56) = 156."
+  },
+  {
+   "id": "ing-018",
+   "bloque": "Numbers",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "Which is «twenty-first» in short form?",
+   "opciones": [
+    "21st",
+    "12th",
+    "20th",
+    "31st"
+   ],
+   "correcta": 0,
+   "explicacion": "Twenty-first = 21st (ordinal number)."
+  },
+  {
+   "id": "ing-019",
+   "bloque": "Time",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "What time is it?",
+   "opciones": [
+    "It's half past three",
+    "It's three o'clock",
+    "It's quarter past three",
+    "It's half past six"
+   ],
+   "correcta": 0,
+   "pista": "The long hand points to 6.",
+   "explicacion": "When the long hand is on 6, it's «half past».",
+   "visual": {
+    "tipo": "reloj",
+    "h": 3,
+    "m": 30
+   }
+  },
+  {
+   "id": "ing-020",
+   "bloque": "Time",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "What time is it?",
+   "opciones": [
+    "It's quarter to eleven",
+    "It's quarter past ten",
+    "It's quarter to ten",
+    "It's half past ten"
+   ],
+   "correcta": 0,
+   "pista": "The long hand points to 9.",
+   "explicacion": "10:45 = quarter to eleven.",
+   "visual": {
+    "tipo": "reloj",
+    "h": 10,
+    "m": 45
+   }
+  },
+  {
+   "id": "ing-021",
+   "bloque": "Time",
+   "nivel": 2,
+   "tipo": "listen",
+   "enunciado": "Listen. When does the train leave?",
+   "audio": "The train leaves at quarter past nine.",
+   "opciones": [
+    "9:15",
+    "9:45",
+    "8:15",
+    "9:30"
+   ],
+   "correcta": 0,
+   "pista": "«Past» = after.",
+   "explicacion": "Quarter past nine = 9:15."
+  },
+  {
+   "id": "ing-022",
+   "bloque": "Jobs",
+   "nivel": 1,
+   "tipo": "match",
+   "enunciado": "Match the job with the description.",
+   "pares": [
+    [
+     "doctor",
+     "works in a hospital"
+    ],
+    [
+     "teacher",
+     "works in a school"
+    ],
+    [
+     "chef",
+     "cooks in a restaurant"
+    ],
+    [
+     "firefighter",
+     "puts out fires"
+    ]
+   ],
+   "explicacion": "Jobs vocabulary."
+  },
+  {
+   "id": "ing-023",
+   "bloque": "Transport",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "Which transport goes on rails?",
+   "opciones": [
+    "train",
+    "plane",
+    "boat",
+    "bike"
+   ],
+   "correcta": 0,
+   "explicacion": "Trains go on rails."
+  },
+  {
+   "id": "ing-024",
+   "bloque": "Present simple",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "She ___ football every Saturday.",
+   "opciones": [
+    "plays",
+    "play",
+    "playing",
+    "is play"
+   ],
+   "correcta": 0,
+   "pista": "He/she/it + verb + s.",
+   "explicacion": "With he, she or it, add -s: she plays."
+  },
+  {
+   "id": "ing-025",
+   "bloque": "Present simple",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "___ your brother like pizza?",
+   "opciones": [
+    "Does",
+    "Do",
+    "Is",
+    "Are"
+   ],
+   "correcta": 0,
+   "pista": "Your brother = he.",
+   "explicacion": "Questions with he/she/it use «Does»."
+  },
+  {
+   "id": "ing-026",
+   "bloque": "Present simple",
+   "nivel": 2,
+   "tipo": "tf",
+   "enunciado": "«He don't like vegetables» is correct.",
+   "correcta": false,
+   "pista": "He → does / doesn't.",
+   "explicacion": "Correct: He doesn't like vegetables."
+  },
+  {
+   "id": "ing-027",
+   "bloque": "Present continuous",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "Look! The cat ___ on the sofa.",
+   "opciones": [
+    "is sleeping",
+    "sleeps",
+    "sleeping",
+    "are sleeping"
+   ],
+   "correcta": 0,
+   "pista": "«Look!» = it's happening now.",
+   "explicacion": "Now → present continuous: is + verb-ing."
+  },
+  {
+   "id": "ing-028",
+   "bloque": "Present continuous",
+   "nivel": 2,
+   "tipo": "order",
+   "enunciado": "Make the sentence.",
+   "elementos": [
+    "We",
+    "are",
+    "watching",
+    "a",
+    "film",
+    "now."
+   ],
+   "separador": " ",
+   "explicacion": "We are watching a film now."
+  },
+  {
+   "id": "ing-029",
+   "bloque": "Past simple",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "Yesterday I ___ to the beach.",
+   "opciones": [
+    "went",
+    "go",
+    "goes",
+    "going"
+   ],
+   "correcta": 0,
+   "pista": "Yesterday = past.",
+   "explicacion": "«Go» is irregular: go → went."
+  },
+  {
+   "id": "ing-030",
+   "bloque": "Past simple",
+   "nivel": 2,
+   "tipo": "match",
+   "enunciado": "Match the verb with its past form.",
+   "pares": [
+    [
+     "eat",
+     "ate"
+    ],
+    [
+     "see",
+     "saw"
+    ],
+    [
+     "have",
+     "had"
+    ],
+    [
+     "buy",
+     "bought"
+    ]
+   ],
+   "explicacion": "These are irregular verbs."
+  },
+  {
+   "id": "ing-031",
+   "bloque": "Past simple",
+   "nivel": 3,
+   "tipo": "place",
+   "enunciado": "Complete the sentence.",
+   "texto": "Last summer we ___ to London and ___ a red bus.",
+   "huecos": [
+    "travelled",
+    "took"
+   ],
+   "distractores": [
+    "travel",
+    "take",
+    "taked"
+   ],
+   "pista": "Last summer = past.",
+   "explicacion": "Travel → travelled (regular); take → took (irregular)."
+  },
+  {
+   "id": "ing-032",
+   "bloque": "Past simple",
+   "nivel": 3,
+   "tipo": "mc",
+   "enunciado": "Did you ___ your homework?",
+   "opciones": [
+    "finish",
+    "finished",
+    "finishing",
+    "finishes"
+   ],
+   "correcta": 0,
+   "pista": "After «Did», use the base form.",
+   "explicacion": "Did + base form: Did you finish…?"
+  },
+  {
+   "id": "ing-033",
+   "bloque": "Future: going to",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "Look at those black clouds! It ___ rain.",
+   "opciones": [
+    "is going to",
+    "are going to",
+    "going to",
+    "goes to"
+   ],
+   "correcta": 0,
+   "pista": "It + is.",
+   "explicacion": "Prediction with evidence: it is going to rain."
+  },
+  {
+   "id": "ing-034",
+   "bloque": "Future: going to",
+   "nivel": 3,
+   "tipo": "order",
+   "enunciado": "Make the sentence.",
+   "elementos": [
+    "I",
+    "am",
+    "going",
+    "to",
+    "visit",
+    "my",
+    "grandma",
+    "tomorrow."
+   ],
+   "separador": " ",
+   "explicacion": "I am going to visit my grandma tomorrow."
+  },
+  {
+   "id": "ing-035",
+   "bloque": "Can / can't",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "Fish ___ swim, but they ___ walk.",
+   "opciones": [
+    "can / can't",
+    "can't / can",
+    "can / can",
+    "can't / can't"
+   ],
+   "correcta": 0,
+   "explicacion": "Fish can swim, but they can't walk."
+  },
+  {
+   "id": "ing-036",
+   "bloque": "Can / can't",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "«___ you swim?» «Yes, I can.»",
+   "opciones": [
+    "Can",
+    "Do",
+    "Are",
+    "Have"
+   ],
+   "correcta": 0,
+   "pista": "Look at the answer.",
+   "explicacion": "The answer «Yes, I can» needs the question «Can you…?»."
+  },
+  {
+   "id": "ing-037",
+   "bloque": "There is / there are",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "There ___ three apples on the table.",
+   "opciones": [
+    "are",
+    "is",
+    "am",
+    "be"
+   ],
+   "correcta": 0,
+   "pista": "Three apples = plural.",
+   "explicacion": "Plural → there are."
+  },
+  {
+   "id": "ing-038",
+   "bloque": "There is / there are",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "___ there a bank near here?",
+   "opciones": [
+    "Is",
+    "Are",
+    "Do",
+    "Has"
+   ],
+   "correcta": 0,
+   "pista": "A bank = singular.",
+   "explicacion": "Singular question → Is there…?"
+  },
+  {
+   "id": "ing-039",
+   "bloque": "Have got",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "She ___ got long hair.",
+   "opciones": [
+    "has",
+    "have",
+    "is",
+    "does"
+   ],
+   "correcta": 0,
+   "pista": "She → has.",
+   "explicacion": "He/she/it has got."
+  },
+  {
+   "id": "ing-040",
+   "bloque": "Have got",
+   "nivel": 2,
+   "tipo": "tf",
+   "enunciado": "«They hasn't got a dog» is correct.",
+   "correcta": false,
+   "pista": "They → have.",
+   "explicacion": "Correct: They haven't got a dog."
+  },
+  {
+   "id": "ing-041",
+   "bloque": "Prepositions",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "My birthday is ___ May.",
+   "opciones": [
+    "in",
+    "on",
+    "at",
+    "under"
+   ],
+   "correcta": 0,
+   "pista": "Months use «in».",
+   "explicacion": "In + months: in May."
+  },
+  {
+   "id": "ing-042",
+   "bloque": "Prepositions",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "The lesson starts ___ 9 o'clock.",
+   "opciones": [
+    "at",
+    "in",
+    "on",
+    "to"
+   ],
+   "correcta": 0,
+   "pista": "Clock times use «at».",
+   "explicacion": "At + time: at 9 o'clock."
+  },
+  {
+   "id": "ing-043",
+   "bloque": "Prepositions",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "We don't go to school ___ Sundays.",
+   "opciones": [
+    "on",
+    "in",
+    "at",
+    "by"
+   ],
+   "correcta": 0,
+   "pista": "Days of the week…",
+   "explicacion": "On + days: on Sundays."
+  },
+  {
+   "id": "ing-044",
+   "bloque": "Pronouns",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "This is my sister. ___ name is Ana.",
+   "opciones": [
+    "Her",
+    "His",
+    "She",
+    "Its"
+   ],
+   "correcta": 0,
+   "pista": "Possessive for a girl.",
+   "explicacion": "Her = de ella."
+  },
+  {
+   "id": "ing-045",
+   "bloque": "Pronouns",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "Tom and I are friends. ___ play together.",
+   "opciones": [
+    "We",
+    "They",
+    "Us",
+    "Our"
+   ],
+   "correcta": 0,
+   "pista": "Tom and I = …",
+   "explicacion": "Tom and I = we."
+  },
+  {
+   "id": "ing-046",
+   "bloque": "Comparatives and superlatives",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "An elephant is ___ than a mouse.",
+   "opciones": [
+    "bigger",
+    "biggest",
+    "more big",
+    "big"
+   ],
+   "correcta": 0,
+   "pista": "Short adjective + -er + than.",
+   "explicacion": "Big → bigger (double g)."
+  },
+  {
+   "id": "ing-047",
+   "bloque": "Comparatives and superlatives",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "Mount Everest is ___ mountain in the world.",
+   "opciones": [
+    "the highest",
+    "the higher",
+    "highest",
+    "the most high"
+   ],
+   "correcta": 0,
+   "pista": "Superlative: the + -est.",
+   "explicacion": "High → the highest."
+  },
+  {
+   "id": "ing-048",
+   "bloque": "Comparatives and superlatives",
+   "nivel": 3,
+   "tipo": "mc",
+   "enunciado": "This book is ___ than that one.",
+   "opciones": [
+    "more interesting",
+    "interestinger",
+    "most interesting",
+    "the more interesting"
+   ],
+   "correcta": 0,
+   "pista": "Long adjectives use «more».",
+   "explicacion": "Long adjective → more + adjective + than."
+  },
+  {
+   "id": "ing-049",
+   "bloque": "Comparatives and superlatives",
+   "nivel": 3,
+   "tipo": "place",
+   "enunciado": "Complete the irregular forms.",
+   "texto": "good → ___ → the best   ·   bad → worse → the ___",
+   "huecos": [
+    "better",
+    "worst"
+   ],
+   "distractores": [
+    "gooder",
+    "baddest",
+    "more good"
+   ],
+   "pista": "They are irregular!",
+   "explicacion": "good → better → the best; bad → worse → the worst."
+  },
+  {
+   "id": "ing-050",
+   "bloque": "Question words",
+   "nivel": 1,
+   "tipo": "match",
+   "enunciado": "Match the question word with what it asks about.",
+   "pares": [
+    [
+     "Where",
+     "a place"
+    ],
+    [
+     "When",
+     "a time"
+    ],
+    [
+     "Who",
+     "a person"
+    ],
+    [
+     "How many",
+     "a number"
+    ]
+   ],
+   "explicacion": "Question words: where, when, who, how many."
+  },
+  {
+   "id": "ing-051",
+   "bloque": "Question words",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "___ do you go to school? — By bus.",
+   "opciones": [
+    "How",
+    "Where",
+    "What",
+    "Who"
+   ],
+   "correcta": 0,
+   "pista": "The answer is a way of travelling.",
+   "explicacion": "«How» asks about the way."
+  },
+  {
+   "id": "ing-052",
+   "bloque": "Question words",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "___ is your favourite colour? — Blue.",
+   "opciones": [
+    "What",
+    "Where",
+    "Who",
+    "How old"
+   ],
+   "correcta": 0,
+   "explicacion": "«What» asks about things."
+  },
+  {
+   "id": "ing-053",
+   "bloque": "Sentence building",
+   "nivel": 2,
+   "tipo": "order",
+   "enunciado": "Make the question.",
+   "elementos": [
+    "Where",
+    "do",
+    "you",
+    "live?"
+   ],
+   "separador": " ",
+   "explicacion": "Where do you live?"
+  },
+  {
+   "id": "ing-054",
+   "bloque": "Sentence building",
+   "nivel": 3,
+   "tipo": "order",
+   "enunciado": "Make the sentence.",
+   "elementos": [
+    "My",
+    "best",
+    "friend",
+    "doesn't",
+    "like",
+    "spiders."
+   ],
+   "separador": " ",
+   "explicacion": "My best friend doesn't like spiders."
+  },
+  {
+   "id": "ing-055",
+   "bloque": "Reading",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "Read: «Hi! I'm Leo. I'm eleven. I've got a dog called Max. I love playing basketball.» How old is Leo?",
+   "opciones": [
+    "11",
+    "12",
+    "7",
+    "Max"
+   ],
+   "correcta": 0,
+   "pista": "Look for a number word.",
+   "explicacion": "«I'm eleven» = 11 years old."
+  },
+  {
+   "id": "ing-056",
+   "bloque": "Reading",
+   "nivel": 2,
+   "tipo": "tf",
+   "enunciado": "Read: «Sara lives in Tenerife. She goes to school by bike. After school, she plays volleyball on the beach.» — Sara goes to school by bus.",
+   "correcta": false,
+   "pista": "Read the second sentence again.",
+   "explicacion": "She goes to school by bike, not by bus."
+  },
+  {
+   "id": "ing-057",
+   "bloque": "Reading",
+   "nivel": 3,
+   "tipo": "mc",
+   "enunciado": "Read the sign: «NO SWIMMING WHEN THE RED FLAG IS UP». What does it mean?",
+   "opciones": [
+    "You can't swim when there is a red flag",
+    "You must swim with a red flag",
+    "Red flags are for swimmers",
+    "You can swim if it's sunny"
+   ],
+   "correcta": 0,
+   "explicacion": "Red flag = danger: no swimming."
+  },
+  {
+   "id": "ing-058",
+   "bloque": "Listening",
+   "nivel": 2,
+   "tipo": "listen",
+   "enunciado": "Listen. Why does he like science?",
+   "audio": "My favourite subject is science because I love animals and plants.",
+   "opciones": [
+    "Because he loves animals and plants",
+    "Because the teacher is funny",
+    "Because it's easy",
+    "Because he loves numbers"
+   ],
+   "correcta": 0,
+   "pista": "Listen after «because».",
+   "explicacion": "He says: because I love animals and plants."
+  },
+  {
+   "id": "ing-059",
+   "bloque": "Directions",
+   "nivel": 3,
+   "tipo": "listen",
+   "enunciado": "Listen. Where is the museum?",
+   "audio": "Go straight on, then turn left. The museum is next to the park.",
+   "opciones": [
+    "Next to the park",
+    "Opposite the park",
+    "On the right",
+    "Behind the school"
+   ],
+   "correcta": 0,
+   "pista": "Listen to the last sentence.",
+   "explicacion": "The museum is next to the park."
+  },
+  {
+   "id": "ing-060",
+   "bloque": "Directions",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "Which arrow means «turn left»?",
+   "opciones": [
+    "←",
+    "→",
+    "↑",
+    "↓"
+   ],
+   "correcta": 0,
+   "explicacion": "Left = izquierda."
+  },
+  {
+   "id": "ing-061",
+   "bloque": "Directions",
+   "nivel": 2,
+   "tipo": "match",
+   "enunciado": "Match the directions with the arrows.",
+   "pares": [
+    [
+     "Go straight on",
+     "↑"
+    ],
+    [
+     "Turn left",
+     "←"
+    ],
+    [
+     "Turn right",
+     "→"
+    ],
+    [
+     "Go back",
+     "↓"
+    ]
+   ],
+   "explicacion": "Directions: straight on, left, right, back."
+  },
+  {
+   "id": "ing-062",
+   "bloque": "Vocabulary",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "Which word is the odd one out?",
+   "opciones": [
+    "carrot",
+    "banana",
+    "apple",
+    "pear"
+   ],
+   "correcta": 0,
+   "pista": "Three are fruits.",
+   "explicacion": "A carrot is a vegetable; the others are fruits."
+  },
+  {
+   "id": "ing-063",
+   "bloque": "Vocabulary",
+   "nivel": 2,
+   "tipo": "input",
+   "enunciado": "Write the opposite of «hot».",
+   "respuestas": [
+    "cold"
+   ],
+   "explicacion": "Hot ↔ cold."
+  },
+  {
+   "id": "ing-064",
+   "bloque": "Vocabulary",
+   "nivel": 3,
+   "tipo": "input",
+   "enunciado": "Write the plural of «child».",
+   "respuestas": [
+    "children"
+   ],
+   "pista": "It's irregular.",
+   "explicacion": "One child, two children."
+  },
+  {
+   "id": "ing-065",
+   "bloque": "Places in town",
+   "nivel": 2,
+   "tipo": "listen",
+   "enunciado": "Listen. Where is she going?",
+   "audio": "I want to borrow a book about dinosaurs.",
+   "opciones": [
+    "To the library",
+    "To the bookshop",
+    "To the museum",
+    "To the zoo"
+   ],
+   "correcta": 0,
+   "pista": "Borrow ≠ buy.",
+   "explicacion": "You borrow books at the library; you buy them at a bookshop."
+  },
+  {
+   "id": "ing-066",
+   "bloque": "House",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "Where do you usually cook?",
+   "opciones": [
+    "In the kitchen",
+    "In the living room",
+    "In the garden",
+    "In the bedroom"
+   ],
+   "correcta": 0,
+   "explicacion": "We cook in the kitchen."
+  },
+  {
+   "id": "ing-067",
+   "bloque": "Clothes",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "It's very sunny and hot. What do you wear?",
+   "opciones": [
+    "shorts and a T-shirt",
+    "a scarf and gloves",
+    "a coat and boots",
+    "a woolly hat"
+   ],
+   "correcta": 0,
+   "explicacion": "Hot weather → shorts and a T-shirt."
+  },
+  {
+   "id": "ing-068",
+   "bloque": "Body parts",
+   "nivel": 2,
+   "tipo": "match",
+   "enunciado": "Complete the sentences.",
+   "pares": [
+    [
+     "You see with your",
+     "eyes"
+    ],
+    [
+     "You smell with your",
+     "nose"
+    ],
+    [
+     "You walk with your",
+     "feet"
+    ],
+    [
+     "You write with your",
+     "hand"
+    ]
+   ],
+   "explicacion": "Body parts and senses."
+  },
+  {
+   "id": "ing-069",
+   "bloque": "Present simple",
+   "nivel": 3,
+   "tipo": "input",
+   "enunciado": "Write the correct form: «My dad (work) ___ in a hospital.»",
+   "respuestas": [
+    "works"
+   ],
+   "pista": "My dad = he.",
+   "explicacion": "He works (add -s)."
+  },
+  {
+   "id": "ing-070",
+   "bloque": "Daily routines",
+   "nivel": 2,
+   "tipo": "tf",
+   "enunciado": "«I always brush my teeth before I go to bed» means it happens every day.",
+   "correcta": true,
+   "explicacion": "«Always» = every time."
+  }
+ ],
+ "mecanica": {
+  "lugares": [
+   {
+    "id": "bakery",
+    "en": "bakery",
+    "necesidad": "I want to buy some bread."
+   },
+   {
+    "id": "bank",
+    "en": "bank",
+    "necesidad": "I need to get some money."
+   },
+   {
+    "id": "library",
+    "en": "library",
+    "necesidad": "I want to borrow a book."
+   },
+   {
+    "id": "hospital",
+    "en": "hospital",
+    "necesidad": "Ouch! I think I have broken my arm!"
+   },
+   {
+    "id": "pharmacy",
+    "en": "pharmacy",
+    "necesidad": "I need some medicine for my cough."
+   },
+   {
+    "id": "cinema",
+    "en": "cinema",
+    "necesidad": "I want to watch a new film."
+   },
+   {
+    "id": "school",
+    "en": "school",
+    "necesidad": "I want to learn maths and English."
+   },
+   {
+    "id": "post-office",
+    "en": "post office",
+    "necesidad": "I want to send a letter to my friend."
+   },
+   {
+    "id": "cafe",
+    "en": "café",
+    "necesidad": "I am thirsty. I want a hot chocolate."
+   },
+   {
+    "id": "supermarket",
+    "en": "supermarket",
+    "necesidad": "I need to buy milk, fruit and eggs."
+   },
+   {
+    "id": "police-station",
+    "en": "police station",
+    "necesidad": "Help! Someone has stolen my bike!"
+   },
+   {
+    "id": "museum",
+    "en": "museum",
+    "necesidad": "I want to see old paintings and dinosaur bones."
+   },
+   {
+    "id": "sports-centre",
+    "en": "sports centre",
+    "necesidad": "I want to play basketball and go swimming."
+   },
+   {
+    "id": "zoo",
+    "en": "zoo",
+    "necesidad": "I want to see lions and monkeys."
+   }
+  ]
+ }
+}

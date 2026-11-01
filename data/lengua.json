@@ -1,0 +1,1302 @@
+{
+ "area": "len",
+ "nombre": "Lengua Castellana y Literatura",
+ "version": 1,
+ "preguntas": [
+  {
+   "id": "len-001",
+   "bloque": "Ortografía",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "¿Qué palabra está bien escrita?",
+   "opciones": [
+    "autobús",
+    "autovús",
+    "hautobús",
+    "autobus"
+   ],
+   "correcta": 0,
+   "pista": "Bus se escribe con b; además es aguda terminada en s.",
+   "explicacion": "«Autobús»: con b y con tilde por ser aguda terminada en s."
+  },
+  {
+   "id": "len-002",
+   "bloque": "Ortografía",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "Completa: «Ayer ___ a mi abuela».",
+   "opciones": [
+    "vi",
+    "bi",
+    "ví",
+    "bí"
+   ],
+   "correcta": 0,
+   "pista": "Viene del verbo ver.",
+   "explicacion": "«Vi» es del verbo ver (con v) y, al ser monosílabo, no lleva tilde."
+  },
+  {
+   "id": "len-003",
+   "bloque": "Ortografía",
+   "nivel": 1,
+   "tipo": "input",
+   "enunciado": "Escribe la palabra completa: ca_allo (animal que galopa).",
+   "respuestas": [
+    "caballo"
+   ],
+   "pista": "¿B o V? Piensa en «cabalgar».",
+   "explicacion": "Se escribe «caballo», con b."
+  },
+  {
+   "id": "len-004",
+   "bloque": "Ortografía",
+   "nivel": 1,
+   "tipo": "tf",
+   "enunciado": "Antes de p y b siempre se escribe m, como en «campo» y «hombre».",
+   "correcta": true,
+   "explicacion": "Regla: delante de p y b se escribe m."
+  },
+  {
+   "id": "len-005",
+   "bloque": "Ortografía",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "¿Qué forma es correcta?",
+   "opciones": [
+    "Había muchas personas",
+    "Habían muchas personas",
+    "Hubieron muchas personas",
+    "Habían mucha gente"
+   ],
+   "correcta": 0,
+   "pista": "El verbo haber, cuando indica existencia, es impersonal.",
+   "explicacion": "Haber impersonal va siempre en singular: «había muchas personas»."
+  },
+  {
+   "id": "len-006",
+   "bloque": "Ortografía",
+   "nivel": 2,
+   "tipo": "tf",
+   "enunciado": "Se escriben con h las palabras que empiezan por hie- y hue-, como hielo y hueso.",
+   "correcta": true,
+   "explicacion": "Regla de la h: hie-, hue-, hui- (hielo, huevo, huida)."
+  },
+  {
+   "id": "len-007",
+   "bloque": "Ortografía",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "Los verbos terminados en -bir se escriben con b, excepto…",
+   "opciones": [
+    "hervir, servir y vivir",
+    "escribir, recibir y subir",
+    "prohibir, percibir y concebir",
+    "describir, inscribir y transcribir"
+   ],
+   "correcta": 0,
+   "pista": "Busca los que llevan v.",
+   "explicacion": "Hervir, servir y vivir son las excepciones de la regla de -bir."
+  },
+  {
+   "id": "len-008",
+   "bloque": "Ortografía",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "¿Cuál de estas palabras se escribe con g?",
+   "opciones": [
+    "co_er (tomar algo con la mano)",
+    "tra_e (vestido)",
+    "via_ero (persona que viaja)",
+    "pai_aje (vista del campo)"
+   ],
+   "correcta": 0,
+   "pista": "Las palabras que terminan en -aje y -jero suelen ir con j.",
+   "explicacion": "Coger va con g; traje, viajero y paisaje van con j."
+  },
+  {
+   "id": "len-009",
+   "bloque": "Ortografía",
+   "nivel": 3,
+   "tipo": "mc",
+   "enunciado": "¿Qué oración está bien escrita?",
+   "opciones": [
+    "¿Por qué no has venido?",
+    "¿Porqué no has venido?",
+    "¿Porque no has venido?",
+    "¿Por que no has venido?"
+   ],
+   "correcta": 0,
+   "pista": "En las preguntas se usa la forma separada y con tilde.",
+   "explicacion": "«Por qué» (separado y con tilde) se usa para preguntar."
+  },
+  {
+   "id": "len-010",
+   "bloque": "Ortografía",
+   "nivel": 3,
+   "tipo": "place",
+   "enunciado": "Completa con «haber» o «a ver».",
+   "texto": "Vamos ___ si deja de llover. Tiene que ___ un error en el mapa.",
+   "huecos": [
+    "a ver",
+    "haber"
+   ],
+   "distractores": [
+    "haver",
+    "aber"
+   ],
+   "pista": "«A ver» se puede sustituir por «para ver».",
+   "explicacion": "«A ver» = para ver; «haber» es un verbo (tiene que haber)."
+  },
+  {
+   "id": "len-011",
+   "bloque": "Ortografía",
+   "nivel": 3,
+   "tipo": "mc",
+   "enunciado": "¿Cuántas tildes diacríticas hay en «Sé que el té está caliente»?",
+   "opciones": [
+    "2 (sé y té)",
+    "3",
+    "1",
+    "Ninguna"
+   ],
+   "correcta": 0,
+   "pista": "La tilde diacrítica distingue palabras que se escriben igual (té/te).",
+   "explicacion": "«Sé» (verbo saber) y «té» (bebida) son diacríticas; «está» lleva tilde por ser aguda."
+  },
+  {
+   "id": "len-012",
+   "bloque": "Acentuación",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "¿Qué palabra es aguda?",
+   "opciones": [
+    "camión",
+    "árbol",
+    "mesa",
+    "pájaro"
+   ],
+   "correcta": 0,
+   "pista": "En las agudas, la sílaba tónica es la última.",
+   "explicacion": "ca-MIÓN: la sílaba tónica es la última."
+  },
+  {
+   "id": "len-013",
+   "bloque": "Acentuación",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "¿Qué palabra es esdrújula?",
+   "opciones": [
+    "música",
+    "canción",
+    "lápiz",
+    "ventana"
+   ],
+   "correcta": 0,
+   "pista": "En las esdrújulas, la sílaba tónica es la antepenúltima.",
+   "explicacion": "MÚ-si-ca: tónica en la antepenúltima. Las esdrújulas siempre llevan tilde."
+  },
+  {
+   "id": "len-014",
+   "bloque": "Acentuación",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "¿Cuál de estas palabras necesita tilde?",
+   "opciones": [
+    "arbol",
+    "reloj",
+    "pared",
+    "feliz"
+   ],
+   "correcta": 0,
+   "pista": "Las llanas llevan tilde si NO terminan en n, s o vocal.",
+   "explicacion": "«Árbol» es llana terminada en l: lleva tilde. Las otras son agudas terminadas en consonante distinta de n o s."
+  },
+  {
+   "id": "len-015",
+   "bloque": "Acentuación",
+   "nivel": 2,
+   "tipo": "tf",
+   "enunciado": "Las palabras llanas llevan tilde cuando terminan en n, s o vocal.",
+   "correcta": false,
+   "pista": "Piensa en «lápiz» y en «examen».",
+   "explicacion": "Es al revés: las llanas llevan tilde cuando NO terminan en n, s o vocal (lápiz, árbol)."
+  },
+  {
+   "id": "len-016",
+   "bloque": "Acentuación",
+   "nivel": 2,
+   "tipo": "input",
+   "enunciado": "Escribe correctamente (con tilde si la necesita): cancion",
+   "respuestas": [
+    "canción"
+   ],
+   "pista": "Es aguda y termina en n.",
+   "explicacion": "Aguda terminada en n → lleva tilde: canción.",
+   "estricto": true
+  },
+  {
+   "id": "len-017",
+   "bloque": "Acentuación",
+   "nivel": 3,
+   "tipo": "mc",
+   "enunciado": "¿En qué oración falta una tilde?",
+   "opciones": [
+    "Tu eres mi mejor amigo.",
+    "Me gusta tu mochila.",
+    "¿Dónde está tu casa?",
+    "Tu perro es enorme."
+   ],
+   "correcta": 0,
+   "pista": "«Tú» con tilde es pronombre; «tu» sin tilde es posesivo.",
+   "explicacion": "«Tú eres…»: es pronombre personal y lleva tilde diacrítica."
+  },
+  {
+   "id": "len-018",
+   "bloque": "Acentuación",
+   "nivel": 3,
+   "tipo": "mc",
+   "enunciado": "¿Por qué lleva tilde «María»?",
+   "opciones": [
+    "Porque hay un hiato con la i tónica",
+    "Porque es aguda terminada en vocal",
+    "Porque es esdrújula",
+    "Porque es un nombre propio"
+   ],
+   "correcta": 0,
+   "pista": "Separa en sílabas: Ma-rí-a.",
+   "explicacion": "La i tónica junto a otra vocal forma hiato y se marca con tilde."
+  },
+  {
+   "id": "len-019",
+   "bloque": "Puntuación",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "¿Qué signo falta al principio? «___Qué hora es?»",
+   "opciones": [
+    "¿",
+    "¡",
+    "«",
+    "("
+   ],
+   "correcta": 0,
+   "pista": "En español las preguntas se abren y se cierran.",
+   "explicacion": "Las interrogaciones se abren con ¿ y se cierran con ?."
+  },
+  {
+   "id": "len-020",
+   "bloque": "Puntuación",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "¿En qué oración está bien usada la coma?",
+   "opciones": [
+    "Compré peras, manzanas y plátanos.",
+    "Compré, peras manzanas y plátanos.",
+    "Compré peras manzanas, y plátanos.",
+    "Compré peras manzanas y, plátanos."
+   ],
+   "correcta": 0,
+   "pista": "La coma separa los elementos de una enumeración.",
+   "explicacion": "En una enumeración se separan los elementos con coma, menos el último, que va con «y»."
+  },
+  {
+   "id": "len-021",
+   "bloque": "Puntuación",
+   "nivel": 2,
+   "tipo": "tf",
+   "enunciado": "Después de los dos puntos que introducen una enumeración se escribe con minúscula.",
+   "correcta": true,
+   "explicacion": "Ej.: «Traje tres cosas: agua, gorra y crema»."
+  },
+  {
+   "id": "len-022",
+   "bloque": "Puntuación",
+   "nivel": 3,
+   "tipo": "mc",
+   "enunciado": "¿Qué signo marca las intervenciones de los personajes en un diálogo?",
+   "opciones": [
+    "La raya (—)",
+    "El guion corto (-)",
+    "El asterisco (*)",
+    "La barra (/)"
+   ],
+   "correcta": 0,
+   "explicacion": "En los diálogos se usa la raya: —¿Vienes? —preguntó Lía."
+  },
+  {
+   "id": "len-023",
+   "bloque": "Categorías gramaticales",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "En «El gato negro duerme», ¿qué categoría es «negro»?",
+   "opciones": [
+    "Adjetivo",
+    "Sustantivo",
+    "Verbo",
+    "Adverbio"
+   ],
+   "correcta": 0,
+   "pista": "Dice cómo es el gato.",
+   "explicacion": "«Negro» expresa una cualidad del sustantivo: es un adjetivo."
+  },
+  {
+   "id": "len-024",
+   "bloque": "Categorías gramaticales",
+   "nivel": 1,
+   "tipo": "match",
+   "enunciado": "Relaciona cada palabra con su categoría.",
+   "pares": [
+    [
+     "mesa",
+     "Sustantivo"
+    ],
+    [
+     "saltar",
+     "Verbo"
+    ],
+    [
+     "rápidamente",
+     "Adverbio"
+    ],
+    [
+     "precioso",
+     "Adjetivo"
+    ]
+   ],
+   "pista": "Los adverbios en -mente indican modo.",
+   "explicacion": "Sustantivo nombra, verbo indica acción, adjetivo describe y adverbio matiza."
+  },
+  {
+   "id": "len-025",
+   "bloque": "Categorías gramaticales",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "En «Ellos llegaron tarde», ¿qué es «ellos»?",
+   "opciones": [
+    "Pronombre personal",
+    "Determinante",
+    "Sustantivo",
+    "Adjetivo"
+   ],
+   "correcta": 0,
+   "pista": "Sustituye a un nombre de persona.",
+   "explicacion": "«Ellos» es un pronombre personal de 3.ª persona del plural."
+  },
+  {
+   "id": "len-026",
+   "bloque": "Categorías gramaticales",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "¿Qué palabra es un determinante demostrativo?",
+   "opciones": [
+    "aquella",
+    "nosotros",
+    "muy",
+    "alegre"
+   ],
+   "correcta": 0,
+   "pista": "Los demostrativos indican distancia: este, ese, aquel.",
+   "explicacion": "«Aquella» acompaña a un sustantivo e indica lejanía."
+  },
+  {
+   "id": "len-027",
+   "bloque": "Categorías gramaticales",
+   "nivel": 3,
+   "tipo": "mc",
+   "enunciado": "En «Este libro es mío», ¿qué categoría tiene «este»?",
+   "opciones": [
+    "Determinante demostrativo",
+    "Pronombre personal",
+    "Adverbio",
+    "Adjetivo calificativo"
+   ],
+   "correcta": 0,
+   "pista": "Acompaña al sustantivo «libro».",
+   "explicacion": "Va delante del sustantivo y señala cercanía: determinante demostrativo."
+  },
+  {
+   "id": "len-028",
+   "bloque": "Categorías gramaticales",
+   "nivel": 3,
+   "tipo": "tf",
+   "enunciado": "En la oración «Vivo cerca», la palabra «cerca» es un adverbio de lugar.",
+   "correcta": true,
+   "pista": "¿Responde a «dónde»?",
+   "explicacion": "«Cerca» indica lugar y no varía: adverbio de lugar."
+  },
+  {
+   "id": "len-029",
+   "bloque": "Sustantivos",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "¿Cuál es un sustantivo abstracto?",
+   "opciones": [
+    "alegría",
+    "mesa",
+    "perro",
+    "montaña"
+   ],
+   "correcta": 0,
+   "pista": "Los abstractos no se pueden ver ni tocar.",
+   "explicacion": "La alegría es un sentimiento: sustantivo abstracto."
+  },
+  {
+   "id": "len-030",
+   "bloque": "Sustantivos",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "¿Cuál es un sustantivo colectivo?",
+   "opciones": [
+    "enjambre",
+    "abeja",
+    "flor",
+    "rápido"
+   ],
+   "correcta": 0,
+   "pista": "Nombra a un grupo en singular.",
+   "explicacion": "«Enjambre» nombra un conjunto de abejas."
+  },
+  {
+   "id": "len-031",
+   "bloque": "Verbos",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "¿En qué tiempo está «cantaré»?",
+   "opciones": [
+    "Futuro",
+    "Presente",
+    "Pretérito perfecto simple",
+    "Pretérito imperfecto"
+   ],
+   "correcta": 0,
+   "pista": "¿Pasa ahora, pasó o pasará?",
+   "explicacion": "«Cantaré» indica una acción que todavía no ha ocurrido: futuro."
+  },
+  {
+   "id": "len-032",
+   "bloque": "Verbos",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "¿Cuál es el infinitivo de «tuvimos»?",
+   "opciones": [
+    "tener",
+    "tuvar",
+    "estar",
+    "ir"
+   ],
+   "correcta": 0,
+   "pista": "El infinitivo termina en -ar, -er o -ir.",
+   "explicacion": "«Tuvimos» es del verbo tener."
+  },
+  {
+   "id": "len-033",
+   "bloque": "Verbos",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "«Nosotros habíamos comido». ¿En qué tiempo está el verbo?",
+   "opciones": [
+    "Pretérito pluscuamperfecto",
+    "Pretérito perfecto compuesto",
+    "Futuro perfecto",
+    "Condicional"
+   ],
+   "correcta": 0,
+   "pista": "«Había» + participio.",
+   "explicacion": "Pluscuamperfecto: había/habías/habíamos + participio."
+  },
+  {
+   "id": "len-034",
+   "bloque": "Verbos",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "¿A qué conjugación pertenece el verbo «partir»?",
+   "opciones": [
+    "Tercera (-ir)",
+    "Primera (-ar)",
+    "Segunda (-er)",
+    "No es un verbo"
+   ],
+   "correcta": 0,
+   "pista": "Fíjate en la terminación del infinitivo.",
+   "explicacion": "Los verbos en -ir son de la tercera conjugación."
+  },
+  {
+   "id": "len-035",
+   "bloque": "Verbos",
+   "nivel": 3,
+   "tipo": "input",
+   "enunciado": "Escribe el pretérito perfecto simple de «andar» en 1.ª persona del singular (yo…).",
+   "respuestas": [
+    "anduve"
+   ],
+   "pista": "Es un verbo irregular, como «tuve» o «estuve».",
+   "explicacion": "Yo anduve (no «andé»)."
+  },
+  {
+   "id": "len-036",
+   "bloque": "Verbos",
+   "nivel": 3,
+   "tipo": "mc",
+   "enunciado": "¿Cuál de estas formas está en modo subjuntivo?",
+   "opciones": [
+    "que cantemos",
+    "cantamos",
+    "cantaremos",
+    "cantábamos"
+   ],
+   "correcta": 0,
+   "pista": "El subjuntivo expresa deseo o posibilidad y suele ir tras «que».",
+   "explicacion": "«(Que) cantemos» es presente de subjuntivo."
+  },
+  {
+   "id": "len-037",
+   "bloque": "La oración",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "¿Cuál es el sujeto en «Mi hermana pequeña toca el violín»?",
+   "opciones": [
+    "Mi hermana pequeña",
+    "toca el violín",
+    "el violín",
+    "pequeña"
+   ],
+   "correcta": 0,
+   "pista": "Pregunta al verbo: ¿quién toca?",
+   "explicacion": "¿Quién toca? Mi hermana pequeña: es el sujeto."
+  },
+  {
+   "id": "len-038",
+   "bloque": "La oración",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "¿Cuál es el núcleo del predicado en «Los niños del barrio juegan en el parque»?",
+   "opciones": [
+    "juegan",
+    "niños",
+    "parque",
+    "en el parque"
+   ],
+   "correcta": 0,
+   "pista": "El núcleo del predicado es el verbo.",
+   "explicacion": "El verbo «juegan» es el núcleo del predicado."
+  },
+  {
+   "id": "len-039",
+   "bloque": "La oración",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "En «Lucía compró un regalo», ¿qué función tiene «un regalo»?",
+   "opciones": [
+    "Complemento directo",
+    "Sujeto",
+    "Complemento circunstancial de lugar",
+    "Atributo"
+   ],
+   "correcta": 0,
+   "pista": "Pregunta: ¿qué compró?",
+   "explicacion": "Responde a «¿qué compró?»: es el complemento directo."
+  },
+  {
+   "id": "len-040",
+   "bloque": "La oración",
+   "nivel": 3,
+   "tipo": "tf",
+   "enunciado": "En la oración «Llueve mucho» no hay sujeto.",
+   "correcta": true,
+   "pista": "¿Quién llueve?",
+   "explicacion": "Los verbos de fenómenos naturales (llover, nevar) forman oraciones impersonales, sin sujeto."
+  },
+  {
+   "id": "len-041",
+   "bloque": "La oración",
+   "nivel": 3,
+   "tipo": "mc",
+   "enunciado": "En «Mañana iremos al museo», ¿qué tipo de complemento es «mañana»?",
+   "opciones": [
+    "Complemento circunstancial de tiempo",
+    "Complemento directo",
+    "Sujeto",
+    "Complemento circunstancial de lugar"
+   ],
+   "correcta": 0,
+   "pista": "Pregunta: ¿cuándo iremos?",
+   "explicacion": "Responde a «¿cuándo?»: complemento circunstancial de tiempo."
+  },
+  {
+   "id": "len-042",
+   "bloque": "Tipos de oraciones",
+   "nivel": 1,
+   "tipo": "match",
+   "enunciado": "Relaciona cada oración con su tipo.",
+   "pares": [
+    [
+     "¡Qué bonito!",
+     "Exclamativa"
+    ],
+    [
+     "¿Vienes?",
+     "Interrogativa"
+    ],
+    [
+     "No quiero ir",
+     "Negativa"
+    ],
+    [
+     "Cierra la puerta",
+     "Imperativa"
+    ]
+   ],
+   "pista": "Fíjate en los signos y en la intención.",
+   "explicacion": "Exclamativa expresa emoción; interrogativa pregunta; negativa niega; imperativa ordena."
+  },
+  {
+   "id": "len-043",
+   "bloque": "Tipos de oraciones",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "«Ojalá apruebe el examen». ¿Qué tipo de oración es?",
+   "opciones": [
+    "Desiderativa",
+    "Interrogativa",
+    "Dubitativa",
+    "Enunciativa negativa"
+   ],
+   "correcta": 0,
+   "pista": "Expresa un deseo.",
+   "explicacion": "Las oraciones que expresan deseo se llaman desiderativas."
+  },
+  {
+   "id": "len-044",
+   "bloque": "Construcción de oraciones",
+   "nivel": 1,
+   "tipo": "order",
+   "enunciado": "Ordena las palabras para formar una oración.",
+   "elementos": [
+    "El",
+    "dragón",
+    "guarda",
+    "el",
+    "tesoro",
+    "del",
+    "castillo."
+   ],
+   "separador": " ",
+   "pista": "Empieza por la palabra con mayúscula y termina por la que lleva punto.",
+   "explicacion": "El dragón guarda el tesoro del castillo."
+  },
+  {
+   "id": "len-045",
+   "bloque": "Construcción de oraciones",
+   "nivel": 2,
+   "tipo": "order",
+   "enunciado": "Ordena las palabras para formar una oración.",
+   "elementos": [
+    "Aunque",
+    "llovía",
+    "mucho,",
+    "salimos",
+    "a",
+    "jugar",
+    "al",
+    "patio."
+   ],
+   "separador": " ",
+   "pista": "La coma separa las dos partes de la oración.",
+   "explicacion": "Aunque llovía mucho, salimos a jugar al patio."
+  },
+  {
+   "id": "len-046",
+   "bloque": "Vocabulario",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "¿Cuál es un sinónimo de «veloz»?",
+   "opciones": [
+    "rápido",
+    "lento",
+    "alto",
+    "valiente"
+   ],
+   "correcta": 0,
+   "pista": "Sinónimo = significa lo mismo.",
+   "explicacion": "Veloz y rápido significan lo mismo."
+  },
+  {
+   "id": "len-047",
+   "bloque": "Vocabulario",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "¿Cuál es el antónimo de «generoso»?",
+   "opciones": [
+    "tacaño",
+    "amable",
+    "rico",
+    "alegre"
+   ],
+   "correcta": 0,
+   "pista": "Antónimo = significa lo contrario.",
+   "explicacion": "Lo contrario de generoso es tacaño."
+  },
+  {
+   "id": "len-048",
+   "bloque": "Vocabulario",
+   "nivel": 2,
+   "tipo": "match",
+   "enunciado": "Relaciona cada palabra con su sinónimo.",
+   "pares": [
+    [
+     "comenzar",
+     "empezar"
+    ],
+    [
+     "finalizar",
+     "terminar"
+    ],
+    [
+     "hermoso",
+     "bello"
+    ],
+    [
+     "enfadado",
+     "furioso"
+    ]
+   ],
+   "explicacion": "Los sinónimos tienen un significado igual o muy parecido."
+  },
+  {
+   "id": "len-049",
+   "bloque": "Polisemia",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "¿Qué palabra es polisémica porque puede significar «asiento» y «entidad donde se guarda dinero»?",
+   "opciones": [
+    "banco",
+    "silla",
+    "mesa",
+    "sofá"
+   ],
+   "correcta": 0,
+   "pista": "Piensa en un parque y en una oficina.",
+   "explicacion": "«Banco» tiene varios significados: es polisémica."
+  },
+  {
+   "id": "len-050",
+   "bloque": "Polisemia",
+   "nivel": 3,
+   "tipo": "mc",
+   "enunciado": "En «La sierra de Gredos tiene picos nevados», ¿qué significa «sierra»?",
+   "opciones": [
+    "Cordillera de montañas",
+    "Herramienta para cortar",
+    "Pez de mar",
+    "Un tipo de nieve"
+   ],
+   "correcta": 0,
+   "pista": "El contexto habla de picos nevados.",
+   "explicacion": "Aquí «sierra» significa conjunto de montañas."
+  },
+  {
+   "id": "len-051",
+   "bloque": "Familias de palabras",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "¿Qué palabra NO pertenece a la familia de «mar»?",
+   "opciones": [
+    "marrón",
+    "marinero",
+    "marítimo",
+    "marea"
+   ],
+   "correcta": 0,
+   "pista": "Las palabras de una familia comparten raíz y significado.",
+   "explicacion": "«Marrón» empieza igual, pero no tiene relación de significado con el mar."
+  },
+  {
+   "id": "len-052",
+   "bloque": "Prefijos y sufijos",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "¿Qué significa el prefijo «re-» en «releer»?",
+   "opciones": [
+    "Volver a",
+    "Antes de",
+    "Contrario a",
+    "Debajo de"
+   ],
+   "correcta": 0,
+   "pista": "Releer un libro es…",
+   "explicacion": "«Re-» significa repetición: releer = volver a leer."
+  },
+  {
+   "id": "len-053",
+   "bloque": "Prefijos y sufijos",
+   "nivel": 2,
+   "tipo": "match",
+   "enunciado": "Relaciona cada prefijo con su significado.",
+   "pares": [
+    [
+     "des-",
+     "negación (deshacer)"
+    ],
+    [
+     "sub-",
+     "debajo (submarino)"
+    ],
+    [
+     "pre-",
+     "antes (prehistoria)"
+    ],
+    [
+     "multi-",
+     "muchos (multicolor)"
+    ]
+   ],
+   "pista": "Fíjate en los ejemplos.",
+   "explicacion": "Los prefijos añaden significado al principio de la palabra."
+  },
+  {
+   "id": "len-054",
+   "bloque": "Prefijos y sufijos",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "¿Qué sufijo forma un diminutivo?",
+   "opciones": [
+    "-ito (perrito)",
+    "-azo (golpazo)",
+    "-ero (panadero)",
+    "-mente (rápidamente)"
+   ],
+   "correcta": 0,
+   "pista": "Diminutivo = más pequeño.",
+   "explicacion": "-ito, -ita, -illo forman diminutivos."
+  },
+  {
+   "id": "len-055",
+   "bloque": "Formación de palabras",
+   "nivel": 3,
+   "tipo": "mc",
+   "enunciado": "¿Cómo se forma la palabra «sacapuntas»?",
+   "opciones": [
+    "Es compuesta (saca + puntas)",
+    "Es derivada con prefijo",
+    "Es primitiva",
+    "Es derivada con sufijo"
+   ],
+   "correcta": 0,
+   "pista": "¿Está formada por dos palabras?",
+   "explicacion": "Une dos palabras (saca + puntas): es compuesta."
+  },
+  {
+   "id": "len-056",
+   "bloque": "Campo semántico",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "¿Qué palabra NO pertenece al campo semántico de los instrumentos musicales?",
+   "opciones": [
+    "pincel",
+    "violín",
+    "tambor",
+    "flauta"
+   ],
+   "correcta": 0,
+   "pista": "Un campo semántico agrupa palabras de un mismo tema.",
+   "explicacion": "El pincel es de pintura, no de música."
+  },
+  {
+   "id": "len-057",
+   "bloque": "Recursos literarios",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "«Tus ojos son dos luceros». ¿Qué recurso literario es?",
+   "opciones": [
+    "Metáfora",
+    "Comparación",
+    "Personificación",
+    "Hipérbole"
+   ],
+   "correcta": 0,
+   "pista": "¿Hay un «como» que compare?",
+   "explicacion": "Identifica directamente los ojos con luceros, sin «como»: metáfora."
+  },
+  {
+   "id": "len-058",
+   "bloque": "Recursos literarios",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "«El viento susurraba canciones». ¿Qué recurso es?",
+   "opciones": [
+    "Personificación",
+    "Comparación",
+    "Rima",
+    "Hipérbole"
+   ],
+   "correcta": 0,
+   "pista": "¿Puede el viento cantar como una persona?",
+   "explicacion": "Se atribuye al viento una acción humana: personificación."
+  },
+  {
+   "id": "len-059",
+   "bloque": "Recursos literarios",
+   "nivel": 3,
+   "tipo": "match",
+   "enunciado": "Relaciona cada ejemplo con su recurso literario.",
+   "pares": [
+    [
+     "Blanco como la nieve",
+     "Comparación"
+    ],
+    [
+     "Te lo he dicho un millón de veces",
+     "Hipérbole"
+    ],
+    [
+     "La luna sonreía",
+     "Personificación"
+    ],
+    [
+     "Tus dientes son perlas",
+     "Metáfora"
+    ]
+   ],
+   "pista": "La comparación usa «como»; la hipérbole exagera.",
+   "explicacion": "Comparación (como), hipérbole (exageración), personificación (acción humana) y metáfora (identificación)."
+  },
+  {
+   "id": "len-060",
+   "bloque": "Géneros literarios",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "Un texto en verso que expresa sentimientos pertenece al género…",
+   "opciones": [
+    "Lírico",
+    "Narrativo",
+    "Dramático",
+    "Periodístico"
+   ],
+   "correcta": 0,
+   "explicacion": "La poesía que expresa sentimientos es el género lírico."
+  },
+  {
+   "id": "len-061",
+   "bloque": "Géneros literarios",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "¿Qué obra pertenece al género dramático?",
+   "opciones": [
+    "Una obra de teatro",
+    "Una novela",
+    "Un poema",
+    "Una fábula"
+   ],
+   "correcta": 0,
+   "pista": "Está pensada para ser representada.",
+   "explicacion": "El teatro es el género dramático."
+  },
+  {
+   "id": "len-062",
+   "bloque": "Géneros literarios",
+   "nivel": 2,
+   "tipo": "tf",
+   "enunciado": "Las fábulas son relatos breves, a menudo protagonizados por animales, que terminan con una moraleja.",
+   "correcta": true,
+   "explicacion": "La moraleja es la enseñanza final de la fábula."
+  },
+  {
+   "id": "len-063",
+   "bloque": "Tipos de texto",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "Un texto que explica paso a paso cómo preparar una receta es…",
+   "opciones": [
+    "Instructivo",
+    "Narrativo",
+    "Poético",
+    "Descriptivo"
+   ],
+   "correcta": 0,
+   "explicacion": "Los textos instructivos dan pasos u órdenes para hacer algo."
+  },
+  {
+   "id": "len-064",
+   "bloque": "Tipos de texto",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "¿Qué tipo de texto intenta convencer al lector de una opinión?",
+   "opciones": [
+    "Argumentativo",
+    "Instructivo",
+    "Descriptivo",
+    "Narrativo"
+   ],
+   "correcta": 0,
+   "explicacion": "Los textos argumentativos defienden una opinión con argumentos."
+  },
+  {
+   "id": "len-065",
+   "bloque": "Tipos de texto",
+   "nivel": 2,
+   "tipo": "order",
+   "enunciado": "Ordena las partes de una narración.",
+   "elementos": [
+    "Planteamiento",
+    "Nudo",
+    "Desenlace"
+   ],
+   "separador": " → ",
+   "explicacion": "Primero se presenta la situación, luego surge el problema y al final se resuelve."
+  },
+  {
+   "id": "len-066",
+   "bloque": "Comprensión lectora",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "Lee: «Marta guardó el paraguas en la mochila porque el cielo estaba gris. Al salir del colegio, todos se mojaron menos ella». ¿Por qué no se mojó Marta?",
+   "opciones": [
+    "Porque llevaba paraguas",
+    "Porque no salió del colegio",
+    "Porque no llovió",
+    "Porque se quedó en casa"
+   ],
+   "correcta": 0,
+   "pista": "Relee la primera oración.",
+   "explicacion": "Marta fue previsora y llevaba paraguas."
+  },
+  {
+   "id": "len-067",
+   "bloque": "Comprensión lectora",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "Lee: «El ajolote es un anfibio capaz de regenerar partes de su cuerpo, como las patas. Vive en lagos de México y está en peligro de extinción». ¿Cuál es la idea principal?",
+   "opciones": [
+    "El ajolote es un anfibio con una gran capacidad de regeneración",
+    "México tiene muchos lagos",
+    "Todos los anfibios viven en el agua",
+    "Las patas se pueden regenerar siempre"
+   ],
+   "correcta": 0,
+   "pista": "¿De qué trata todo el texto?",
+   "explicacion": "El texto se centra en el ajolote y su capacidad de regenerarse."
+  },
+  {
+   "id": "len-068",
+   "bloque": "Comprensión lectora",
+   "nivel": 3,
+   "tipo": "mc",
+   "enunciado": "Lee: «—¡Genial! —dijo Pablo mirando la rueda pinchada de su bici el primer día de vacaciones». ¿Qué siente Pablo realmente?",
+   "opciones": [
+    "Fastidio (lo dice con ironía)",
+    "Alegría",
+    "Sorpresa positiva",
+    "Miedo"
+   ],
+   "correcta": 0,
+   "pista": "¿Es genial pinchar una rueda?",
+   "explicacion": "Dice lo contrario de lo que piensa: es ironía para expresar fastidio."
+  },
+  {
+   "id": "len-069",
+   "bloque": "Coherencia textual",
+   "nivel": 2,
+   "tipo": "order",
+   "enunciado": "Ordena las oraciones para formar un texto coherente.",
+   "elementos": [
+    "Primero, lavamos las fresas.",
+    "Después, las cortamos en trozos.",
+    "A continuación, añadimos yogur.",
+    "Por último, lo servimos frío."
+   ],
+   "separador": " ",
+   "pista": "Los conectores te dan la pista: primero, después…",
+   "explicacion": "Los conectores de orden organizan el texto."
+  },
+  {
+   "id": "len-070",
+   "bloque": "Expresión escrita",
+   "nivel": 2,
+   "tipo": "place",
+   "enunciado": "Completa con el conector adecuado.",
+   "texto": "Quería ir a la playa, ___ empezó a llover. ___, nos quedamos en casa.",
+   "huecos": [
+    "pero",
+    "Por eso"
+   ],
+   "distractores": [
+    "porque",
+    "Además"
+   ],
+   "pista": "Un conector expresa oposición y el otro, consecuencia.",
+   "explicacion": "«Pero» expresa oposición y «Por eso», consecuencia."
+  },
+  {
+   "id": "len-071",
+   "bloque": "Comprensión oral",
+   "nivel": 1,
+   "tipo": "listen",
+   "enunciado": "Escucha el aviso. ¿A qué hora cierra la biblioteca?",
+   "audio": "La biblioteca abre de lunes a viernes, de nueve de la mañana a dos de la tarde.",
+   "opciones": [
+    "A las dos de la tarde",
+    "A las nueve de la mañana",
+    "Los viernes por la noche",
+    "No cierra"
+   ],
+   "correcta": 0,
+   "pista": "Escucha la segunda hora que se dice.",
+   "explicacion": "Abre a las nueve y cierra a las dos de la tarde.",
+   "idioma": "es-ES"
+  },
+  {
+   "id": "len-072",
+   "bloque": "Comprensión oral",
+   "nivel": 2,
+   "tipo": "listen",
+   "enunciado": "Escucha el aviso. ¿Qué NO hace falta llevar a la excursión?",
+   "audio": "Para la excursión del jueves necesitáis gorra, agua y un bocadillo. No hace falta llevar dinero.",
+   "opciones": [
+    "Dinero",
+    "Gorra",
+    "Agua",
+    "Bocadillo"
+   ],
+   "correcta": 0,
+   "pista": "Atento a la palabra «no».",
+   "explicacion": "El aviso dice que no hace falta llevar dinero.",
+   "idioma": "es-ES"
+  }
+ ],
+ "mecanica": {
+  "palabras": [
+   {
+    "palabra": "HIERBA",
+    "pista": "Planta pequeña que cubre los prados",
+    "trampas": "YV",
+    "nivel": 1,
+    "aviso": "¡Ojo! Empieza por hie- y lleva b."
+   },
+   {
+    "palabra": "BOSQUE",
+    "pista": "Lugar con muchos árboles",
+    "trampas": "VC",
+    "nivel": 1
+   },
+   {
+    "palabra": "VIAJE",
+    "pista": "Desplazamiento de un lugar a otro",
+    "trampas": "BG",
+    "nivel": 1,
+    "aviso": "¡Ojo con la b/v y la g/j!"
+   },
+   {
+    "palabra": "HUEVO",
+    "pista": "Lo ponen las gallinas",
+    "trampas": "BG",
+    "nivel": 1,
+    "aviso": "Recuerda: hue- lleva h."
+   },
+   {
+    "palabra": "CABALLO",
+    "pista": "Animal que galopa y relincha",
+    "trampas": "VY",
+    "nivel": 1,
+    "aviso": "¿B o V? ¿LL o Y?"
+   },
+   {
+    "palabra": "LLUVIA",
+    "pista": "Agua que cae de las nubes",
+    "trampas": "YB",
+    "nivel": 1
+   },
+   {
+    "palabra": "GIRASOL",
+    "pista": "Flor que se gira hacia el sol",
+    "trampas": "JZ",
+    "nivel": 1
+   },
+   {
+    "palabra": "JIRAFA",
+    "pista": "Animal con el cuello muy largo",
+    "trampas": "GH",
+    "nivel": 1
+   },
+   {
+    "palabra": "HORMIGA",
+    "pista": "Insecto pequeño y muy trabajador",
+    "trampas": "JB",
+    "nivel": 1
+   },
+   {
+    "palabra": "ÁRBOL",
+    "pista": "Planta con tronco y ramas (¡ojo a la tilde!)",
+    "trampas": "AV",
+    "nivel": 2,
+    "aviso": "Es llana terminada en l: lleva tilde."
+   },
+   {
+    "palabra": "CANCIÓN",
+    "pista": "Música con letra para cantar",
+    "trampas": "OS",
+    "nivel": 2,
+    "aviso": "Aguda terminada en n: lleva tilde."
+   },
+   {
+    "palabra": "LÁPIZ",
+    "pista": "Sirve para escribir y se puede borrar",
+    "trampas": "AS",
+    "nivel": 2,
+    "aviso": "Llana terminada en z: lleva tilde."
+   },
+   {
+    "palabra": "MÚSICA",
+    "pista": "Arte de combinar sonidos",
+    "trampas": "UK",
+    "nivel": 2,
+    "aviso": "Es esdrújula: siempre lleva tilde."
+   },
+   {
+    "palabra": "AVIÓN",
+    "pista": "Vehículo que vuela con alas",
+    "trampas": "OB",
+    "nivel": 2
+   },
+   {
+    "palabra": "EXAMEN",
+    "pista": "Prueba para demostrar lo que sabes",
+    "trampas": "SÉ",
+    "nivel": 3,
+    "aviso": "Llana terminada en n: NO lleva tilde."
+   },
+   {
+    "palabra": "HÉROE",
+    "pista": "Persona que realiza una hazaña",
+    "trampas": "E",
+    "nivel": 3,
+    "aviso": "Es esdrújula: hé-ro-e."
+   },
+   {
+    "palabra": "PROHIBIR",
+    "pista": "No permitir algo",
+    "trampas": "V",
+    "nivel": 3,
+    "aviso": "Lleva h intercalada y b (verbos en -bir)."
+   },
+   {
+    "palabra": "TAMBIÉN",
+    "pista": "Igualmente, además",
+    "trampas": "NE",
+    "nivel": 3,
+    "aviso": "Antes de b se escribe m, y es aguda en n."
+   },
+   {
+    "palabra": "BÚHO",
+    "pista": "Ave nocturna de grandes ojos",
+    "trampas": "VU",
+    "nivel": 3,
+    "aviso": "Lleva b, h intercalada y tilde (hiato)."
+   },
+   {
+    "palabra": "COHETE",
+    "pista": "Nave que viaja al espacio",
+    "trampas": "Q",
+    "nivel": 3
+   }
+  ]
+ }
+}

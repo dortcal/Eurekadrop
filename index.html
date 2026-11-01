@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Eureka Drop</title>
+  <meta name="description" content="Eureka Drop: videojuego educativo de aventuras para 6.º de Primaria. Matemáticas, Lengua, Conocimiento del Medio, Inglés y Educación Física.">
+  <meta name="theme-color" content="#1b1446">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icons/icon-192.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" href="css/game.css">
+</head>
+<body>
+  <canvas id="bg" aria-hidden="true"></canvas>
+  <canvas id="game" aria-label="Mundo del juego. Usa las flechas para moverte, Espacio para saltar y Enter para interactuar."></canvas>
+
+  <main id="screens">
+    <section class="screen show" id="scr-splash" aria-label="Pantalla de inicio">
+      <div class="splash">
+        <div class="logo logo-big" aria-label="Eureka Drop">
+          <span class="logo-eureka">EUREKA</span><span class="logo-drop">DROP</span>
+        </div>
+        <p class="splash-tag">Cinco islas. Un borrón gigante. Toda tu sabiduría.</p>
+        <button class="btn btn-play btn-xl" id="btn-start" type="button" disabled>Cargando…</button>
+        <p class="splash-author">Diseñado por David OZC</p>
+        <p class="splash-hint">Funciona con teclado, ratón y pantalla táctil.</p>
+        <div id="legal-splash"></div>
+      </div>
+    </section>
+    <section class="screen" id="scr-menu" aria-label="Menú principal"></section>
+    <section class="screen" id="scr-map" aria-label="Mapa del archipiélago"></section>
+    <section class="screen" id="scr-quick" aria-label="Modo rápido"></section>
+    <section class="screen" id="scr-daily" aria-label="Desafío del Día"></section>
+    <section class="screen" id="scr-avatar" aria-label="Personaje"></section>
+    <section class="screen" id="scr-stats" aria-label="Estadísticas"></section>
+    <section class="screen" id="scr-diary" aria-label="Diario de aventuras"></section>
+    <section class="screen" id="scr-credits" aria-label="Créditos"></section>
+    <section class="screen" id="scr-settings" aria-label="Ajustes"></section>
+    <section class="screen" id="scr-results" aria-label="Resultados"></section>
+    <section class="screen" id="scr-review" aria-label="Revisión de errores"></section>
+  </main>
+
+  <div id="hud" hidden>
+    <div class="hud-top">
+      <div id="hud-lives" class="hud-lives" role="img" aria-label="Vidas"></div>
+      <div class="hud-center">
+        <div id="hud-score" class="hud-score" aria-label="Puntuación">0</div>
+        <div id="hud-streak" class="hud-streak" aria-live="polite"></div>
+      </div>
+      <div class="hud-right">
+        <span id="hud-coins" class="hud-pill" title="Monedas"></span>
+        <span id="hud-hints" class="hud-pill" title="Pistas"></span>
+        <button id="btn-pause" class="hud-btn" type="button" aria-label="Pausa (Esc)"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1.5" fill="#fff"/><rect x="14" y="5" width="4" height="14" rx="1.5" fill="#fff"/></svg></button>
+      </div>
+    </div>
+    <div id="hud-obj" class="hud-obj" aria-live="polite"></div>
+    <div id="hud-rooms" class="hud-rooms" aria-hidden="true"></div>
+    <div id="boss-bar" class="boss-bar" hidden>
+      <span id="boss-name"></span>
+      <div class="boss-track"><div id="boss-fill"></div></div>
+    </div>
+  </div>
+
+  <div id="touch" aria-hidden="true">
+    <div id="stick-zone"><div id="stick-base"><div id="stick-knob"></div></div></div>
+    <button id="btn-jump" class="tbtn tbtn-jump" type="button" tabindex="-1">SALTO</button>
+    <button id="btn-act" class="tbtn tbtn-act" type="button" tabindex="-1">ACCIÓN</button>
+  </div>
+
+  <div id="modal" class="overlay"></div>
+  <div id="dialog" class="overlay"></div>
+  <div id="pause" class="overlay"></div>
+  <div id="mini" class="overlay"></div>
+  <div id="popup" class="overlay"></div>
+  <div id="banner" aria-live="polite"></div>
+  <div id="toasts" aria-live="polite"></div>
+  <div id="net" role="status" hidden></div>
+
+  <noscript><p class="noscript">Eureka Drop necesita JavaScript activado para funcionar.</p></noscript>
+
+  <!-- Copia de los bancos para abrir sin servidor (se regenera con tools/build-bundle.py) -->
+  <script src="data/bundle.js"></script>
+  <script src="js/util.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/icons.js"></script>
+  <script src="js/audio.js"></script>
+  <script src="js/questions.js"></script>
+  <script src="js/challenges.js"></script>
+  <script src="js/art.js"></script>
+  <script src="js/level-gen.js"></script>
+  <script src="js/mechanics.js"></script>
+  <script src="js/minigames.js"></script>
+  <script src="js/controls.js"></script>
+  <script src="js/phrases.js"></script>
+  <script src="js/story.js"></script>
+  <script src="js/scoring.js"></script>
+  <script src="js/progression.js"></script>
+  <script src="js/game-engine.js"></script>
+  <script src="js/stats.js"></script>
+  <script src="js/diploma.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

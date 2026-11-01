@@ -1,0 +1,809 @@
+{
+ "area": "ef",
+ "nombre": "Educación Física",
+ "version": 1,
+ "preguntas": [
+  {
+   "id": "ef-001",
+   "bloque": "Capacidades físicas",
+   "nivel": 1,
+   "tipo": "match",
+   "enunciado": "Relaciona cada capacidad física con su definición.",
+   "pares": [
+    [
+     "Resistencia",
+     "Aguantar un esfuerzo mucho tiempo"
+    ],
+    [
+     "Fuerza",
+     "Vencer una resistencia, como levantar un peso"
+    ],
+    [
+     "Velocidad",
+     "Moverse o reaccionar en el menor tiempo"
+    ],
+    [
+     "Flexibilidad",
+     "Mover las articulaciones con amplitud"
+    ]
+   ],
+   "explicacion": "Son las capacidades físicas básicas."
+  },
+  {
+   "id": "ef-002",
+   "bloque": "Capacidades físicas",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "Correr 20 minutos sin parar a ritmo suave mejora sobre todo…",
+   "opciones": [
+    "La resistencia",
+    "La flexibilidad",
+    "La fuerza máxima",
+    "El equilibrio"
+   ],
+   "correcta": 0,
+   "explicacion": "Esfuerzos largos y suaves desarrollan la resistencia."
+  },
+  {
+   "id": "ef-003",
+   "bloque": "Capacidades físicas",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "Una carrera de 60 metros lisos pone a prueba principalmente…",
+   "opciones": [
+    "La velocidad",
+    "La resistencia",
+    "La flexibilidad",
+    "El equilibrio"
+   ],
+   "correcta": 0,
+   "explicacion": "Distancia corta a máxima intensidad = velocidad."
+  },
+  {
+   "id": "ef-004",
+   "bloque": "Capacidades físicas",
+   "nivel": 2,
+   "tipo": "tf",
+   "enunciado": "La flexibilidad se va perdiendo con los años si no se trabaja.",
+   "correcta": true,
+   "explicacion": "Por eso conviene estirar con regularidad."
+  },
+  {
+   "id": "ef-005",
+   "bloque": "Capacidades físicas",
+   "nivel": 3,
+   "tipo": "mc",
+   "enunciado": "¿Qué ejercicio trabaja la fuerza de las piernas?",
+   "opciones": [
+    "Sentadillas",
+    "Estiramiento de cuello",
+    "Respiración profunda",
+    "Lanzar dardos"
+   ],
+   "correcta": 0,
+   "explicacion": "Las sentadillas fortalecen cuádriceps y glúteos."
+  },
+  {
+   "id": "ef-006",
+   "bloque": "Coordinación",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "Botar un balón mientras corres y miras a tus compañeros es un ejemplo de…",
+   "opciones": [
+    "Coordinación óculo-manual",
+    "Flexibilidad",
+    "Resistencia",
+    "Fuerza explosiva"
+   ],
+   "correcta": 0,
+   "explicacion": "Coordinas lo que ves con lo que hacen tus manos."
+  },
+  {
+   "id": "ef-007",
+   "bloque": "Equilibrio",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "Caminar sobre un banco sueco sin caerte trabaja…",
+   "opciones": [
+    "El equilibrio",
+    "La velocidad",
+    "La resistencia",
+    "La fuerza"
+   ],
+   "correcta": 0,
+   "explicacion": "Mantener la postura sobre una base estrecha es equilibrio."
+  },
+  {
+   "id": "ef-008",
+   "bloque": "Habilidades motrices",
+   "nivel": 1,
+   "tipo": "match",
+   "enunciado": "Relaciona cada acción con su habilidad motriz básica.",
+   "pares": [
+    [
+     "Correr",
+     "Desplazamiento"
+    ],
+    [
+     "Voltereta",
+     "Giro"
+    ],
+    [
+     "Atrapar un balón",
+     "Recepción"
+    ],
+    [
+     "Tirar a canasta",
+     "Lanzamiento"
+    ]
+   ],
+   "explicacion": "Habilidades básicas: desplazamientos, saltos, giros, lanzamientos y recepciones."
+  },
+  {
+   "id": "ef-009",
+   "bloque": "Habilidades motrices",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "Para recibir bien un balón que viene fuerte, conviene…",
+   "opciones": [
+    "Acompañar el balón con las manos y amortiguar",
+    "Poner los brazos rígidos",
+    "Cerrar los ojos",
+    "Saltar hacia atrás"
+   ],
+   "correcta": 0,
+   "explicacion": "Amortiguar reduce el golpe y evita que el balón rebote."
+  },
+  {
+   "id": "ef-010",
+   "bloque": "Habilidades motrices",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "En el salto de longitud, ¿con qué se realiza la batida (impulso)?",
+   "opciones": [
+    "Con un pie",
+    "Con los dos pies a la vez",
+    "Con las manos",
+    "Sin batida"
+   ],
+   "correcta": 0,
+   "explicacion": "En el salto de longitud se bate con un solo pie."
+  },
+  {
+   "id": "ef-011",
+   "bloque": "Deportes y reglas",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "¿Cuántos jugadores de cada equipo hay en el campo en un partido oficial de fútbol?",
+   "opciones": [
+    "11",
+    "5",
+    "7",
+    "9"
+   ],
+   "correcta": 0,
+   "explicacion": "En fútbol 11 juegan once por equipo, incluido el portero."
+  },
+  {
+   "id": "ef-012",
+   "bloque": "Deportes y reglas",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "En baloncesto, una canasta lanzada desde fuera de la línea de 6,75 m vale…",
+   "opciones": [
+    "3 puntos",
+    "2 puntos",
+    "1 punto",
+    "4 puntos"
+   ],
+   "correcta": 0,
+   "explicacion": "Los triples valen 3 puntos."
+  },
+  {
+   "id": "ef-013",
+   "bloque": "Deportes y reglas",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "En voleibol, ¿cuántos toques puede dar como máximo un equipo antes de pasar el balón (sin contar el bloqueo)?",
+   "opciones": [
+    "3",
+    "2",
+    "4",
+    "5"
+   ],
+   "correcta": 0,
+   "explicacion": "Normalmente: recepción, colocación y remate."
+  },
+  {
+   "id": "ef-014",
+   "bloque": "Deportes y reglas",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "En balonmano, ¿cuántos pasos puede dar un jugador con el balón en la mano sin botarlo?",
+   "opciones": [
+    "3",
+    "1",
+    "5",
+    "Los que quiera"
+   ],
+   "correcta": 0,
+   "explicacion": "Como máximo tres pasos."
+  },
+  {
+   "id": "ef-015",
+   "bloque": "Deportes y reglas",
+   "nivel": 2,
+   "tipo": "tf",
+   "enunciado": "En baloncesto, si botas, coges el balón con las dos manos y vuelves a botar, cometes «dobles».",
+   "correcta": true,
+   "explicacion": "Tras detener el bote no se puede volver a botar."
+  },
+  {
+   "id": "ef-016",
+   "bloque": "Deportes y reglas",
+   "nivel": 2,
+   "tipo": "match",
+   "enunciado": "Relaciona cada deporte con un elemento característico.",
+   "pares": [
+    [
+     "Fútbol",
+     "Portería"
+    ],
+    [
+     "Baloncesto",
+     "Canasta"
+    ],
+    [
+     "Bádminton",
+     "Volante"
+    ],
+    [
+     "Béisbol",
+     "Bate"
+    ]
+   ],
+   "explicacion": "Cada deporte tiene su material propio."
+  },
+  {
+   "id": "ef-017",
+   "bloque": "Deportes y reglas",
+   "nivel": 3,
+   "tipo": "mc",
+   "enunciado": "¿Qué deporte es colectivo?",
+   "opciones": [
+    "Waterpolo",
+    "Natación",
+    "Salto de longitud",
+    "Tenis individual"
+   ],
+   "correcta": 0,
+   "explicacion": "El waterpolo se juega por equipos."
+  },
+  {
+   "id": "ef-018",
+   "bloque": "Deportes y reglas",
+   "nivel": 3,
+   "tipo": "mc",
+   "enunciado": "En una carrera de relevos, ¿qué se pasan los corredores?",
+   "opciones": [
+    "El testigo",
+    "Un balón",
+    "Una cuerda",
+    "El dorsal"
+   ],
+   "correcta": 0,
+   "explicacion": "El testigo pasa de mano en mano."
+  },
+  {
+   "id": "ef-019",
+   "bloque": "Deportes y reglas",
+   "nivel": 3,
+   "tipo": "tf",
+   "enunciado": "En fútbol sala, cada equipo juega con 5 jugadores en pista (incluido el portero).",
+   "correcta": true,
+   "explicacion": "Fútbol sala: cinco por equipo."
+  },
+  {
+   "id": "ef-020",
+   "bloque": "Deportes y reglas",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "¿En qué deporte existen el «penalti» y la «chilena»?",
+   "opciones": [
+    "Fútbol",
+    "Natación",
+    "Gimnasia rítmica",
+    "Ajedrez"
+   ],
+   "correcta": 0,
+   "explicacion": "Son términos del fútbol."
+  },
+  {
+   "id": "ef-021",
+   "bloque": "Deportes y reglas",
+   "nivel": 3,
+   "tipo": "match",
+   "enunciado": "Relaciona cada deporte con una de sus técnicas.",
+   "pares": [
+    [
+     "Natación",
+     "Crol"
+    ],
+    [
+     "Atletismo",
+     "Salto de altura"
+    ],
+    [
+     "Gimnasia",
+     "Rueda lateral"
+    ],
+    [
+     "Tenis",
+     "Revés"
+    ]
+   ],
+   "explicacion": "Cada deporte tiene gestos técnicos propios."
+  },
+  {
+   "id": "ef-022",
+   "bloque": "Juegos populares y tradicionales",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "¿Qué juego popular consiste en saltar por casillas numeradas pintadas en el suelo?",
+   "opciones": [
+    "La rayuela",
+    "El pañuelo",
+    "La comba",
+    "Las canicas"
+   ],
+   "correcta": 0,
+   "explicacion": "La rayuela (también llamada tejo o charranca en algunos lugares)."
+  },
+  {
+   "id": "ef-023",
+   "bloque": "Juegos populares y tradicionales",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "La lucha canaria se practica en un círculo de arena llamado…",
+   "opciones": [
+    "Terrero",
+    "Ring",
+    "Tatami",
+    "Cancha"
+   ],
+   "correcta": 0,
+   "explicacion": "El terrero es el espacio de la lucha canaria."
+  },
+  {
+   "id": "ef-024",
+   "bloque": "Juegos populares y tradicionales",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "¿Qué es el «salto del pastor» canario?",
+   "opciones": [
+    "Una forma tradicional de desplazarse por barrancos con una lanza o garrote",
+    "Un baile típico",
+    "Un juego de cartas",
+    "Un estilo de natación"
+   ],
+   "correcta": 0,
+   "explicacion": "Los pastores lo usaban para moverse por terrenos abruptos."
+  },
+  {
+   "id": "ef-025",
+   "bloque": "Juegos populares y tradicionales",
+   "nivel": 3,
+   "tipo": "mc",
+   "enunciado": "¿Qué juego tradicional canario consiste en lanzar bolas intentando acercarlas a una bola pequeña llamada «mingue»?",
+   "opciones": [
+    "La bola canaria",
+    "El bolo palmero",
+    "La petanca olímpica",
+    "El billar"
+   ],
+   "correcta": 0,
+   "explicacion": "En la bola canaria se intenta acercar las bolas al mingue."
+  },
+  {
+   "id": "ef-026",
+   "bloque": "Juegos populares y tradicionales",
+   "nivel": 1,
+   "tipo": "tf",
+   "enunciado": "Saltar a la comba es un juego tradicional que mejora la coordinación y el ritmo.",
+   "correcta": true,
+   "explicacion": "Saltar a la comba exige ritmo y coordinación."
+  },
+  {
+   "id": "ef-027",
+   "bloque": "Calentamiento",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "¿Para qué sirve el calentamiento?",
+   "opciones": [
+    "Para preparar el cuerpo y evitar lesiones",
+    "Para cansarse antes de empezar",
+    "Para ganar sin esfuerzo",
+    "No sirve para nada"
+   ],
+   "correcta": 0,
+   "explicacion": "Prepara músculos, articulaciones y corazón para el esfuerzo."
+  },
+  {
+   "id": "ef-028",
+   "bloque": "Calentamiento",
+   "nivel": 2,
+   "tipo": "order",
+   "enunciado": "Ordena las partes de una sesión de actividad física.",
+   "elementos": [
+    "Calentamiento",
+    "Parte principal",
+    "Vuelta a la calma"
+   ],
+   "separador": " → ",
+   "explicacion": "Empieza calentando y termina relajando el cuerpo."
+  },
+  {
+   "id": "ef-029",
+   "bloque": "Calentamiento",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "¿Qué actividad es adecuada para la vuelta a la calma?",
+   "opciones": [
+    "Estiramientos suaves y respiración",
+    "Un sprint máximo",
+    "Saltos explosivos",
+    "Empezar otro partido"
+   ],
+   "correcta": 0,
+   "explicacion": "La vuelta a la calma baja poco a poco las pulsaciones."
+  },
+  {
+   "id": "ef-030",
+   "bloque": "Actividad física y salud",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "Durante el ejercicio, lo mejor para hidratarse es…",
+   "opciones": [
+    "Agua",
+    "Refrescos azucarados",
+    "Bebidas energéticas",
+    "No beber nada"
+   ],
+   "correcta": 0,
+   "explicacion": "El agua es la mejor bebida para hidratarse."
+  },
+  {
+   "id": "ef-031",
+   "bloque": "Actividad física y salud",
+   "nivel": 2,
+   "tipo": "tf",
+   "enunciado": "Se recomienda que niños y niñas hagan, de media, al menos 60 minutos diarios de actividad física moderada o intensa.",
+   "correcta": true,
+   "explicacion": "Es la recomendación de la Organización Mundial de la Salud."
+  },
+  {
+   "id": "ef-032",
+   "bloque": "Actividad física y salud",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "Después de hacer deporte es recomendable…",
+   "opciones": [
+    "Ducharse y cambiarse de ropa",
+    "Quedarse con la ropa sudada todo el día",
+    "No beber agua",
+    "Comer muchos dulces"
+   ],
+   "correcta": 0,
+   "explicacion": "La higiene después del ejercicio es salud."
+  },
+  {
+   "id": "ef-033",
+   "bloque": "Actividad física y salud",
+   "nivel": 3,
+   "tipo": "mc",
+   "enunciado": "Para medir tus pulsaciones, cuentas los latidos durante 15 segundos y…",
+   "opciones": [
+    "Multiplicas por 4",
+    "Multiplicas por 2",
+    "Divides entre 4",
+    "Sumas 15"
+   ],
+   "correcta": 0,
+   "pista": "¿Cuántas veces cabe 15 s en un minuto?",
+   "explicacion": "15 s × 4 = 60 s, por eso se multiplica por 4."
+  },
+  {
+   "id": "ef-034",
+   "bloque": "Actividad física y salud",
+   "nivel": 3,
+   "tipo": "input",
+   "enunciado": "Cuentas 30 latidos en 15 segundos. ¿Cuántas pulsaciones por minuto tienes?",
+   "respuestas": [
+    "120"
+   ],
+   "pista": "Multiplica por 4.",
+   "explicacion": "30 × 4 = 120 pulsaciones por minuto."
+  },
+  {
+   "id": "ef-035",
+   "bloque": "Actividad física y salud",
+   "nivel": 3,
+   "tipo": "mc",
+   "enunciado": "¿Qué síntoma indica que debes parar y avisar a un adulto durante el ejercicio?",
+   "opciones": [
+    "Mareo o dolor en el pecho",
+    "Sudar un poco",
+    "Respirar algo más rápido",
+    "Tener calor"
+   ],
+   "correcta": 0,
+   "explicacion": "Mareo o dolor en el pecho son señales de alarma."
+  },
+  {
+   "id": "ef-036",
+   "bloque": "Actividad física y salud",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "¿Qué comida es más adecuada unas horas antes de una competición?",
+   "opciones": [
+    "Un plato de pasta o arroz",
+    "Una hamburguesa doble con patatas fritas",
+    "Muchas golosinas",
+    "No comer nada en todo el día"
+   ],
+   "correcta": 0,
+   "explicacion": "Los hidratos de carbono aportan energía de forma sostenida."
+  },
+  {
+   "id": "ef-037",
+   "bloque": "Higiene postural",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "¿Cómo se debe levantar una mochila pesada del suelo?",
+   "opciones": [
+    "Flexionando las rodillas y con la espalda recta",
+    "Con las piernas estiradas y doblando la espalda",
+    "Con un solo dedo",
+    "Girando la espalda bruscamente"
+   ],
+   "correcta": 0,
+   "explicacion": "Las piernas hacen la fuerza y la espalda se protege."
+  },
+  {
+   "id": "ef-038",
+   "bloque": "Higiene postural",
+   "nivel": 2,
+   "tipo": "tf",
+   "enunciado": "Llevar la mochila colgada de un solo hombro es la mejor forma de transportarla.",
+   "correcta": false,
+   "explicacion": "Conviene usar las dos asas para repartir el peso."
+  },
+  {
+   "id": "ef-039",
+   "bloque": "Seguridad",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "Antes de montar en bici, lo más importante para tu seguridad es…",
+   "opciones": [
+    "Ponerte el casco",
+    "Llevar auriculares",
+    "Ir sin mirar",
+    "Llevar chanclas"
+   ],
+   "correcta": 0,
+   "explicacion": "El casco protege la cabeza en caso de caída."
+  },
+  {
+   "id": "ef-040",
+   "bloque": "Seguridad",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "Si un compañero se hace daño en clase de Educación Física, ¿qué haces primero?",
+   "opciones": [
+    "Avisar al docente",
+    "Moverle aunque se queje",
+    "Seguir jugando",
+    "Darle algo de comer"
+   ],
+   "correcta": 0,
+   "explicacion": "Lo primero es avisar a un adulto responsable."
+  },
+  {
+   "id": "ef-041",
+   "bloque": "Juego limpio",
+   "nivel": 1,
+   "tipo": "tf",
+   "enunciado": "Saludar al equipo rival al terminar el partido es una muestra de deportividad.",
+   "correcta": true,
+   "explicacion": "El respeto al rival forma parte del juego limpio."
+  },
+  {
+   "id": "ef-042",
+   "bloque": "Juego limpio",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "Tu equipo va ganando y el árbitro se equivoca a vuestro favor. ¿Qué es más deportivo?",
+   "opciones": [
+    "Reconocer el error",
+    "Celebrarlo",
+    "Burlarse del rival",
+    "Esconder el balón"
+   ],
+   "correcta": 0,
+   "explicacion": "El juego limpio está por encima del resultado."
+  },
+  {
+   "id": "ef-043",
+   "bloque": "Cooperación",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "En un juego cooperativo…",
+   "opciones": [
+    "Todos colaboran para lograr un objetivo común",
+    "Hay un único ganador",
+    "Se elimina a los más lentos",
+    "No hay normas"
+   ],
+   "correcta": 0,
+   "explicacion": "En los juegos cooperativos se gana juntos."
+  },
+  {
+   "id": "ef-044",
+   "bloque": "Expresión corporal",
+   "nivel": 1,
+   "tipo": "mc",
+   "enunciado": "Comunicar emociones solo con gestos y movimientos, sin palabras, se llama…",
+   "opciones": [
+    "Mímica",
+    "Ortografía",
+    "Atletismo",
+    "Cálculo"
+   ],
+   "correcta": 0,
+   "explicacion": "La mímica usa el cuerpo para comunicar."
+  },
+  {
+   "id": "ef-045",
+   "bloque": "Ritmo",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "En una coreografía, contar «1, 2, 3, 4» sirve para…",
+   "opciones": [
+    "Seguir el ritmo de la música",
+    "Medir la temperatura",
+    "Contar a los jugadores",
+    "Saber la hora"
+   ],
+   "correcta": 0,
+   "explicacion": "Contar los tiempos ayuda a moverse al ritmo."
+  },
+  {
+   "id": "ef-046",
+   "bloque": "Orientación",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "En una carrera de orientación, ¿qué instrumento señala el norte?",
+   "opciones": [
+    "La brújula",
+    "El cronómetro",
+    "El silbato",
+    "El podómetro"
+   ],
+   "correcta": 0,
+   "explicacion": "La aguja de la brújula apunta al norte magnético."
+  },
+  {
+   "id": "ef-047",
+   "bloque": "Orientación",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "Si miras al norte, ¿hacia dónde queda el este?",
+   "opciones": [
+    "A tu derecha",
+    "A tu izquierda",
+    "Detrás de ti",
+    "Delante de ti"
+   ],
+   "correcta": 0,
+   "pista": "Norte delante, sur detrás…",
+   "explicacion": "Mirando al norte: este a la derecha y oeste a la izquierda."
+  },
+  {
+   "id": "ef-048",
+   "bloque": "Orientación",
+   "nivel": 3,
+   "tipo": "mc",
+   "enunciado": "En España, a mediodía el sol está hacia el sur. Si lo miras de frente, ¿qué tienes a tu espalda?",
+   "opciones": [
+    "El norte",
+    "El este",
+    "El oeste",
+    "El sur"
+   ],
+   "correcta": 0,
+   "explicacion": "El norte es opuesto al sur."
+  },
+  {
+   "id": "ef-049",
+   "bloque": "Estrategia",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "En baloncesto defiendes contra un rival muy rápido. ¿Qué estrategia ayuda?",
+   "opciones": [
+    "Defender en equipo y cerrar los espacios cerca de la canasta",
+    "Dejar de defender",
+    "Correr todos detrás del balón",
+    "Quedarse quietos"
+   ],
+   "correcta": 0,
+   "explicacion": "La ayuda defensiva compensa la velocidad del rival."
+  },
+  {
+   "id": "ef-050",
+   "bloque": "Estrategia",
+   "nivel": 3,
+   "tipo": "mc",
+   "enunciado": "En un ataque de fútbol, ¿por qué conviene ocupar espacios abiertos y separados?",
+   "opciones": [
+    "Para facilitar los pases y los desmarques",
+    "Para cansar a tu portero",
+    "Para que el balón no llegue",
+    "Porque lo obliga el árbitro"
+   ],
+   "correcta": 0,
+   "explicacion": "Abrir espacios crea líneas de pase."
+  },
+  {
+   "id": "ef-051",
+   "bloque": "Olimpismo",
+   "nivel": 2,
+   "tipo": "mc",
+   "enunciado": "¿Qué representan tradicionalmente los cinco aros olímpicos?",
+   "opciones": [
+    "La unión de los cinco continentes",
+    "Cinco deportes",
+    "Cinco ciudades",
+    "Cinco medallas"
+   ],
+   "correcta": 0,
+   "explicacion": "Simbolizan la unión de los continentes en el deporte."
+  },
+  {
+   "id": "ef-052",
+   "bloque": "Olimpismo",
+   "nivel": 3,
+   "tipo": "tf",
+   "enunciado": "En los Juegos Paralímpicos compiten deportistas con discapacidad.",
+   "correcta": true,
+   "explicacion": "Se celebran tras los Juegos Olímpicos."
+  }
+ ],
+ "mecanica": {
+  "movimientos": [
+   {
+    "k": "up",
+    "n": "Brazos arriba"
+   },
+   {
+    "k": "down",
+    "n": "Sentadilla"
+   },
+   {
+    "k": "left",
+    "n": "Paso a la izquierda"
+   },
+   {
+    "k": "right",
+    "n": "Paso a la derecha"
+   }
+  ],
+  "consejos": [
+   "Calentar sube la temperatura de los músculos y reduce el riesgo de lesiones.",
+   "Coge aire por la nariz y suéltalo por la boca para mantener el ritmo.",
+   "Bebe agua antes, durante y después del ejercicio.",
+   "La coordinación mejora con la práctica: ¡repite y lo conseguirás!",
+   "Mira el obstáculo con antelación para calcular el momento del salto.",
+   "Después del esfuerzo, estira suavemente para volver a la calma."
+  ]
+ }
+}
