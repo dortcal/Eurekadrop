@@ -48,12 +48,12 @@
     G.chispa = { x: L.spawn.x - 30, y: L.spawn.y - 60 };
     G.run = {
       mode: cfg.mode, area: mixed ? (cfg.mode === 'daily' ? 'mix' : 'final') : cfg.area, level: cfg.level,
-      score: 0, lives: S.settings.lives, maxLives: S.settings.lives, coins: 0, streak: 0, bestStreak: 0, ok: 0, ko: 0,
+      score: 0, lives: S.settings.lives + (EZ.curso() <= 3 ? 2 : EZ.curso() <= 5 ? 1 : 0), maxLives: S.settings.lives + (EZ.curso() <= 3 ? 2 : EZ.curso() <= 5 ? 1 : 0), coins: 0, streak: 0, bestStreak: 0, ok: 0, ko: 0,
       wrong: [], items: 0, relics: [], stomps: 0, secret: false, quest: false, time: 0, won: false, bossNoDamage: false, liveAch: [], chests: 0
     };
     G.qs = EZ.questions.newSession();
     G.mechRoom = L.rooms.find((r) => r.role === 'mech');
-    G.mech = EZ.mechanics.create(G.mechArea, G, G.mechRoom, L, rng, cfg.level);
+    G.mech = EZ.mechanics.create(G.mechArea, G, G.mechRoom, L, rng, Math.min(cfg.level, EZ.mechCap()));
     G.particles = []; G.floaters = []; G.projectiles = []; G.warnings = []; G.orbs = []; G.bolts = [];
     G.boss = null; G.t = 0; G.shakeT = 0; G.shakeA = 0;
     G.cam = { x: G.player.x, y: G.player.y };
@@ -77,9 +77,11 @@
   };
 
   function planEvents(rng, lv) {
-    const types = U.shuffle(['storm', 'goldChest', 'flash', 'coinRain'], rng);
+    // En los cursos bajos no hay eventos con prisa ni tormentas: solo lluvia de monedas.
+    const pool = EZ.curso() <= 2 ? ['coinRain'] : EZ.curso() <= 3 ? ['coinRain', 'storm'] : ['storm', 'goldChest', 'flash', 'coinRain'];
+    const types = U.shuffle(pool, rng);
     const ev = [{ at: U.rand(35, 60, rng), type: types[0] }];
-    if (lv >= 2) ev.push({ at: U.rand(100, 140, rng), type: types[1] });
+    if (lv >= 2 && types[1]) ev.push({ at: U.rand(100, 140, rng), type: types[1] });
     return ev;
   }
 
@@ -333,8 +335,9 @@
     const q = EZ.questions.pick(area, G.level, G.qs);
     const res = await EZ.challenge.ask(q, {
       title: o.title, icon: o.icon, theme: area, canRetreat: o.canRetreat,
-      hintCost: () => ({ label: EZ.save.wallet.hints > 0 ? `usar 1 de ${EZ.save.wallet.hints}` : '25 monedas' }),
+      hintCost: () => (EZ.curso() <= 3 ? { label: 'gratis' } : { label: EZ.save.wallet.hints > 0 ? `usar 1 de ${EZ.save.wallet.hints}` : '25 monedas' }),
       spendHint: () => {
+        if (EZ.curso() <= 3) return true;   // en 1.º-3.º las pistas son gratis
         if (EZ.save.wallet.hints > 0) { EZ.save.wallet.hints--; return true; }
         if (run.coins >= 25) { run.coins -= 25; return true; }
         return false;
@@ -472,7 +475,7 @@
     g.open = false; g.opening = false; g.anim = 0; g.kind = 'boss';
     if (p.x < (g.c + 1) * T + 16) p.x = (g.c + 1) * T + 16;
     const final = G.bossArea === 'final';
-    const hp = final ? 8 : [0, 4, 5, 6][lv];
+    const hp = Math.max(3, Math.round((final ? 8 : [0, 4, 5, 6][lv]) * (EZ.curso() <= 3 ? 0.7 : EZ.curso() <= 5 ? 0.85 : 1)));
     G.boss = { area: G.bossArea, x: room.cx, y: (room.y0 + 3) * T, baseY: (room.y0 + 3) * T, hp, max: hp, t: 0, fire: 2.5, orbT: 0.8, flash: 0, dash: null, dashT: 4, freed: false, room, cycle: 0, livesAtStart: G.run.lives, scale: G.bossArea === 'mix' ? 0.8 : 1 };
     G.run.bossNoDamage = true;
     G.paused = true;
@@ -503,7 +506,7 @@
       b.x += (tx - b.x) * Math.min(1, dt * 2); b.y += (ty - b.y) * Math.min(1, dt * 2);
     }
     // ataques
-    const rate = [0, 0.8, 1, 1.2][G.level] * (b.hp <= b.max / 2 ? 1.3 : 1);
+    const rate = [0, 0.8, 1, 1.2][G.level] * EZ.ease() * (b.hp <= b.max / 2 ? 1.3 : 1);
     b.fire -= dt * rate;
     if (b.fire <= 0) {
       let pat = PATTERN[b.area];

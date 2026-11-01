@@ -96,7 +96,7 @@
     S.wallet.coins += run.coins;
     S.wallet.totalCoins += run.coins;
     const total = run.ok + run.ko;
-    st.history.push({ d: U.todayStr(), mode: run.mode, area: run.area, level: run.level, score: run.score, pct: total ? Math.round((run.ok / total) * 100) : 0, won: run.won });
+    st.history.push({ d: U.todayStr(), mode: run.mode, area: run.area, level: run.level, curso: EZ.curso(), score: run.score, pct: total ? Math.round((run.ok / total) * 100) : 0, won: run.won });
     if (st.history.length > 60) st.history.shift();
     const bestKey = run.mode === 'daily' ? 'daily' : run.area + '-' + run.level;
     if (!S.best[bestKey] || run.score > S.best[bestKey]) { if (S.best[bestKey]) out.notes.push('¡Nuevo récord personal!'); S.best[bestKey] = run.score; }

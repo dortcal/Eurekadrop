@@ -164,6 +164,7 @@
         </header>
         <div class="ch-type">${TYPE_INFO[q.tipo] || ''}</div>
         <p class="ch-q" id="ch-q">${U.esc(q.enunciado)}</p>
+        ${EZ.audio.canSpeak() && q.tipo !== 'listen' ? `<button class="btn btn-ghost ch-read" type="button" aria-label="Leer la pregunta en voz alta">${I.speaker}<span>Leer</span></button>` : ''}
         <div class="ch-visual"></div>
         <div class="ch-answer"></div>
         <div class="ch-hint" hidden></div>
@@ -177,6 +178,18 @@
       modal.classList.add('show');
       const visual = U.$('.ch-visual', card), area = U.$('.ch-answer', card), submit = U.$('.ch-submit', card);
       const hintBox = U.$('.ch-hint', card), hintBtn = U.$('.ch-hint-btn', card);
+      const readBtn = U.$('.ch-read', card);
+      if (readBtn) {
+        const lang = q.area === 'ing' ? 'en-GB' : 'es-ES';
+        const letters = 'ABCD';
+        const say = () => {
+          let txt = (q.texto ? q.texto.replace(/___/g, ' hueco ') + '. ' : '') + q.enunciado;
+          if (q.tipo === 'mc' && q.opciones) txt += '. ' + q.opciones.map((o, i) => letters[i] + ': ' + o).join('. ');
+          EZ.audio.speak(txt, lang, EZ.curso() <= 2 ? 0.8 : 0.9);
+        };
+        readBtn.addEventListener('click', say);
+        if (EZ.save.settings.readAloud && q.tipo !== 'listen') setTimeout(say, 400);
+      }
 
       const finish = () => {
         if (done) return;

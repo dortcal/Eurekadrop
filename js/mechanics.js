@@ -39,7 +39,9 @@
     const r = (a, b) => U.randInt(a, b, rng);
     function setup() {
       let sol, dist;
-      if (lv === 1) { sol = [r(2, 9), r(2, 9), r(3, 9)]; dist = [r(1, 12), r(1, 12), r(1, 12), r(4, 12), r(6, 12), r(2, 7)]; }
+      if (lv === 1 && EZ.curso() <= 2) { sol = [r(1, 4), r(1, 4), r(1, 5)]; dist = [r(1, 6), r(1, 6), r(2, 8), r(1, 3)]; }
+      else if (lv === 1 && EZ.curso() <= 4) { sol = [r(2, 7), r(2, 7), r(2, 8)]; dist = [r(1, 10), r(1, 10), r(1, 9), r(3, 10)]; }
+      else if (lv === 1) { sol = [r(2, 9), r(2, 9), r(3, 9)]; dist = [r(1, 12), r(1, 12), r(1, 12), r(4, 12), r(6, 12), r(2, 7)]; }
       else if (lv === 2) { const h = () => r(3, 15) / 2; sol = [h(), h(), r(2, 8)]; dist = [h(), h(), r(1, 9), h(), r(2, 10), h()]; }
       else { sol = [r(4, 12), r(3, 10), -r(2, 6), r(3, 15) / 2]; dist = [-r(1, 5), r(2, 12), r(3, 15) / 2, r(1, 9), -r(1, 4)]; }
       target = Math.round(sol.reduce((a, b) => a + b, 0) * 100) / 100;
@@ -104,7 +106,11 @@
 
   /* ================= LENGUA ================= */
   function letterMech(G, room, L, rng, lv, data) {
-    const words = U.shuffle((data.palabras || []).filter((w) => (w.nivel || 1) <= lv), rng).slice(0, lv === 3 ? 3 : 2);
+    const cu = EZ.curso();
+    const okCurso = (w) => { const c = w.cursos || [5, 6]; return cu >= c[0] && cu <= c[1]; };
+    let pool = (data.palabras || []).filter((w) => (w.nivel || 1) <= lv && okCurso(w));
+    if (pool.length < 2) pool = (data.palabras || []).filter((w) => (w.nivel || 1) <= lv && (w.cursos || [5, 6])[0] <= cu);
+    const words = U.shuffle(pool, rng).slice(0, lv === 3 ? 3 : 2);
     const spots = [];
     for (let k = 0; k < 15; k++) { const p = L.free(room, { avoidPath: false, margin: 2 }); if (p) spots.push(p); }
     let wi = 0, letters = [], prog = 0, tiles = [];
@@ -168,7 +174,11 @@
 
   /* ================= CONOCIMIENTO DEL MEDIO ================= */
   function sortMech(G, room, L, rng, lv, data) {
-    let sets = U.shuffle((data.clasificaciones || []).filter((s) => (s.nivel || 1) <= lv), rng).slice(0, lv === 1 ? 1 : 2);
+    const cu = EZ.curso();
+    const okSet = (s) => { const c = s.cursos || [5, 6]; return cu >= c[0] && cu <= c[1]; };
+    let spool = (data.clasificaciones || []).filter((s) => (s.nivel || 1) <= lv && okSet(s));
+    if (!spool.length) spool = (data.clasificaciones || []).filter((s) => (s.nivel || 1) <= lv && (s.cursos || [5, 6])[0] <= cu);
+    let sets = U.shuffle(spool, rng).slice(0, lv === 1 ? 1 : 2);
     if (!sets.length) sets = [{ titulo: 'Energías', zonas: ['Renovable', 'No renovable'], elementos: [{ t: 'Sol', z: 0 }, { t: 'Carbón', z: 1 }] }];
     let si = 0, items = [], zones = [], placed = 0;
     const spots = [];

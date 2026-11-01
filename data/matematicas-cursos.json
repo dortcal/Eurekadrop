@@ -1,0 +1,2020 @@
+{
+ "area": "mat",
+ "nombre": "Matemáticas",
+ "version": 1,
+ "nota": "Banco ampliado por cursos (1.º-6.º). Campo 'cursos': [mínimo, máximo].",
+ "preguntas": [
+  {
+   "id": "mat-c001",
+   "bloque": "Números hasta 100",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Qué número va justo después del 39?",
+   "pista": "Cuenta: 38, 39, …",
+   "explicacion": "Después del 39 viene el 40.",
+   "opciones": [
+    "40",
+    "38",
+    "41",
+    "49"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "mat-c002",
+   "bloque": "Números hasta 100",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál de estos números es el mayor?",
+   "pista": "Mira primero las decenas.",
+   "explicacion": "74 tiene 7 decenas, más que los demás.",
+   "opciones": [
+    "47",
+    "74",
+    "38",
+    "29"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "mat-c003",
+   "bloque": "Sumas y restas",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "input",
+   "enunciado": "Calcula: 5 + 4",
+   "pista": "Cuenta con los dedos desde el 5.",
+   "explicacion": "5 + 4 = 9.",
+   "respuestas": [
+    "9"
+   ]
+  },
+  {
+   "id": "mat-c004",
+   "bloque": "Sumas y restas",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "input",
+   "enunciado": "Calcula: 12 − 5",
+   "pista": "Quita 5 al 12.",
+   "explicacion": "12 − 5 = 7.",
+   "respuestas": [
+    "7"
+   ]
+  },
+  {
+   "id": "mat-c005",
+   "bloque": "Sumas y restas",
+   "nivel": 2,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "input",
+   "enunciado": "Calcula: 10 + 6",
+   "pista": "Una decena y 6 unidades.",
+   "explicacion": "10 + 6 = 16.",
+   "respuestas": [
+    "16"
+   ]
+  },
+  {
+   "id": "mat-c006",
+   "bloque": "Números hasta 100",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "Una decena son…",
+   "pista": "Decena viene de «diez».",
+   "explicacion": "1 decena = 10 unidades.",
+   "opciones": [
+    "5 unidades",
+    "10 unidades",
+    "100 unidades",
+    "2 unidades"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "mat-c007",
+   "bloque": "Figuras",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuántos lados tiene un triángulo?",
+   "pista": "Tri- significa tres.",
+   "explicacion": "El triángulo tiene 3 lados.",
+   "opciones": [
+    "4",
+    "5",
+    "3",
+    "2"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "mat-c008",
+   "bloque": "Figuras",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuántos lados tiene un cuadrado?",
+   "pista": "Cuenta los lados de un cuadro.",
+   "explicacion": "El cuadrado tiene 4 lados iguales.",
+   "opciones": [
+    "3",
+    "5",
+    "6",
+    "4"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "mat-c009",
+   "bloque": "Fracciones",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "tf",
+   "enunciado": "La mitad de 8 es 4.",
+   "pista": "Reparte 8 en dos grupos iguales.",
+   "explicacion": "4 + 4 = 8, así que la mitad de 8 es 4.",
+   "correcta": true
+  },
+  {
+   "id": "mat-c010",
+   "bloque": "Problemas",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "María tiene 6 caramelos y le regalan 3 más. ¿Cuántos tiene ahora?",
+   "pista": "Juntar es sumar.",
+   "explicacion": "6 + 3 = 9.",
+   "opciones": [
+    "3",
+    "9",
+    "8",
+    "10"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "mat-c011",
+   "bloque": "Series",
+   "nivel": 2,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "input",
+   "enunciado": "Cuenta de 2 en 2: 2, 4, 6, __",
+   "pista": "Suma 2 cada vez.",
+   "explicacion": "6 + 2 = 8.",
+   "respuestas": [
+    "8"
+   ]
+  },
+  {
+   "id": "mat-c012",
+   "bloque": "El tiempo",
+   "nivel": 2,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "La aguja corta señala el 3 y la larga el 12. ¿Qué hora es?",
+   "pista": "La aguja larga en el 12 es «en punto».",
+   "explicacion": "Corta en el 3 y larga en el 12: las 3 en punto.",
+   "opciones": [
+    "Las 12 en punto",
+    "Las 6 en punto",
+    "Las 3 y media",
+    "Las 3 en punto"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "mat-c013",
+   "bloque": "Problemas",
+   "nivel": 3,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "En una caja hay 15 lápices. Saco 8. ¿Cuántos quedan?",
+   "pista": "Sacar es restar.",
+   "explicacion": "15 − 8 = 7.",
+   "opciones": [
+    "7",
+    "23",
+    "6",
+    "8"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "mat-c014",
+   "bloque": "Números hasta 999",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuántas centenas tiene el número 658?",
+   "pista": "La primera cifra son las centenas.",
+   "explicacion": "658 = 6 C + 5 D + 8 U.",
+   "opciones": [
+    "5",
+    "6",
+    "8",
+    "65"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "mat-c015",
+   "bloque": "Números hasta 999",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "input",
+   "enunciado": "Escribe con cifras: setecientos veinte",
+   "pista": "Siete centenas y dos decenas.",
+   "explicacion": "700 + 20 = 720.",
+   "respuestas": [
+    "720"
+   ]
+  },
+  {
+   "id": "mat-c016",
+   "bloque": "Sumas y restas",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "input",
+   "enunciado": "Calcula: 27 + 15",
+   "pista": "Suma unidades y luego decenas.",
+   "explicacion": "7 + 5 = 12, llevo 1; 2 + 1 + 1 = 4. Resultado: 42.",
+   "respuestas": [
+    "42"
+   ]
+  },
+  {
+   "id": "mat-c017",
+   "bloque": "Sumas y restas",
+   "nivel": 2,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "input",
+   "enunciado": "Calcula: 63 − 28",
+   "pista": "Coloca bien las cifras y pide prestado.",
+   "explicacion": "63 − 28 = 35.",
+   "respuestas": [
+    "35"
+   ]
+  },
+  {
+   "id": "mat-c018",
+   "bloque": "Tablas",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "input",
+   "enunciado": "Calcula: 4 × 5",
+   "pista": "Cuenta de 4 en 4 cinco veces.",
+   "explicacion": "4 × 5 = 20.",
+   "respuestas": [
+    "20"
+   ]
+  },
+  {
+   "id": "mat-c019",
+   "bloque": "Tablas",
+   "nivel": 2,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "input",
+   "enunciado": "Calcula: 3 × 6",
+   "pista": "Cuenta de 3 en 3 seis veces.",
+   "explicacion": "3 × 6 = 18.",
+   "respuestas": [
+    "18"
+   ]
+  },
+  {
+   "id": "mat-c020",
+   "bloque": "Doble y mitad",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál es el doble de 14?",
+   "pista": "Doble = sumar el mismo número dos veces.",
+   "explicacion": "14 + 14 = 28.",
+   "opciones": [
+    "24",
+    "7",
+    "18",
+    "28"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "mat-c021",
+   "bloque": "Fracciones",
+   "nivel": 2,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuántos cuartos hacen un entero?",
+   "pista": "Si partes una pizza en cuartos, ¿cuántos trozos salen?",
+   "explicacion": "Un entero tiene 4 cuartos.",
+   "opciones": [
+    "4",
+    "2",
+    "3",
+    "8"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "mat-c022",
+   "bloque": "Medida",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuántos centímetros tiene un metro?",
+   "pista": "Mira una regla de un metro.",
+   "explicacion": "1 m = 100 cm.",
+   "opciones": [
+    "10",
+    "100",
+    "1000",
+    "50"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "mat-c023",
+   "bloque": "El tiempo",
+   "nivel": 2,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "Son las 4 y media. ¿Dónde está la aguja larga?",
+   "pista": "«Y media» es la mitad de la hora.",
+   "explicacion": "A y media la aguja larga señala el 6.",
+   "opciones": [
+    "En el 12",
+    "En el 3",
+    "En el 6",
+    "En el 9"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "mat-c024",
+   "bloque": "Dinero",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "input",
+   "enunciado": "Compras un cuaderno de 3 € y un lápiz de 2 €. ¿Cuántos euros pagas?",
+   "pista": "Juntar es sumar.",
+   "explicacion": "3 + 2 = 5 euros.",
+   "respuestas": [
+    "5"
+   ]
+  },
+  {
+   "id": "mat-c025",
+   "bloque": "Comparar",
+   "nivel": 2,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "order",
+   "enunciado": "Ordena de menor a mayor.",
+   "pista": "Compara primero las centenas.",
+   "explicacion": "205 < 250 < 502 < 520.",
+   "elementos": [
+    "205",
+    "250",
+    "502",
+    "520"
+   ],
+   "separador": " < "
+  },
+  {
+   "id": "mat-c026",
+   "bloque": "Cuerpos geométricos",
+   "nivel": 2,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "tf",
+   "enunciado": "Un cubo tiene 6 caras.",
+   "pista": "Piensa en un dado.",
+   "explicacion": "Un dado es un cubo y tiene 6 caras.",
+   "correcta": true
+  },
+  {
+   "id": "mat-c027",
+   "bloque": "Tablas",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "input",
+   "enunciado": "Calcula: 7 × 8",
+   "pista": "Recuerda: 7 × 8 = 5, 6, 7, 8 → 56.",
+   "explicacion": "7 × 8 = 56.",
+   "respuestas": [
+    "56"
+   ]
+  },
+  {
+   "id": "mat-c028",
+   "bloque": "División",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "input",
+   "enunciado": "Calcula: 45 : 5",
+   "pista": "¿Qué número por 5 da 45?",
+   "explicacion": "9 × 5 = 45, luego 45 : 5 = 9.",
+   "respuestas": [
+    "9"
+   ]
+  },
+  {
+   "id": "mat-c029",
+   "bloque": "Tablas",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "input",
+   "enunciado": "Calcula: 6 × 9",
+   "pista": "Truco del 9: 6 × 10 − 6.",
+   "explicacion": "60 − 6 = 54.",
+   "respuestas": [
+    "54"
+   ]
+  },
+  {
+   "id": "mat-c030",
+   "bloque": "Sumas y restas",
+   "nivel": 2,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "input",
+   "enunciado": "Calcula: 1250 + 340",
+   "pista": "Suma centenas, decenas y unidades.",
+   "explicacion": "1250 + 340 = 1590.",
+   "respuestas": [
+    "1590"
+   ]
+  },
+  {
+   "id": "mat-c031",
+   "bloque": "Sumas y restas",
+   "nivel": 2,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "input",
+   "enunciado": "Calcula: 3000 − 1200",
+   "pista": "30 centenas − 12 centenas.",
+   "explicacion": "3000 − 1200 = 1800.",
+   "respuestas": [
+    "1800"
+   ]
+  },
+  {
+   "id": "mat-c032",
+   "bloque": "Fracciones",
+   "nivel": 2,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál es mayor: 1/2 o 1/4?",
+   "pista": "Un medio es un trozo más grande que un cuarto.",
+   "explicacion": "Cuanto más partes, más pequeñas: 1/2 > 1/4.",
+   "opciones": [
+    "1/4",
+    "Son iguales",
+    "No se puede saber",
+    "1/2"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "mat-c033",
+   "bloque": "Perímetro",
+   "nivel": 2,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál es el perímetro de un cuadrado de 5 cm de lado?",
+   "pista": "Suma los 4 lados.",
+   "explicacion": "5 + 5 + 5 + 5 = 20 cm.",
+   "opciones": [
+    "20 cm",
+    "10 cm",
+    "25 cm",
+    "15 cm"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "mat-c034",
+   "bloque": "Medida",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "Un kilogramo tiene…",
+   "pista": "Kilo significa mil.",
+   "explicacion": "1 kg = 1000 g.",
+   "opciones": [
+    "100 gramos",
+    "1000 gramos",
+    "10 gramos",
+    "500 gramos"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "mat-c035",
+   "bloque": "El tiempo",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuántos minutos tiene una hora?",
+   "pista": "Mira un reloj.",
+   "explicacion": "1 hora = 60 minutos.",
+   "opciones": [
+    "30",
+    "100",
+    "60",
+    "24"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "mat-c036",
+   "bloque": "Números",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "Una docena son…",
+   "pista": "Piensa en una docena de huevos.",
+   "explicacion": "Una docena = 12 unidades.",
+   "opciones": [
+    "10",
+    "6",
+    "24",
+    "12"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "mat-c037",
+   "bloque": "Problemas",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "input",
+   "enunciado": "Una caja tiene 6 huevos. ¿Cuántos huevos hay en 4 cajas?",
+   "pista": "Repetir un grupo es multiplicar.",
+   "explicacion": "6 × 4 = 24.",
+   "respuestas": [
+    "24"
+   ]
+  },
+  {
+   "id": "mat-c038",
+   "bloque": "Problemas",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "input",
+   "enunciado": "Reparto 24 pegatinas entre 4 amigos por igual. ¿Cuántas recibe cada uno?",
+   "pista": "Repartir es dividir.",
+   "explicacion": "24 : 4 = 6.",
+   "respuestas": [
+    "6"
+   ]
+  },
+  {
+   "id": "mat-c039",
+   "bloque": "Ángulos",
+   "nivel": 2,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuántos grados mide un ángulo recto?",
+   "pista": "Es la esquina de una hoja de papel.",
+   "explicacion": "El ángulo recto mide 90°.",
+   "opciones": [
+    "45°",
+    "180°",
+    "90°",
+    "100°"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "mat-c040",
+   "bloque": "Multiplicar",
+   "nivel": 1,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "input",
+   "enunciado": "Calcula: 34 × 12",
+   "pista": "34 × 10 + 34 × 2.",
+   "explicacion": "340 + 68 = 408.",
+   "respuestas": [
+    "408"
+   ]
+  },
+  {
+   "id": "mat-c041",
+   "bloque": "División",
+   "nivel": 1,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "input",
+   "enunciado": "Calcula: 156 : 6",
+   "pista": "Divide 15 entre 6 y baja el 6.",
+   "explicacion": "6 × 26 = 156.",
+   "respuestas": [
+    "26"
+   ]
+  },
+  {
+   "id": "mat-c042",
+   "bloque": "División",
+   "nivel": 2,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "input",
+   "enunciado": "¿Cuál es el resto de dividir 23 entre 5?",
+   "pista": "5 × 4 = 20; ¿cuánto sobra?",
+   "explicacion": "23 = 5 × 4 + 3. El resto es 3.",
+   "respuestas": [
+    "3"
+   ]
+  },
+  {
+   "id": "mat-c043",
+   "bloque": "Fracciones",
+   "nivel": 2,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Qué fracción es equivalente a 1/2?",
+   "pista": "Multiplica arriba y abajo por el mismo número.",
+   "explicacion": "1/2 = 3/6 (× 3 arriba y abajo).",
+   "opciones": [
+    "2/3",
+    "1/3",
+    "3/6",
+    "3/5"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "mat-c044",
+   "bloque": "Decimales",
+   "nivel": 2,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "0,5 es lo mismo que…",
+   "pista": "0,5 son 5 décimas, la mitad de 1.",
+   "explicacion": "0,5 = 5/10 = 1/2.",
+   "opciones": [
+    "5/1",
+    "1/5",
+    "5/100",
+    "1/2"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "mat-c045",
+   "bloque": "Decimales",
+   "nivel": 2,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "input",
+   "enunciado": "Escribe 3/10 como número decimal.",
+   "pista": "Una décima es 0,1.",
+   "explicacion": "3/10 = 0,3.",
+   "respuestas": [
+    "0,3",
+    "0.3"
+   ]
+  },
+  {
+   "id": "mat-c046",
+   "bloque": "Área",
+   "nivel": 1,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "input",
+   "enunciado": "¿Cuál es el área de un rectángulo de 6 cm por 4 cm? (en cm²)",
+   "pista": "Área = base × altura.",
+   "explicacion": "6 × 4 = 24 cm².",
+   "respuestas": [
+    "24"
+   ]
+  },
+  {
+   "id": "mat-c047",
+   "bloque": "Rectas",
+   "nivel": 1,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "Dos rectas que nunca se cortan son…",
+   "pista": "Como las vías del tren.",
+   "explicacion": "Las rectas paralelas no se cortan nunca.",
+   "opciones": [
+    "secantes",
+    "perpendiculares",
+    "paralelas",
+    "oblicuas"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "mat-c048",
+   "bloque": "Ángulos",
+   "nivel": 2,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "Un ángulo menor de 90° se llama…",
+   "pista": "Agudo = «puntiagudo».",
+   "explicacion": "Menor de 90°: agudo.",
+   "opciones": [
+    "obtuso",
+    "recto",
+    "llano",
+    "agudo"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "mat-c049",
+   "bloque": "Redondeo",
+   "nivel": 2,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "input",
+   "enunciado": "Redondea 4678 a las centenas.",
+   "pista": "Mira la cifra de las decenas: 7.",
+   "explicacion": "7 ≥ 5, sube: 4700.",
+   "respuestas": [
+    "4700"
+   ]
+  },
+  {
+   "id": "mat-c050",
+   "bloque": "Problemas",
+   "nivel": 3,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "input",
+   "enunciado": "Una bici cuesta 120 €. Pagas 45 € y el resto en 3 plazos iguales. ¿Cuántos euros es cada plazo?",
+   "pista": "Primero calcula lo que falta por pagar.",
+   "explicacion": "120 − 45 = 75; 75 : 3 = 25 €.",
+   "respuestas": [
+    "25"
+   ]
+  },
+  {
+   "id": "mat-c051",
+   "bloque": "Números",
+   "nivel": 1,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "tf",
+   "enunciado": "Un número par siempre acaba en 0, 2, 4, 6 u 8.",
+   "pista": "Mira la última cifra.",
+   "explicacion": "Es la regla de los números pares.",
+   "correcta": true
+  },
+  {
+   "id": "mat-c052",
+   "bloque": "Números romanos",
+   "nivel": 3,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Qué número es XL?",
+   "pista": "X delante de L resta: 50 − 10.",
+   "explicacion": "XL = 50 − 10 = 40.",
+   "opciones": [
+    "60",
+    "14",
+    "90",
+    "40"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "mat-c053",
+   "bloque": "Fracciones",
+   "nivel": 1,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuánto es 2/5 + 1/5?",
+   "pista": "Mismo denominador: se suman los numeradores.",
+   "explicacion": "2/5 + 1/5 = 3/5.",
+   "opciones": [
+    "3/5",
+    "3/10",
+    "2/10",
+    "1/5"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "mat-c054",
+   "bloque": "Decimales",
+   "nivel": 1,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "input",
+   "enunciado": "Calcula: 2,5 + 3,75",
+   "pista": "Alinea las comas.",
+   "explicacion": "2,50 + 3,75 = 6,25.",
+   "respuestas": [
+    "6,25",
+    "6.25"
+   ]
+  },
+  {
+   "id": "mat-c055",
+   "bloque": "Decimales",
+   "nivel": 1,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "input",
+   "enunciado": "Calcula: 4,5 × 2",
+   "pista": "El doble de 4 es 8 y el doble de 0,5 es 1.",
+   "explicacion": "4,5 × 2 = 9.",
+   "respuestas": [
+    "9"
+   ]
+  },
+  {
+   "id": "mat-c056",
+   "bloque": "Porcentajes",
+   "nivel": 1,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "input",
+   "enunciado": "Calcula el 50 % de 80.",
+   "pista": "50 % es la mitad.",
+   "explicacion": "80 : 2 = 40.",
+   "respuestas": [
+    "40"
+   ]
+  },
+  {
+   "id": "mat-c057",
+   "bloque": "Porcentajes",
+   "nivel": 2,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "input",
+   "enunciado": "Calcula el 25 % de 200.",
+   "pista": "25 % es la cuarta parte.",
+   "explicacion": "200 : 4 = 50.",
+   "respuestas": [
+    "50"
+   ]
+  },
+  {
+   "id": "mat-c058",
+   "bloque": "Múltiplos y divisores",
+   "nivel": 2,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál es el m.c.m. de 4 y 6?",
+   "pista": "Escribe los múltiplos de cada uno.",
+   "explicacion": "Múltiplos de 4: 4, 8, 12… de 6: 6, 12… El menor común es 12.",
+   "opciones": [
+    "24",
+    "12",
+    "2",
+    "10"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "mat-c059",
+   "bloque": "Múltiplos y divisores",
+   "nivel": 2,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál es el m.c.d. de 12 y 18?",
+   "pista": "Busca el divisor común más grande.",
+   "explicacion": "Divisores de 12 y 18 en común: 1, 2, 3, 6. El mayor es 6.",
+   "opciones": [
+    "3",
+    "36",
+    "6",
+    "2"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "mat-c060",
+   "bloque": "Números primos",
+   "nivel": 1,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál de estos números es primo?",
+   "pista": "Un primo solo se divide entre 1 y él mismo.",
+   "explicacion": "13 solo es divisible por 1 y por 13.",
+   "opciones": [
+    "9",
+    "15",
+    "21",
+    "13"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "mat-c061",
+   "bloque": "Potencias",
+   "nivel": 2,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "input",
+   "enunciado": "Calcula: 5²",
+   "pista": "5 al cuadrado es 5 × 5.",
+   "explicacion": "5² = 25.",
+   "respuestas": [
+    "25"
+   ]
+  },
+  {
+   "id": "mat-c062",
+   "bloque": "Estadística",
+   "nivel": 2,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "input",
+   "enunciado": "Calcula la media de 4, 8 y 12.",
+   "pista": "Suma y divide entre 3.",
+   "explicacion": "(4 + 8 + 12) : 3 = 8.",
+   "respuestas": [
+    "8"
+   ]
+  },
+  {
+   "id": "mat-c063",
+   "bloque": "Ángulos",
+   "nivel": 1,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "Un ángulo de 120° es…",
+   "pista": "Mayor que 90° y menor que 180°.",
+   "explicacion": "Entre 90° y 180°: obtuso.",
+   "opciones": [
+    "agudo",
+    "recto",
+    "obtuso",
+    "llano"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "mat-c064",
+   "bloque": "Perímetro",
+   "nivel": 1,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "input",
+   "enunciado": "¿Cuál es el perímetro de un rectángulo de 8 cm por 5 cm? (en cm)",
+   "pista": "Suma los cuatro lados.",
+   "explicacion": "8 + 5 + 8 + 5 = 26 cm.",
+   "respuestas": [
+    "26"
+   ]
+  },
+  {
+   "id": "mat-c065",
+   "bloque": "Proporcionalidad",
+   "nivel": 3,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "input",
+   "enunciado": "Un coche gasta 6 litros cada 100 km. ¿Cuántos litros gasta en 250 km?",
+   "pista": "250 km son 2,5 veces 100 km.",
+   "explicacion": "6 × 2,5 = 15 litros.",
+   "respuestas": [
+    "15"
+   ]
+  },
+  {
+   "id": "mat-c066",
+   "bloque": "Decimales",
+   "nivel": 2,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "La fracción 3/4 escrita como decimal es…",
+   "pista": "Divide 3 entre 4.",
+   "explicacion": "3 : 4 = 0,75.",
+   "opciones": [
+    "0,34",
+    "0,75",
+    "3,4",
+    "0,7"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "mat-c067",
+   "bloque": "Patrones y secuencias",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Qué número sigue en la serie 3, 7, 11, 15, …?",
+   "pista": "¿Cuánto se suma cada vez?",
+   "explicacion": "Se suma 4: 15 + 4 = 19.",
+   "opciones": [
+    "18",
+    "20",
+    "19",
+    "21"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "mat-c068",
+   "bloque": "Patrones y secuencias",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "input",
+   "enunciado": "¿Qué número sigue en la serie 2, 6, 18, 54, …?",
+   "pista": "Cada número se multiplica por lo mismo.",
+   "explicacion": "Se multiplica por 3: 54 × 3 = 162.",
+   "respuestas": [
+    "162"
+   ]
+  },
+  {
+   "id": "mat-c069",
+   "bloque": "Patrones y secuencias",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "input",
+   "enunciado": "¿Qué número sigue en la serie 1, 4, 9, 16, 25, …?",
+   "pista": "Son cuadrados perfectos.",
+   "explicacion": "6² = 36.",
+   "respuestas": [
+    "36"
+   ]
+  },
+  {
+   "id": "mat-c070",
+   "bloque": "Patrones y secuencias",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "tf",
+   "enunciado": "La serie 5, 10, 20, 40 se forma sumando 5 cada vez.",
+   "pista": "Calcula la diferencia entre términos.",
+   "explicacion": "Se duplica cada vez (× 2), no se suma 5.",
+   "correcta": false
+  },
+  {
+   "id": "mat-c071",
+   "bloque": "Patrones y secuencias",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "input",
+   "enunciado": "En la serie 4, 8, 12, 16… cada término es 4 × su posición. ¿Qué valor ocupa el lugar 10?",
+   "pista": "Posición 10: 4 × 10.",
+   "explicacion": "4 × 10 = 40.",
+   "respuestas": [
+    "40"
+   ]
+  },
+  {
+   "id": "mat-c072",
+   "bloque": "Ecuaciones sencillas",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "input",
+   "enunciado": "Halla x: x + 15 = 42",
+   "pista": "Resta 15 a 42.",
+   "explicacion": "x = 42 − 15 = 27.",
+   "respuestas": [
+    "27"
+   ]
+  },
+  {
+   "id": "mat-c073",
+   "bloque": "Ecuaciones sencillas",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "input",
+   "enunciado": "Halla x: 3 · x = 21",
+   "pista": "¿Qué número multiplicado por 3 da 21?",
+   "explicacion": "x = 21 : 3 = 7.",
+   "respuestas": [
+    "7"
+   ]
+  },
+  {
+   "id": "mat-c074",
+   "bloque": "Ecuaciones sencillas",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "input",
+   "enunciado": "Halla x: 2x + 5 = 17",
+   "pista": "Primero quita 5; después divide entre 2.",
+   "explicacion": "2x = 12, x = 6.",
+   "respuestas": [
+    "6"
+   ]
+  },
+  {
+   "id": "mat-c075",
+   "bloque": "Pensamiento computacional",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "order",
+   "enunciado": "Ordena los pasos de este algoritmo para calcular el área de un rectángulo.",
+   "pista": "Un algoritmo son pasos ordenados.",
+   "explicacion": "Primero se mide, luego se calcula y al final se escribe el resultado.",
+   "elementos": [
+    "Medir la base",
+    "Medir la altura",
+    "Multiplicar base por altura",
+    "Escribir el resultado con sus unidades"
+   ],
+   "separador": " → "
+  },
+  {
+   "id": "mat-c076",
+   "bloque": "Pensamiento computacional",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "Un programa repite 4 veces la orden «avanzar 3 casillas». ¿Cuántas casillas avanza en total?",
+   "pista": "Un bucle repite instrucciones.",
+   "explicacion": "4 × 3 = 12 casillas.",
+   "opciones": [
+    "7",
+    "3",
+    "16",
+    "12"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "mat-c077",
+   "bloque": "Pensamiento computacional",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "Un robot mira al norte, gira 90° a la derecha y avanza. ¿Hacia dónde se mueve?",
+   "pista": "Dibuja una brújula.",
+   "explicacion": "Norte → 90° a la derecha → este.",
+   "opciones": [
+    "Hacia el este",
+    "Hacia el oeste",
+    "Hacia el sur",
+    "Hacia el norte"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "mat-c078",
+   "bloque": "Pensamiento computacional",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "«Si llueve, coge paraguas; si no, coge gafas de sol». Hoy hace sol. ¿Qué coge?",
+   "pista": "Fíjate en la condición.",
+   "explicacion": "No llueve, así que se cumple la parte «si no».",
+   "opciones": [
+    "El paraguas",
+    "Las gafas de sol",
+    "Las dos cosas",
+    "Ninguna"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "mat-c079",
+   "bloque": "Pensamiento computacional",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "Depurar un programa significa…",
+   "pista": "En inglés se dice «debug».",
+   "explicacion": "Depurar es encontrar y arreglar los fallos.",
+   "opciones": [
+    "borrarlo entero",
+    "hacerlo más lento",
+    "buscar y corregir errores",
+    "copiarlo"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "mat-c080",
+   "bloque": "Pensamiento computacional",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "tf",
+   "enunciado": "Un bucle sirve para repetir instrucciones sin escribirlas muchas veces.",
+   "pista": "Piensa en «repetir 4 veces».",
+   "explicacion": "Esa es la función de un bucle.",
+   "correcta": true
+  },
+  {
+   "id": "mat-c081",
+   "bloque": "Educación financiera",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "input",
+   "enunciado": "Compras 3 bocadillos de 2,50 € y pagas con un billete de 20 €. ¿Cuánto te devuelven? (en €)",
+   "pista": "Primero, cuánto cuestan los 3.",
+   "explicacion": "3 × 2,50 = 7,50; 20 − 7,50 = 12,50 €.",
+   "respuestas": [
+    "12,5",
+    "12,50",
+    "12.5"
+   ]
+  },
+  {
+   "id": "mat-c082",
+   "bloque": "Educación financiera",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "input",
+   "enunciado": "Unas zapatillas cuestan 60 € con un 25 % de descuento. ¿Cuánto pagas? (en €)",
+   "pista": "El 25 % de 60 es la cuarta parte.",
+   "explicacion": "Descuento 15 €; 60 − 15 = 45 €.",
+   "respuestas": [
+    "45"
+   ]
+  },
+  {
+   "id": "mat-c083",
+   "bloque": "Educación financiera",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "input",
+   "enunciado": "Ahorras 4 € a la semana. ¿Cuántos euros tendrás en 26 semanas?",
+   "pista": "Multiplica.",
+   "explicacion": "4 × 26 = 104 €.",
+   "respuestas": [
+    "104"
+   ]
+  },
+  {
+   "id": "mat-c084",
+   "bloque": "Educación financiera",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "En Canarias, el impuesto general sobre el consumo se llama…",
+   "pista": "Es un impuesto propio de Canarias.",
+   "explicacion": "El Impuesto General Indirecto Canario (IGIC) sustituye al IVA en las islas.",
+   "opciones": [
+    "IVA",
+    "IRPF",
+    "IBI",
+    "IGIC"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "mat-c085",
+   "bloque": "Educación financiera",
+   "nivel": 3,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "input",
+   "enunciado": "Un producto cuesta 40 € sin impuesto. Con un IGIC del 7 %, ¿cuánto cuesta en total? (en €)",
+   "pista": "Calcula el 7 % de 40 y súmalo.",
+   "explicacion": "7 % de 40 = 2,80; 40 + 2,80 = 42,80 €.",
+   "respuestas": [
+    "42,8",
+    "42,80",
+    "42.8"
+   ]
+  },
+  {
+   "id": "mat-c086",
+   "bloque": "Volumen y capacidad",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "input",
+   "enunciado": "¿Cuál es el volumen de un cubo de 4 cm de arista? (en cm³)",
+   "pista": "Volumen = arista × arista × arista.",
+   "explicacion": "4 × 4 × 4 = 64 cm³.",
+   "respuestas": [
+    "64"
+   ]
+  },
+  {
+   "id": "mat-c087",
+   "bloque": "Volumen y capacidad",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "input",
+   "enunciado": "¿Cuál es el volumen de un prisma de 5 dm × 3 dm × 2 dm? (en dm³)",
+   "pista": "Largo × ancho × alto.",
+   "explicacion": "5 × 3 × 2 = 30 dm³.",
+   "respuestas": [
+    "30"
+   ]
+  },
+  {
+   "id": "mat-c088",
+   "bloque": "Volumen y capacidad",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "tf",
+   "enunciado": "Un litro equivale a un decímetro cúbico.",
+   "pista": "Un cubo de 10 cm de lado cabe 1 litro.",
+   "explicacion": "1 L = 1 dm³.",
+   "correcta": true
+  },
+  {
+   "id": "mat-c089",
+   "bloque": "Volumen y capacidad",
+   "nivel": 3,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "input",
+   "enunciado": "Un depósito tiene 2 m³. ¿Cuántos litros caben?",
+   "pista": "1 m³ = 1000 dm³ = 1000 L.",
+   "explicacion": "2 × 1000 = 2000 litros.",
+   "respuestas": [
+    "2000"
+   ]
+  },
+  {
+   "id": "mat-c090",
+   "bloque": "Volumen y capacidad",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Qué unidad es la más adecuada para el volumen de una piscina?",
+   "pista": "El volumen se mide en unidades cúbicas.",
+   "explicacion": "Para grandes volúmenes se usan los m³.",
+   "opciones": [
+    "centímetros",
+    "metros cúbicos",
+    "gramos",
+    "metros cuadrados"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "mat-c091",
+   "bloque": "Simetría",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuántos ejes de simetría tiene un cuadrado?",
+   "pista": "Dos diagonales y dos medianas.",
+   "explicacion": "El cuadrado tiene 4 ejes de simetría.",
+   "opciones": [
+    "1",
+    "2",
+    "4",
+    "8"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "mat-c092",
+   "bloque": "Simetría",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuántos ejes de simetría tiene un rectángulo que no es cuadrado?",
+   "pista": "Solo las dos medianas.",
+   "explicacion": "Los ejes son las dos líneas que unen puntos medios de lados opuestos.",
+   "opciones": [
+    "4",
+    "1",
+    "0",
+    "2"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "mat-c093",
+   "bloque": "Simetría",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuántos ejes de simetría tiene un triángulo equilátero?",
+   "pista": "Uno por cada vértice.",
+   "explicacion": "Tiene 3 ejes de simetría.",
+   "opciones": [
+    "3",
+    "1",
+    "2",
+    "6"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "mat-c094",
+   "bloque": "Movimientos",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "El movimiento que desliza una figura sin girarla ni darle la vuelta es…",
+   "pista": "Trasladar = llevar de un sitio a otro.",
+   "explicacion": "Se llama traslación.",
+   "opciones": [
+    "el giro",
+    "la traslación",
+    "la simetría",
+    "la ampliación"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "mat-c095",
+   "bloque": "Movimientos",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "tf",
+   "enunciado": "Al reflejar una figura en un espejo (simetría axial), su tamaño cambia.",
+   "pista": "El reflejo es una copia exacta.",
+   "explicacion": "La simetría axial no cambia ni el tamaño ni la forma.",
+   "correcta": false
+  },
+  {
+   "id": "mat-c096",
+   "bloque": "Estadística",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "input",
+   "enunciado": "Calcula la media de 4, 6, 8, 10 y 12.",
+   "pista": "Suma todo y divide entre 5.",
+   "explicacion": "40 : 5 = 8.",
+   "respuestas": [
+    "8"
+   ]
+  },
+  {
+   "id": "mat-c097",
+   "bloque": "Estadística",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "input",
+   "enunciado": "¿Cuál es la moda de 3, 5, 5, 7, 5, 9, 3?",
+   "pista": "La moda es el dato que más se repite.",
+   "explicacion": "El 5 aparece 3 veces.",
+   "respuestas": [
+    "5"
+   ]
+  },
+  {
+   "id": "mat-c098",
+   "bloque": "Estadística",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "input",
+   "enunciado": "¿Cuál es el rango de los datos 12, 3, 9, 20 y 7?",
+   "pista": "Rango = mayor − menor.",
+   "explicacion": "20 − 3 = 17.",
+   "respuestas": [
+    "17"
+   ]
+  },
+  {
+   "id": "mat-c099",
+   "bloque": "Probabilidad",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "En una bolsa hay 3 bolas rojas y 1 azul. ¿Qué probabilidad hay de sacar la azul?",
+   "pista": "Casos favorables entre casos posibles.",
+   "explicacion": "1 favorable de 4 posibles: 1/4.",
+   "opciones": [
+    "1/3",
+    "3/4",
+    "1/4",
+    "1/2"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "mat-c100",
+   "bloque": "Probabilidad",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "Al lanzar un dado, la probabilidad de sacar un número par es…",
+   "pista": "Hay 3 pares entre 6 resultados.",
+   "explicacion": "3/6 = 1/2.",
+   "opciones": [
+    "1/6",
+    "1/3",
+    "2/3",
+    "1/2"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "mat-c101",
+   "bloque": "Probabilidad",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "tf",
+   "enunciado": "Un suceso imposible tiene probabilidad 0.",
+   "pista": "Imposible = nunca ocurre.",
+   "explicacion": "Probabilidad 0 es imposible; 1 es seguro.",
+   "correcta": true
+  },
+  {
+   "id": "mat-c102",
+   "bloque": "Fracciones",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "input",
+   "enunciado": "Calcula 3/4 de 80.",
+   "pista": "Divide entre 4 y multiplica por 3.",
+   "explicacion": "80 : 4 = 20; 20 × 3 = 60.",
+   "respuestas": [
+    "60"
+   ]
+  },
+  {
+   "id": "mat-c103",
+   "bloque": "Porcentajes",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "input",
+   "enunciado": "Calcula el 15 % de 240.",
+   "pista": "10 % + 5 %.",
+   "explicacion": "24 + 12 = 36.",
+   "respuestas": [
+    "36"
+   ]
+  },
+  {
+   "id": "mat-c104",
+   "bloque": "Fracciones",
+   "nivel": 3,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuánto es 2/3 + 1/6?",
+   "pista": "Pasa 2/3 a sextos.",
+   "explicacion": "2/3 = 4/6; 4/6 + 1/6 = 5/6.",
+   "opciones": [
+    "3/9",
+    "1/2",
+    "2/9",
+    "5/6"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "mat-c105",
+   "bloque": "Proporcionalidad",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "input",
+   "enunciado": "Si 5 kg de papas cuestan 7,50 €, ¿cuánto cuestan 8 kg? (en €)",
+   "pista": "Halla primero el precio de 1 kg.",
+   "explicacion": "7,50 : 5 = 1,50 €/kg; 1,50 × 8 = 12 €.",
+   "respuestas": [
+    "12",
+    "12,00"
+   ]
+  },
+  {
+   "id": "mat-c106",
+   "bloque": "El tiempo",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "input",
+   "enunciado": "Salimos a las 9:45 y llegamos a las 12:20. ¿Cuántos minutos dura el viaje?",
+   "pista": "De 9:45 a 12:00 y luego 20 min.",
+   "explicacion": "2 h 15 min + 20 min = 2 h 35 min = 155 min.",
+   "respuestas": [
+    "155"
+   ]
+  },
+  {
+   "id": "mat-c107",
+   "bloque": "Problemas",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "input",
+   "enunciado": "En un colegio hay 240 alumnos y 3/8 van en guagua. ¿Cuántos van en guagua?",
+   "pista": "240 : 8 y por 3.",
+   "explicacion": "240 : 8 = 30; 30 × 3 = 90.",
+   "respuestas": [
+    "90"
+   ]
+  },
+  {
+   "id": "mat-c108",
+   "bloque": "Números enteros",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "input",
+   "enunciado": "En la cumbre del Teide hay −3 °C y la temperatura baja 5 grados más. ¿Cuál es la nueva temperatura?",
+   "pista": "Baja = restar.",
+   "explicacion": "−3 − 5 = −8 °C.",
+   "respuestas": [
+    "-8"
+   ]
+  },
+  {
+   "id": "mat-c109",
+   "bloque": "Ángulos",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "input",
+   "enunciado": "En un triángulo, dos ángulos miden 50° y 70°. ¿Cuánto mide el tercero? (en grados)",
+   "pista": "Los ángulos de un triángulo suman 180°.",
+   "explicacion": "180 − 120 = 60°.",
+   "respuestas": [
+    "60"
+   ]
+  },
+  {
+   "id": "mat-c110",
+   "bloque": "Fracciones y decimales",
+   "nivel": 2,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "match",
+   "enunciado": "Une cada fracción con su decimal.",
+   "pista": "Divide el numerador entre el denominador.",
+   "explicacion": "1/2 = 0,5 · 1/4 = 0,25 · 3/4 = 0,75 · 1/10 = 0,1.",
+   "pares": [
+    [
+     "1/2",
+     "0,5"
+    ],
+    [
+     "1/4",
+     "0,25"
+    ],
+    [
+     "3/4",
+     "0,75"
+    ],
+    [
+     "1/10",
+     "0,1"
+    ]
+   ]
+  },
+  {
+   "id": "mat-c111",
+   "bloque": "Figuras",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "match",
+   "enunciado": "Une cada figura con su número de lados.",
+   "pista": "Penta = 5, hexa = 6.",
+   "explicacion": "Cada polígono recibe su nombre por su número de lados.",
+   "pares": [
+    [
+     "Triángulo",
+     "3 lados"
+    ],
+    [
+     "Cuadrado",
+     "4 lados"
+    ],
+    [
+     "Pentágono",
+     "5 lados"
+    ],
+    [
+     "Hexágono",
+     "6 lados"
+    ]
+   ]
+  },
+  {
+   "id": "mat-c112",
+   "bloque": "Medida",
+   "nivel": 1,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "match",
+   "enunciado": "Une cada unidad con lo que mide.",
+   "pista": "Piensa en una regla, una balanza, una jarra y un reloj.",
+   "explicacion": "Cada unidad mide una magnitud distinta.",
+   "pares": [
+    [
+     "metro",
+     "longitud"
+    ],
+    [
+     "kilogramo",
+     "masa"
+    ],
+    [
+     "litro",
+     "capacidad"
+    ],
+    [
+     "minuto",
+     "tiempo"
+    ]
+   ]
+  }
+ ]
+}

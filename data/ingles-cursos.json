@@ -1,0 +1,2162 @@
+{
+ "area": "ing",
+ "nombre": "Inglés",
+ "version": 1,
+ "nota": "Banco ampliado por cursos (1.º-6.º). Campo 'cursos': [mínimo, máximo].",
+ "preguntas": [
+  {
+   "id": "ing-c001",
+   "bloque": "Colours",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "What colour is a banana?",
+   "pista": "Think of a banana.",
+   "explicacion": "A banana is yellow (amarillo).",
+   "opciones": [
+    "Yellow",
+    "Blue",
+    "Red",
+    "Green"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "ing-c002",
+   "bloque": "Numbers",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "Which number is «five»?",
+   "pista": "Count: one, two, three, four, five.",
+   "explicacion": "Five = 5.",
+   "opciones": [
+    "4",
+    "5",
+    "6",
+    "9"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "ing-c003",
+   "bloque": "Animals",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "How do you say «perro» in English?",
+   "pista": "It says «woof».",
+   "explicacion": "Perro = dog.",
+   "opciones": [
+    "Cat",
+    "Bird",
+    "Dog",
+    "Fish"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "ing-c004",
+   "bloque": "Animals",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "How do you say «gato» in English?",
+   "pista": "It says «meow».",
+   "explicacion": "Gato = cat.",
+   "opciones": [
+    "Dog",
+    "Cow",
+    "Duck",
+    "Cat"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "ing-c005",
+   "bloque": "Greetings",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "What do you say in the morning?",
+   "pista": "Morning = mañana.",
+   "explicacion": "Good morning = buenos días.",
+   "opciones": [
+    "Good morning",
+    "Good night",
+    "Goodbye",
+    "Good afternoon"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "ing-c006",
+   "bloque": "Greetings",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "What do you say when you leave?",
+   "pista": "Adiós.",
+   "explicacion": "Goodbye = adiós.",
+   "opciones": [
+    "Hello",
+    "Goodbye",
+    "Please",
+    "Sorry"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "ing-c007",
+   "bloque": "Colours",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "match",
+   "enunciado": "Match each colour in English with the Spanish word.",
+   "pista": "Look at things around you.",
+   "explicacion": "red = rojo, blue = azul, green = verde, yellow = amarillo.",
+   "pares": [
+    [
+     "red",
+     "rojo"
+    ],
+    [
+     "blue",
+     "azul"
+    ],
+    [
+     "green",
+     "verde"
+    ],
+    [
+     "yellow",
+     "amarillo"
+    ]
+   ]
+  },
+  {
+   "id": "ing-c008",
+   "bloque": "Animals",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "match",
+   "enunciado": "Match each animal with its Spanish name.",
+   "pista": "Think of the pictures.",
+   "explicacion": "dog = perro, cat = gato, fish = pez, bird = pájaro.",
+   "pares": [
+    [
+     "dog",
+     "perro"
+    ],
+    [
+     "cat",
+     "gato"
+    ],
+    [
+     "fish",
+     "pez"
+    ],
+    [
+     "bird",
+     "pájaro"
+    ]
+   ]
+  },
+  {
+   "id": "ing-c009",
+   "bloque": "Numbers",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "listen",
+   "enunciado": "Listen. Which number do you hear?",
+   "pista": "Listen to the first sound.",
+   "explicacion": "«Seven» is 7.",
+   "audio": "Seven",
+   "opciones": [
+    "7",
+    "3",
+    "5",
+    "9"
+   ],
+   "correcta": 0,
+   "idioma": "en-GB"
+  },
+  {
+   "id": "ing-c010",
+   "bloque": "Colours",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "listen",
+   "enunciado": "Listen. What colour do you hear?",
+   "pista": "It is the colour of the sky.",
+   "explicacion": "Blue = azul.",
+   "audio": "The sky is blue.",
+   "opciones": [
+    "Red",
+    "Blue",
+    "Green",
+    "Yellow"
+   ],
+   "correcta": 1,
+   "idioma": "en-GB"
+  },
+  {
+   "id": "ing-c011",
+   "bloque": "Family",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "Who is «mother» in Spanish?",
+   "pista": "Mum is a short way to say it.",
+   "explicacion": "Mother = madre.",
+   "opciones": [
+    "Padre",
+    "Hermano",
+    "Madre",
+    "Abuelo"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "ing-c012",
+   "bloque": "Numbers",
+   "nivel": 2,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "input",
+   "enunciado": "Write the number «ten» in digits.",
+   "pista": "One and zero.",
+   "explicacion": "Ten = 10.",
+   "respuestas": [
+    "10"
+   ]
+  },
+  {
+   "id": "ing-c013",
+   "bloque": "Body parts",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "Which part of the body do you use to see?",
+   "pista": "Two round things on your face.",
+   "explicacion": "We see with our eyes.",
+   "opciones": [
+    "Eyes",
+    "Ears",
+    "Nose",
+    "Mouth"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "ing-c014",
+   "bloque": "Body parts",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "How do you say «mano» in English?",
+   "pista": "You have five fingers on it.",
+   "explicacion": "Mano = hand.",
+   "opciones": [
+    "Foot",
+    "Hand",
+    "Head",
+    "Arm"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "ing-c015",
+   "bloque": "Food",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "Which one is a fruit?",
+   "pista": "It grows on trees.",
+   "explicacion": "An apple is a fruit.",
+   "opciones": [
+    "Bread",
+    "Milk",
+    "Apple",
+    "Chicken"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "ing-c016",
+   "bloque": "Food",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "Complete: «I like ___.»",
+   "pista": "It is something to eat.",
+   "explicacion": "I like pizza.",
+   "opciones": [
+    "is",
+    "run",
+    "blue",
+    "pizza"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "ing-c017",
+   "bloque": "Clothes",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "What do you wear on your feet?",
+   "pista": "You walk with them.",
+   "explicacion": "We wear shoes on our feet.",
+   "opciones": [
+    "Shoes",
+    "Hat",
+    "Gloves",
+    "Scarf"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "ing-c018",
+   "bloque": "Days",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "What day comes after Monday?",
+   "pista": "Monday, ...",
+   "explicacion": "After Monday comes Tuesday.",
+   "opciones": [
+    "Sunday",
+    "Tuesday",
+    "Friday",
+    "Thursday"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "ing-c019",
+   "bloque": "Questions",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "What is the answer? «How old are you?»",
+   "pista": "They ask for your age.",
+   "explicacion": "Age: «I am eight.»",
+   "opciones": [
+    "I am fine.",
+    "I am a dog.",
+    "I am eight.",
+    "Yes, please."
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "ing-c020",
+   "bloque": "Questions",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "What is the answer? «What's your name?»",
+   "pista": "They ask for your name.",
+   "explicacion": "«My name is…»",
+   "opciones": [
+    "I am nine.",
+    "I like pizza.",
+    "It is red.",
+    "My name is Sara."
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "ing-c021",
+   "bloque": "Sentences",
+   "nivel": 2,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "order",
+   "enunciado": "Put the words in order.",
+   "pista": "Start with «I».",
+   "explicacion": "I like red apples.",
+   "elementos": [
+    "I",
+    "like",
+    "red",
+    "apples"
+   ],
+   "separador": " "
+  },
+  {
+   "id": "ing-c022",
+   "bloque": "Clothes",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "match",
+   "enunciado": "Match each word with the Spanish word.",
+   "pista": "Think of what you wear.",
+   "explicacion": "shirt = camiseta, shoes = zapatos, hat = sombrero, socks = calcetines.",
+   "pares": [
+    [
+     "shirt",
+     "camiseta"
+    ],
+    [
+     "shoes",
+     "zapatos"
+    ],
+    [
+     "hat",
+     "sombrero"
+    ],
+    [
+     "socks",
+     "calcetines"
+    ]
+   ]
+  },
+  {
+   "id": "ing-c023",
+   "bloque": "Food",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "listen",
+   "enunciado": "Listen. What does Tom like?",
+   "pista": "Listen to the last word.",
+   "explicacion": "Tom likes bananas.",
+   "audio": "I like bananas.",
+   "opciones": [
+    "Cheese",
+    "Fish",
+    "Bananas",
+    "Pasta"
+   ],
+   "correcta": 2,
+   "idioma": "en-GB"
+  },
+  {
+   "id": "ing-c024",
+   "bloque": "Days",
+   "nivel": 2,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "listen",
+   "enunciado": "Listen. What day is it?",
+   "pista": "It is the day before Saturday.",
+   "explicacion": "Today is Friday.",
+   "audio": "Today is Friday.",
+   "opciones": [
+    "Monday",
+    "Sunday",
+    "Tuesday",
+    "Friday"
+   ],
+   "correcta": 3,
+   "idioma": "en-GB"
+  },
+  {
+   "id": "ing-c025",
+   "bloque": "Have got",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "Complete: «She ___ got brown eyes.»",
+   "pista": "She / he / it → has.",
+   "explicacion": "She has got brown eyes.",
+   "opciones": [
+    "has",
+    "have",
+    "is",
+    "are"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "ing-c026",
+   "bloque": "Can",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "Complete: «My brother ___ ride a horse, but he can swim.»",
+   "pista": "«but» shows a contrast.",
+   "explicacion": "He can't ride a horse, but he can swim.",
+   "opciones": [
+    "can",
+    "can't",
+    "is",
+    "has"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "ing-c027",
+   "bloque": "House",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "In which room do you cook?",
+   "pista": "Rooms in a house.",
+   "explicacion": "We cook in the kitchen.",
+   "opciones": [
+    "In the bathroom",
+    "In the bedroom",
+    "In the kitchen",
+    "In the garden"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "ing-c028",
+   "bloque": "Weather",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "It is raining. What do we need?",
+   "pista": "To avoid getting wet.",
+   "explicacion": "We use an umbrella when it rains.",
+   "opciones": [
+    "Sunglasses",
+    "A swimsuit",
+    "A kite",
+    "An umbrella"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "ing-c029",
+   "bloque": "Time",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "What time is it? «It's half past eight.»",
+   "pista": "Half = 30 minutes.",
+   "explicacion": "Half past eight is 8:30.",
+   "opciones": [
+    "8:30",
+    "8:15",
+    "8:45",
+    "9:30"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "ing-c030",
+   "bloque": "Prepositions",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "The cat is ___ the box. (inside)",
+   "pista": "Inside = in.",
+   "explicacion": "The cat is in the box.",
+   "opciones": [
+    "on",
+    "in",
+    "under",
+    "next"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "ing-c031",
+   "bloque": "Prepositions",
+   "nivel": 2,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "The book is ___ the table. (on top)",
+   "pista": "On top of something.",
+   "explicacion": "The book is on the table.",
+   "opciones": [
+    "in",
+    "under",
+    "on",
+    "behind"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "ing-c032",
+   "bloque": "Jobs",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "A doctor works in a…",
+   "pista": "It is where sick people go.",
+   "explicacion": "A doctor works in a hospital.",
+   "opciones": [
+    "school",
+    "farm",
+    "bakery",
+    "hospital"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "ing-c033",
+   "bloque": "Jobs",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "match",
+   "enunciado": "Match each job with where the person works.",
+   "pista": "Think about it.",
+   "explicacion": "A teacher works in a school, a farmer on a farm, a chef in a restaurant, a pilot in a plane.",
+   "pares": [
+    [
+     "teacher",
+     "school"
+    ],
+    [
+     "farmer",
+     "farm"
+    ],
+    [
+     "chef",
+     "restaurant"
+    ],
+    [
+     "pilot",
+     "plane"
+    ]
+   ]
+  },
+  {
+   "id": "ing-c034",
+   "bloque": "Numbers",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "input",
+   "enunciado": "Write the number 13 in words.",
+   "pista": "Not «thirty».",
+   "explicacion": "13 = thirteen.",
+   "respuestas": [
+    "thirteen"
+   ]
+  },
+  {
+   "id": "ing-c035",
+   "bloque": "House",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "listen",
+   "enunciado": "Listen. Where is the cat?",
+   "pista": "Listen to the preposition.",
+   "explicacion": "The cat is under the sofa.",
+   "audio": "The cat is under the sofa.",
+   "opciones": [
+    "On the sofa",
+    "In the kitchen",
+    "Under the sofa",
+    "Behind the door"
+   ],
+   "correcta": 2,
+   "idioma": "en-GB"
+  },
+  {
+   "id": "ing-c036",
+   "bloque": "Weather",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "listen",
+   "enunciado": "Listen. What is the weather like?",
+   "pista": "Two words.",
+   "explicacion": "Cold and snowy.",
+   "audio": "It's cold and snowy today.",
+   "opciones": [
+    "Hot and sunny",
+    "Windy",
+    "Rainy",
+    "Cold and snowy"
+   ],
+   "correcta": 3,
+   "idioma": "en-GB"
+  },
+  {
+   "id": "ing-c037",
+   "bloque": "Present simple",
+   "nivel": 1,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "Complete: «She ___ to school by bus every day.»",
+   "pista": "She / he / it → -s or -es.",
+   "explicacion": "She goes to school.",
+   "opciones": [
+    "goes",
+    "go",
+    "going",
+    "is go"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "ing-c038",
+   "bloque": "Present simple",
+   "nivel": 2,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "Complete: «I ___ up at seven o'clock.»",
+   "pista": "I → no -s.",
+   "explicacion": "I get up at seven.",
+   "opciones": [
+    "gets",
+    "get",
+    "getting",
+    "got"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "ing-c039",
+   "bloque": "There is / are",
+   "nivel": 1,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "Complete: «There ___ two cats in the garden.»",
+   "pista": "Plural → are.",
+   "explicacion": "There are two cats.",
+   "opciones": [
+    "is",
+    "am",
+    "are",
+    "be"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "ing-c040",
+   "bloque": "Question words",
+   "nivel": 1,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "«___ do you live? — In Tenerife.»",
+   "pista": "It asks about a place.",
+   "explicacion": "Where do you live?",
+   "opciones": [
+    "When",
+    "Who",
+    "What",
+    "Where"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "ing-c041",
+   "bloque": "Question words",
+   "nivel": 1,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "«___ is your birthday? — In May.»",
+   "pista": "It asks about time.",
+   "explicacion": "When is your birthday?",
+   "opciones": [
+    "When",
+    "Where",
+    "Who",
+    "Why"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "ing-c042",
+   "bloque": "Time",
+   "nivel": 2,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "It's 5:45. How do we say it?",
+   "pista": "45 minutes = quarter to the next hour.",
+   "explicacion": "5:45 = a quarter to six.",
+   "opciones": [
+    "It's a quarter past five.",
+    "It's a quarter to six.",
+    "It's half past five.",
+    "It's six o'clock."
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "ing-c043",
+   "bloque": "Prepositions",
+   "nivel": 2,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "The bank is ___ the cinema and the pharmacy.",
+   "pista": "In the middle of two places.",
+   "explicacion": "The bank is between them.",
+   "opciones": [
+    "on",
+    "behind",
+    "between",
+    "above"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "ing-c044",
+   "bloque": "Food",
+   "nivel": 1,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "Which one is a vegetable?",
+   "pista": "It's orange.",
+   "explicacion": "A carrot is a vegetable.",
+   "opciones": [
+    "Banana",
+    "Cheese",
+    "Cake",
+    "Carrot"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "ing-c045",
+   "bloque": "Plurals",
+   "nivel": 1,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "What is the plural of «child»?",
+   "pista": "It is irregular.",
+   "explicacion": "child → children.",
+   "opciones": [
+    "children",
+    "childs",
+    "childes",
+    "child"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "ing-c046",
+   "bloque": "Plurals",
+   "nivel": 2,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "What is the plural of «tooth»?",
+   "pista": "Irregular.",
+   "explicacion": "tooth → teeth.",
+   "opciones": [
+    "tooths",
+    "teeth",
+    "toothes",
+    "tooth"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "ing-c047",
+   "bloque": "Imperatives",
+   "nivel": 1,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "Complete: «___ your hands before eating!»",
+   "pista": "A command.",
+   "explicacion": "Wash your hands.",
+   "opciones": [
+    "Washes",
+    "Washing",
+    "Wash",
+    "Washed"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "ing-c048",
+   "bloque": "Culture",
+   "nivel": 1,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "What is the capital of the United Kingdom?",
+   "pista": "Big Ben is there.",
+   "explicacion": "London is the capital.",
+   "opciones": [
+    "Dublin",
+    "Paris",
+    "Madrid",
+    "London"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "ing-c049",
+   "bloque": "Months",
+   "nivel": 1,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "Halloween is on the…",
+   "pista": "It is in autumn.",
+   "explicacion": "Halloween is on 31 October.",
+   "opciones": [
+    "31st of October",
+    "25th of December",
+    "1st of January",
+    "14th of February"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "ing-c050",
+   "bloque": "Present continuous",
+   "nivel": 1,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "Look! The children ___ in the park.",
+   "pista": "It is happening now.",
+   "explicacion": "are + -ing.",
+   "opciones": [
+    "play",
+    "are playing",
+    "plays",
+    "played"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "ing-c051",
+   "bloque": "Past simple",
+   "nivel": 1,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "Complete: «Yesterday I ___ a film.»",
+   "pista": "«Yesterday» → past.",
+   "explicacion": "watched is the past of watch.",
+   "opciones": [
+    "watch",
+    "watching",
+    "watched",
+    "watches"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "ing-c052",
+   "bloque": "Past simple",
+   "nivel": 1,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "input",
+   "enunciado": "Write the past simple of «buy».",
+   "pista": "Irregular verb.",
+   "explicacion": "buy → bought.",
+   "respuestas": [
+    "bought"
+   ]
+  },
+  {
+   "id": "ing-c053",
+   "bloque": "Past simple",
+   "nivel": 2,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "input",
+   "enunciado": "Write the past simple of «eat».",
+   "pista": "Irregular verb.",
+   "explicacion": "eat → ate.",
+   "respuestas": [
+    "ate"
+   ]
+  },
+  {
+   "id": "ing-c054",
+   "bloque": "Going to",
+   "nivel": 2,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "Complete: «I ___ do my homework tomorrow.»",
+   "pista": "A plan for the future.",
+   "explicacion": "I am going to do…",
+   "opciones": [
+    "go to",
+    "am going to",
+    "went to",
+    "going to"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "ing-c055",
+   "bloque": "Comparatives",
+   "nivel": 2,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "My bag is ___ than yours.",
+   "pista": "Heavy → heavier.",
+   "explicacion": "heavy → heavier.",
+   "opciones": [
+    "heavy",
+    "heaviest",
+    "heavier",
+    "more heavy"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "ing-c056",
+   "bloque": "Superlatives",
+   "nivel": 2,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "Mount Teide is the ___ mountain in Spain.",
+   "pista": "The + -est.",
+   "explicacion": "high → the highest.",
+   "opciones": [
+    "higher",
+    "high",
+    "most high",
+    "highest"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "ing-c057",
+   "bloque": "Quantity",
+   "nivel": 1,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "How ___ apples are there?",
+   "pista": "Apples are countable.",
+   "explicacion": "How many + countable.",
+   "opciones": [
+    "many",
+    "much",
+    "lot",
+    "some"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "ing-c058",
+   "bloque": "Quantity",
+   "nivel": 2,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "How ___ water do you drink every day?",
+   "pista": "Water is uncountable.",
+   "explicacion": "How much + uncountable.",
+   "opciones": [
+    "many",
+    "much",
+    "few",
+    "lot"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "ing-c059",
+   "bloque": "Should",
+   "nivel": 2,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "You ___ eat lots of sweets before bed.",
+   "pista": "It is not good for you.",
+   "explicacion": "You shouldn't eat sweets before bed.",
+   "opciones": [
+    "should",
+    "can",
+    "shouldn't",
+    "must be"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "ing-c060",
+   "bloque": "Ordinals",
+   "nivel": 2,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "5th is written «the ___».",
+   "pista": "Irregular spelling.",
+   "explicacion": "5th = fifth.",
+   "opciones": [
+    "five",
+    "fiveth",
+    "fiftieth",
+    "fifth"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "ing-c061",
+   "bloque": "Reading",
+   "nivel": 1,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "Lucy is eleven. She lives in Las Palmas and plays the guitar on Saturdays. When does Lucy play the guitar?",
+   "pista": "Look for «guitar».",
+   "explicacion": "She plays the guitar on Saturdays.",
+   "opciones": [
+    "On Saturdays",
+    "On Sundays",
+    "Every day",
+    "On Fridays"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "ing-c062",
+   "bloque": "Environment",
+   "nivel": 1,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "We should recycle paper, plastic and…",
+   "pista": "It goes in the green container.",
+   "explicacion": "We recycle glass too.",
+   "opciones": [
+    "water",
+    "glass",
+    "air",
+    "wind"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "ing-c063",
+   "bloque": "Present simple",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "Complete: «My father never ___ coffee in the evening.»",
+   "pista": "He → -s.",
+   "explicacion": "My father never drinks coffee.",
+   "opciones": [
+    "drink",
+    "drinking",
+    "drinks",
+    "drank"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "ing-c064",
+   "bloque": "Past simple",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "Complete: «We ___ to the beach last Sunday.»",
+   "pista": "go is irregular.",
+   "explicacion": "go → went.",
+   "opciones": [
+    "go",
+    "goed",
+    "gone",
+    "went"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "ing-c065",
+   "bloque": "Comparatives",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "Complete: «This book is ___ than that one.»",
+   "pista": "Long adjectives: more…",
+   "explicacion": "more interesting than.",
+   "opciones": [
+    "more interesting",
+    "interestinger",
+    "most interesting",
+    "interesting"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "ing-c066",
+   "bloque": "Past simple",
+   "nivel": 3,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "Which sentence is correct?",
+   "pista": "After didn't use the base form.",
+   "explicacion": "didn't + like.",
+   "opciones": [
+    "She didn't liked the soup.",
+    "She didn't like the soup.",
+    "She not like the soup.",
+    "She doesn't liked the soup."
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "ing-c067",
+   "bloque": "Modals",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "You ___ wear a helmet when you ride a bike.",
+   "pista": "It is an obligation.",
+   "explicacion": "You must wear a helmet.",
+   "opciones": [
+    "mustn't",
+    "can't",
+    "must",
+    "don't"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "ing-c068",
+   "bloque": "Modals",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "You ___ run in the swimming pool. It is dangerous.",
+   "pista": "It is forbidden.",
+   "explicacion": "You mustn't run near the pool.",
+   "opciones": [
+    "must",
+    "can",
+    "should",
+    "mustn't"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "ing-c069",
+   "bloque": "Numbers",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "input",
+   "enunciado": "Write 5th of May: «the ___ of May».",
+   "pista": "Ordinal number.",
+   "explicacion": "5th = fifth.",
+   "respuestas": [
+    "fifth"
+   ]
+  },
+  {
+   "id": "ing-c070",
+   "bloque": "Time",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "It's 7:10. How do we say it?",
+   "pista": "10 minutes after seven.",
+   "explicacion": "7:10 = ten past seven.",
+   "opciones": [
+    "It's ten to seven.",
+    "It's ten past seven.",
+    "It's half past seven.",
+    "It's seven o'clock."
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "ing-c071",
+   "bloque": "Weather",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "match",
+   "enunciado": "Match the weather with what we can do.",
+   "pista": "Think about it.",
+   "explicacion": "Each weather suggests a different activity.",
+   "pares": [
+    [
+     "It's sunny",
+     "We wear sunglasses"
+    ],
+    [
+     "It's windy",
+     "We can fly a kite"
+    ],
+    [
+     "It's snowing",
+     "We can make a snowman"
+    ],
+    [
+     "It's raining",
+     "We need an umbrella"
+    ]
+   ]
+  },
+  {
+   "id": "ing-c072",
+   "bloque": "Jobs",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "match",
+   "enunciado": "Match the job with what the person does.",
+   "pista": "Think about it.",
+   "explicacion": "Each job has its place.",
+   "pares": [
+    [
+     "doctor",
+     "helps sick people"
+    ],
+    [
+     "chef",
+     "cooks in a restaurant"
+    ],
+    [
+     "teacher",
+     "works in a school"
+    ],
+    [
+     "farmer",
+     "works on a farm"
+    ]
+   ]
+  },
+  {
+   "id": "ing-c073",
+   "bloque": "Whose",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "«Whose bag is this?» — «It's ___.» (it belongs to me)",
+   "pista": "Possessive pronoun.",
+   "explicacion": "It's mine.",
+   "opciones": [
+    "mine",
+    "me",
+    "my",
+    "I"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "ing-c074",
+   "bloque": "Reading",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "Tom wakes up at 7. He has breakfast at 7:30 and goes to school by bus. How does Tom go to school?",
+   "pista": "Read the last sentence.",
+   "explicacion": "He goes to school by bus.",
+   "opciones": [
+    "By bike",
+    "By bus",
+    "On foot",
+    "By car"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "ing-c075",
+   "bloque": "Reading",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "Read: «Ana's birthday is on 12th April. She is going to have a party at home.» What is Ana going to do?",
+   "pista": "Look for «going to».",
+   "explicacion": "She's going to have a party at home.",
+   "opciones": [
+    "Go to the cinema",
+    "Travel to Madrid",
+    "Have a party at home",
+    "Play football"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "ing-c076",
+   "bloque": "Health",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "You should ___ a doctor if you feel ill.",
+   "pista": "After should, base form.",
+   "explicacion": "You should see a doctor.",
+   "opciones": [
+    "sees",
+    "seeing",
+    "saw",
+    "see"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "ing-c077",
+   "bloque": "Culture",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "Which language do most people speak in Australia?",
+   "pista": "It is an English-speaking country.",
+   "explicacion": "English is the main language.",
+   "opciones": [
+    "English",
+    "French",
+    "Spanish",
+    "German"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "ing-c078",
+   "bloque": "Numbers",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "listen",
+   "enunciado": "Listen. How old is Peter?",
+   "pista": "Listen to the number.",
+   "explicacion": "Peter is twelve.",
+   "audio": "My name is Peter. I'm twelve and I have a dog called Max.",
+   "opciones": [
+    "Ten",
+    "Twelve",
+    "Eleven",
+    "Fourteen"
+   ],
+   "correcta": 1,
+   "idioma": "en-GB"
+  },
+  {
+   "id": "ing-c079",
+   "bloque": "Time",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "listen",
+   "enunciado": "Listen. What time does the train leave?",
+   "pista": "«Ten past four».",
+   "explicacion": "Ten past four = 4:10.",
+   "audio": "The train leaves at ten past four.",
+   "opciones": [
+    "4:50",
+    "10:04",
+    "4:10",
+    "3:10"
+   ],
+   "correcta": 2,
+   "idioma": "en-GB"
+  },
+  {
+   "id": "ing-c080",
+   "bloque": "Directions",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "listen",
+   "enunciado": "Listen. Where is the museum?",
+   "pista": "Follow the directions.",
+   "explicacion": "Turn left at the bank; the museum is on your right.",
+   "audio": "Go straight on and turn left at the bank. The museum is on your right.",
+   "opciones": [
+    "On the left before the bank",
+    "Behind the school",
+    "Next to the park",
+    "On the right after the bank"
+   ],
+   "correcta": 3,
+   "idioma": "en-GB"
+  },
+  {
+   "id": "ing-c081",
+   "bloque": "Numbers",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "How do you say «uno» in English?",
+   "pista": "The first number.",
+   "explicacion": "Uno = one.",
+   "opciones": [
+    "One",
+    "Two",
+    "Ten",
+    "Four"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "ing-c082",
+   "bloque": "Numbers",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "What is «two» in Spanish?",
+   "pista": "One, two, ...",
+   "explicacion": "Two = dos.",
+   "opciones": [
+    "Uno",
+    "Dos",
+    "Tres",
+    "Cuatro"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "ing-c083",
+   "bloque": "Colours",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "What colour is the grass?",
+   "pista": "Look at the garden.",
+   "explicacion": "The grass is green.",
+   "opciones": [
+    "Blue",
+    "Pink",
+    "Green",
+    "Black"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "ing-c084",
+   "bloque": "Introductions",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "Complete: «My ___ is Ana.»",
+   "pista": "Presenting yourself.",
+   "explicacion": "My name is Ana.",
+   "opciones": [
+    "is",
+    "have",
+    "dog",
+    "name"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "ing-c085",
+   "bloque": "Animals",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "Which animal says «moo»?",
+   "pista": "It lives on a farm.",
+   "explicacion": "A cow says moo.",
+   "opciones": [
+    "Cow",
+    "Dog",
+    "Cat",
+    "Duck"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "ing-c086",
+   "bloque": "Food",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "What is «apple» in Spanish?",
+   "pista": "A red fruit.",
+   "explicacion": "Apple = manzana.",
+   "opciones": [
+    "Naranja",
+    "Manzana",
+    "Plátano",
+    "Pera"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "ing-c087",
+   "bloque": "Greetings",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "How do you say «gracias» in English?",
+   "pista": "When someone gives you a gift.",
+   "explicacion": "Gracias = thank you.",
+   "opciones": [
+    "Please",
+    "Sorry",
+    "Thank you",
+    "Hello"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "ing-c088",
+   "bloque": "Greetings",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "How do you say «por favor» in English?",
+   "pista": "A polite word.",
+   "explicacion": "Por favor = please.",
+   "opciones": [
+    "Thank you",
+    "Sorry",
+    "Goodbye",
+    "Please"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "ing-c089",
+   "bloque": "Numbers",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "match",
+   "enunciado": "Match the numbers.",
+   "pista": "Count with your fingers.",
+   "explicacion": "one = uno, two = dos, three = tres, four = cuatro.",
+   "pares": [
+    [
+     "one",
+     "uno"
+    ],
+    [
+     "two",
+     "dos"
+    ],
+    [
+     "three",
+     "tres"
+    ],
+    [
+     "four",
+     "cuatro"
+    ]
+   ]
+  },
+  {
+   "id": "ing-c090",
+   "bloque": "Animals",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "listen",
+   "enunciado": "Listen. Which animal is it?",
+   "pista": "A big animal.",
+   "explicacion": "An elephant.",
+   "audio": "It is a big elephant.",
+   "opciones": [
+    "Mouse",
+    "Elephant",
+    "Fish",
+    "Duck"
+   ],
+   "correcta": 1,
+   "idioma": "en-GB"
+  },
+  {
+   "id": "ing-c091",
+   "bloque": "Colours",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "«Red» is…",
+   "pista": "A tomato is red.",
+   "explicacion": "red = rojo.",
+   "opciones": [
+    "azul",
+    "verde",
+    "rojo",
+    "negro"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "ing-c092",
+   "bloque": "Colours",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "listen",
+   "enunciado": "Listen. What colour is the car?",
+   "pista": "Listen to the last word.",
+   "explicacion": "The car is red.",
+   "audio": "The car is red.",
+   "opciones": [
+    "Blue",
+    "Green",
+    "Yellow",
+    "Red"
+   ],
+   "correcta": 3,
+   "idioma": "en-GB"
+  },
+  {
+   "id": "ing-c093",
+   "bloque": "Food",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "How do you say «leche» in English?",
+   "pista": "You drink it in the morning.",
+   "explicacion": "Leche = milk.",
+   "opciones": [
+    "Milk",
+    "Water",
+    "Juice",
+    "Bread"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "ing-c094",
+   "bloque": "Food",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "A banana is a…",
+   "pista": "It is yellow and sweet.",
+   "explicacion": "A banana is a fruit.",
+   "opciones": [
+    "vegetable",
+    "fruit",
+    "animal",
+    "drink"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "ing-c095",
+   "bloque": "Days",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "How many days are there in a week?",
+   "pista": "Monday to Sunday.",
+   "explicacion": "There are seven days.",
+   "opciones": [
+    "Five",
+    "Ten",
+    "Seven",
+    "Six"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "ing-c096",
+   "bloque": "Have got",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "Complete: «I ___ a dog.»",
+   "pista": "I have...",
+   "explicacion": "I have a dog.",
+   "opciones": [
+    "is",
+    "am",
+    "run",
+    "have"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "ing-c097",
+   "bloque": "Days",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "What is «Sunday» in Spanish?",
+   "pista": "The last day of the week.",
+   "explicacion": "Sunday = domingo.",
+   "opciones": [
+    "Domingo",
+    "Lunes",
+    "Sábado",
+    "Viernes"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "ing-c098",
+   "bloque": "Body parts",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "Which one is a part of the body?",
+   "pista": "You smell with it.",
+   "explicacion": "A nose is a body part.",
+   "opciones": [
+    "Table",
+    "Nose",
+    "Chair",
+    "Bed"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "ing-c099",
+   "bloque": "Family",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "match",
+   "enunciado": "Match the family members.",
+   "pista": "Think of your family.",
+   "explicacion": "mother = madre, father = padre, sister = hermana, brother = hermano.",
+   "pares": [
+    [
+     "mother",
+     "madre"
+    ],
+    [
+     "father",
+     "padre"
+    ],
+    [
+     "sister",
+     "hermana"
+    ],
+    [
+     "brother",
+     "hermano"
+    ]
+   ]
+  },
+  {
+   "id": "ing-c100",
+   "bloque": "Animals",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "listen",
+   "enunciado": "Listen. Which animal is it?",
+   "pista": "A small animal.",
+   "explicacion": "A mouse.",
+   "audio": "It is a small mouse.",
+   "opciones": [
+    "Elephant",
+    "Horse",
+    "Lion",
+    "Mouse"
+   ],
+   "correcta": 3,
+   "idioma": "en-GB"
+  },
+  {
+   "id": "ing-c101",
+   "bloque": "Places in town",
+   "nivel": 1,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "match",
+   "enunciado": "Match the place with what you find there.",
+   "pista": "Think about each place.",
+   "explicacion": "Each place has something typical.",
+   "pares": [
+    [
+     "library",
+     "books"
+    ],
+    [
+     "bakery",
+     "bread"
+    ],
+    [
+     "hospital",
+     "doctors"
+    ],
+    [
+     "cinema",
+     "films"
+    ]
+   ]
+  },
+  {
+   "id": "ing-c102",
+   "bloque": "Months",
+   "nivel": 1,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "match",
+   "enunciado": "Match the English month with the Spanish month.",
+   "pista": "They look similar.",
+   "explicacion": "Months are similar in English and Spanish.",
+   "pares": [
+    [
+     "January",
+     "enero"
+    ],
+    [
+     "March",
+     "marzo"
+    ],
+    [
+     "May",
+     "mayo"
+    ],
+    [
+     "October",
+     "octubre"
+    ]
+   ]
+  }
+ ]
+}

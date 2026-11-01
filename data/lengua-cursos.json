@@ -1,0 +1,2392 @@
+{
+ "area": "len",
+ "nombre": "Lengua",
+ "version": 1,
+ "nota": "Banco ampliado por cursos (1.º-6.º). Campo 'cursos': [mínimo, máximo].",
+ "preguntas": [
+  {
+   "id": "len-c001",
+   "bloque": "Letras y sílabas",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Con qué letra empieza «mariposa»?",
+   "pista": "Di la palabra despacio.",
+   "explicacion": "«mariposa» empieza por M.",
+   "opciones": [
+    "M",
+    "P",
+    "R",
+    "S"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "len-c002",
+   "bloque": "Letras y sílabas",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuántas sílabas tiene «pelota»?",
+   "pista": "Da una palmada por cada trozo: pe-lo-ta.",
+   "explicacion": "pe-lo-ta: 3 sílabas.",
+   "opciones": [
+    "2",
+    "3",
+    "4",
+    "1"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "len-c003",
+   "bloque": "Letras y sílabas",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál de estas letras es una vocal?",
+   "pista": "Las vocales son a, e, i, o, u.",
+   "explicacion": "La O es una vocal.",
+   "opciones": [
+    "B",
+    "M",
+    "O",
+    "T"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "len-c004",
+   "bloque": "Singular y plural",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál es el plural de «gato»?",
+   "pista": "Plural = más de uno.",
+   "explicacion": "Un gato → dos gatos.",
+   "opciones": [
+    "gata",
+    "gato",
+    "gatito",
+    "gatos"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "len-c005",
+   "bloque": "Masculino y femenino",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál es el femenino de «niño»?",
+   "pista": "Cambia la -o por -a.",
+   "explicacion": "niño → niña.",
+   "opciones": [
+    "niña",
+    "niños",
+    "niñito",
+    "niñez"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "len-c006",
+   "bloque": "Mayúsculas",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Qué palabra se escribe con mayúscula inicial?",
+   "pista": "Los nombres de lugares empiezan con mayúscula.",
+   "explicacion": "Tenerife es un nombre propio.",
+   "opciones": [
+    "mesa",
+    "Tenerife",
+    "casa",
+    "sol"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "len-c007",
+   "bloque": "Rimas",
+   "nivel": 2,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Qué palabra rima con «casa»?",
+   "pista": "Deben sonar igual al final.",
+   "explicacion": "casa y masa terminan igual: -asa.",
+   "opciones": [
+    "mesa",
+    "caso",
+    "masa",
+    "sala"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "len-c008",
+   "bloque": "La frase",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "order",
+   "enunciado": "Ordena las palabras para formar una frase.",
+   "pista": "Empieza por «El».",
+   "explicacion": "El gato duerme en el sofá.",
+   "elementos": [
+    "El",
+    "gato",
+    "duerme",
+    "en",
+    "el",
+    "sofá"
+   ],
+   "separador": " "
+  },
+  {
+   "id": "len-c009",
+   "bloque": "La frase",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Qué signo ponemos al final de una frase?",
+   "pista": "Es un puntito.",
+   "explicacion": "La frase termina con punto.",
+   "opciones": [
+    "El punto",
+    "La coma",
+    "La tilde",
+    "La raya"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "len-c010",
+   "bloque": "Ortografía",
+   "nivel": 2,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál de estas palabras está bien escrita?",
+   "pista": "Empieza con b.",
+   "explicacion": "Se escribe «bonito».",
+   "opciones": [
+    "vonito",
+    "bonito",
+    "bonitto",
+    "bnito"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "len-c011",
+   "bloque": "Comprensión lectora",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "Ana tiene un perro pequeño. Se llama Lola. ¿Cómo se llama el perro?",
+   "pista": "Busca «se llama».",
+   "explicacion": "El perro se llama Lola.",
+   "opciones": [
+    "Ana",
+    "Pequeño",
+    "Lola",
+    "Perro"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "len-c012",
+   "bloque": "Animales y sonidos",
+   "nivel": 2,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "match",
+   "enunciado": "Une cada animal con lo que hace.",
+   "pista": "Piensa en el sonido de cada animal.",
+   "explicacion": "Perro: ladra · gato: maúlla · vaca: muge · pato: hace cuac.",
+   "pares": [
+    [
+     "El perro",
+     "ladra"
+    ],
+    [
+     "El gato",
+     "maúlla"
+    ],
+    [
+     "La vaca",
+     "muge"
+    ],
+    [
+     "El pato",
+     "hace cuac"
+    ]
+   ]
+  },
+  {
+   "id": "len-c013",
+   "bloque": "Clases de palabras",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál de estas palabras es un adjetivo?",
+   "pista": "Dice cómo es algo.",
+   "explicacion": "«alto» dice cómo es una persona o cosa.",
+   "opciones": [
+    "alto",
+    "mesa",
+    "correr",
+    "Pedro"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "len-c014",
+   "bloque": "Ortografía",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál de estas palabras está bien escrita?",
+   "pista": "Empieza con una letra muda.",
+   "explicacion": "Se escribe «hormiga», con h.",
+   "opciones": [
+    "ormiga",
+    "hormiga",
+    "hormica",
+    "ormica"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "len-c015",
+   "bloque": "Ortografía",
+   "nivel": 2,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cómo se escribe el animal de cuello largo?",
+   "pista": "Suena «ji».",
+   "explicacion": "Se escribe «jirafa», con j.",
+   "opciones": [
+    "girafa",
+    "jirrafa",
+    "jirafa",
+    "jiraffa"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "len-c016",
+   "bloque": "Ortografía",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál está bien escrita?",
+   "pista": "Lleva «gu» para sonar suave.",
+   "explicacion": "Se escribe «guitarra».",
+   "opciones": [
+    "gitarra",
+    "guitara",
+    "ghitarra",
+    "guitarra"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "len-c017",
+   "bloque": "Ortografía",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál de estas palabras está bien escrita?",
+   "pista": "Con e se usa «que».",
+   "explicacion": "Se escribe «queso».",
+   "opciones": [
+    "queso",
+    "keso",
+    "cheso",
+    "kqueso"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "len-c018",
+   "bloque": "Verbos",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál es el verbo de la frase «Los niños juegan»?",
+   "pista": "Dice qué hacen.",
+   "explicacion": "«juegan» indica la acción.",
+   "opciones": [
+    "Los",
+    "juegan",
+    "niños",
+    "Ninguno"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "len-c019",
+   "bloque": "Sinónimos y antónimos",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Qué palabra significa lo mismo que «grande»?",
+   "pista": "Sinónimo = significa igual.",
+   "explicacion": "«grande» y «enorme» son sinónimos.",
+   "opciones": [
+    "pequeño",
+    "estrecho",
+    "enorme",
+    "corto"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "len-c020",
+   "bloque": "Sinónimos y antónimos",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál es lo contrario de «alto»?",
+   "pista": "Antónimo = significa lo contrario.",
+   "explicacion": "alto ↔ bajo.",
+   "opciones": [
+    "largo",
+    "ancho",
+    "grande",
+    "bajo"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "len-c021",
+   "bloque": "Mayúsculas",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "tf",
+   "enunciado": "Los nombres de personas se escriben con mayúscula inicial.",
+   "pista": "Piensa en tu nombre.",
+   "explicacion": "Marta, Pablo… llevan mayúscula.",
+   "correcta": true
+  },
+  {
+   "id": "len-c022",
+   "bloque": "Puntuación",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Qué signos usamos para hacer una pregunta?",
+   "pista": "Se abren y se cierran.",
+   "explicacion": "Las preguntas van entre ¿ y ?.",
+   "opciones": [
+    "¡ !",
+    "¿ ?",
+    ". ,",
+    "; :"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "len-c023",
+   "bloque": "La frase",
+   "nivel": 2,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "order",
+   "enunciado": "Ordena la frase.",
+   "pista": "Empieza por «Mi».",
+   "explicacion": "Mi abuela hace pan casero.",
+   "elementos": [
+    "Mi",
+    "abuela",
+    "hace",
+    "pan",
+    "casero"
+   ],
+   "separador": " "
+  },
+  {
+   "id": "len-c024",
+   "bloque": "Ortografía",
+   "nivel": 2,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cómo se escribe el animal que relincha?",
+   "pista": "Empieza por «cab».",
+   "explicacion": "Se escribe «caballo».",
+   "opciones": [
+    "cavallo",
+    "cabayo",
+    "cavayo",
+    "caballo"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "len-c025",
+   "bloque": "Singular y plural",
+   "nivel": 2,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál es el plural de «lápiz»?",
+   "pista": "La z cambia a c.",
+   "explicacion": "lápiz → lápices.",
+   "opciones": [
+    "lápices",
+    "lápizes",
+    "lápizs",
+    "lápiz"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "len-c026",
+   "bloque": "Acentuación",
+   "nivel": 2,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál de estas palabras es aguda?",
+   "pista": "El golpe de voz cae en la última sílaba.",
+   "explicacion": "can-CIÓN: acento en la última sílaba.",
+   "opciones": [
+    "mesa",
+    "canción",
+    "árbol",
+    "teléfono"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "len-c027",
+   "bloque": "Acentuación",
+   "nivel": 2,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál de estas palabras es esdrújula?",
+   "pista": "El golpe de voz cae en la antepenúltima.",
+   "explicacion": "te-LÉ-fo-no: acento en la antepenúltima. Todas las esdrújulas llevan tilde.",
+   "opciones": [
+    "camión",
+    "árbol",
+    "teléfono",
+    "mesa"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "len-c028",
+   "bloque": "Verbos",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "«Cantaré» está en tiempo…",
+   "pista": "Habla de lo que ocurrirá.",
+   "explicacion": "Cantaré = cantaré mañana: futuro.",
+   "opciones": [
+    "pasado",
+    "presente",
+    "imperativo",
+    "futuro"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "len-c029",
+   "bloque": "Verbos",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "«Comimos» está en tiempo…",
+   "pista": "Habla de algo que ya ocurrió.",
+   "explicacion": "Comimos: acción pasada.",
+   "opciones": [
+    "pasado",
+    "futuro",
+    "presente",
+    "infinitivo"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "len-c030",
+   "bloque": "Clases de palabras",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál de estas palabras es un nombre propio?",
+   "pista": "Los nombres propios empiezan con mayúscula.",
+   "explicacion": "Tenerife nombra una isla concreta.",
+   "opciones": [
+    "isla",
+    "Tenerife",
+    "montaña",
+    "volcán"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "len-c031",
+   "bloque": "Clases de palabras",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "En «La casa blanca», ¿cuál es el adjetivo?",
+   "pista": "Dice cómo es la casa.",
+   "explicacion": "«blanca» describe a «casa».",
+   "opciones": [
+    "La",
+    "casa",
+    "blanca",
+    "Ninguna"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "len-c032",
+   "bloque": "Diccionario",
+   "nivel": 2,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Qué palabra aparece primero en el diccionario?",
+   "pista": "Compara la segunda letra: b, r, z, v.",
+   "explicacion": "abeja (a-b) va antes que avión (a-v), azul (a-z) y árbol (a-r).",
+   "opciones": [
+    "árbol",
+    "azul",
+    "avión",
+    "abeja"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "len-c033",
+   "bloque": "Diccionario",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "order",
+   "enunciado": "Ordena alfabéticamente.",
+   "pista": "Sigue el abecedario.",
+   "explicacion": "g, l, m, z.",
+   "elementos": [
+    "gato",
+    "luna",
+    "mesa",
+    "zapato"
+   ],
+   "separador": ", "
+  },
+  {
+   "id": "len-c034",
+   "bloque": "La oración",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "En «María canta en el coro», ¿cuál es el sujeto?",
+   "pista": "Quién realiza la acción.",
+   "explicacion": "María es quien canta.",
+   "opciones": [
+    "canta",
+    "María",
+    "en el coro",
+    "coro"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "len-c035",
+   "bloque": "Tipos de texto",
+   "nivel": 2,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "El texto que explica cómo hacer algo paso a paso es…",
+   "pista": "Piensa en una receta.",
+   "explicacion": "Un texto instructivo da instrucciones.",
+   "opciones": [
+    "narrativo",
+    "poético",
+    "instructivo",
+    "teatral"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "len-c036",
+   "bloque": "Ortografía",
+   "nivel": 2,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cómo se escribe el rayo de luz del sol?",
+   "pista": "Se parece a «ray» en «rayos X».",
+   "explicacion": "Rayo se escribe con y.",
+   "opciones": [
+    "rallo",
+    "raio",
+    "ralio",
+    "rayo"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "len-c037",
+   "bloque": "Singular y plural",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál es el plural de «pez»?",
+   "pista": "La z cambia a c.",
+   "explicacion": "pez → peces.",
+   "opciones": [
+    "peces",
+    "pezes",
+    "pezs",
+    "pez"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "len-c038",
+   "bloque": "Comprensión lectora",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "«El drago es un árbol de Canarias. Su savia roja se ha usado como tinte y como medicina.» ¿Para qué se ha usado la savia?",
+   "pista": "Busca la frase de la savia.",
+   "explicacion": "El texto dice que su savia roja se ha usado como tinte y medicina.",
+   "opciones": [
+    "Para hacer papel",
+    "Como tinte y medicina",
+    "Para construir casas",
+    "Como alimento"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "len-c039",
+   "bloque": "Formación de palabras",
+   "nivel": 1,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál de estas palabras deriva de «pan»?",
+   "pista": "Es quien hace pan.",
+   "explicacion": "panadero → pan + -dero.",
+   "opciones": [
+    "panda",
+    "pantalón",
+    "panadero",
+    "pandero"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "len-c040",
+   "bloque": "Formación de palabras",
+   "nivel": 2,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Qué prefijo tiene «deshacer»?",
+   "pista": "Va delante de la palabra.",
+   "explicacion": "des- + hacer.",
+   "opciones": [
+    "-er",
+    "hac-",
+    "-cer",
+    "des-"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "len-c041",
+   "bloque": "Formación de palabras",
+   "nivel": 2,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Qué sufijo tiene «jardinero»?",
+   "pista": "Va al final.",
+   "explicacion": "jardín + -ero.",
+   "opciones": [
+    "-ero",
+    "jar-",
+    "-din",
+    "-nero"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "len-c042",
+   "bloque": "Verbos",
+   "nivel": 1,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál de estas formas es un infinitivo?",
+   "pista": "Los infinitivos acaban en -ar, -er o -ir.",
+   "explicacion": "«correr» es el infinitivo.",
+   "opciones": [
+    "corro",
+    "correr",
+    "corrió",
+    "corriendo"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "len-c043",
+   "bloque": "Verbos",
+   "nivel": 2,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "«Ellos cantan»: ¿qué persona y número es?",
+   "pista": "Ellos = varias personas, ni yo ni tú.",
+   "explicacion": "Ellos: 3.ª persona del plural.",
+   "opciones": [
+    "primera del singular",
+    "segunda del plural",
+    "tercera persona del plural",
+    "tercera del singular"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "len-c044",
+   "bloque": "Clases de palabras",
+   "nivel": 2,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "En «Esos libros», ¿cuál es el determinante?",
+   "pista": "Acompaña al nombre y lo señala.",
+   "explicacion": "«Esos» es un determinante demostrativo.",
+   "opciones": [
+    "libros",
+    "Ninguno",
+    "Los dos",
+    "Esos"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "len-c045",
+   "bloque": "Clases de palabras",
+   "nivel": 2,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "En «Ella canta», ¿cuál es el pronombre?",
+   "pista": "Sustituye al nombre.",
+   "explicacion": "«Ella» sustituye a un nombre de persona.",
+   "opciones": [
+    "Ella",
+    "canta",
+    "Los dos",
+    "Ninguno"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "len-c046",
+   "bloque": "Narración",
+   "nivel": 1,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "En un cuento, la parte en la que se resuelve el problema es…",
+   "pista": "Es el final.",
+   "explicacion": "Planteamiento, nudo y desenlace.",
+   "opciones": [
+    "el planteamiento",
+    "el desenlace",
+    "el nudo",
+    "el título"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "len-c047",
+   "bloque": "Recursos literarios",
+   "nivel": 2,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "«Más rápido que el rayo» es una…",
+   "pista": "Compara dos cosas.",
+   "explicacion": "Compara la velocidad con el rayo.",
+   "opciones": [
+    "pregunta",
+    "rima",
+    "comparación",
+    "sílaba"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "len-c048",
+   "bloque": "Puntuación",
+   "nivel": 2,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Qué frase tiene bien puestas las comas?",
+   "pista": "Separa los elementos de una lista.",
+   "explicacion": "Se separa con comas, y antes de «y» no se pone.",
+   "opciones": [
+    "Compré pan leche, y huevos.",
+    "Compré, pan leche y huevos.",
+    "Compré pan leche y huevos,",
+    "Compré pan, leche y huevos."
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "len-c049",
+   "bloque": "Sinónimos y antónimos",
+   "nivel": 1,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál es el antónimo de «ganar»?",
+   "pista": "Significa lo contrario.",
+   "explicacion": "ganar ↔ perder.",
+   "opciones": [
+    "perder",
+    "jugar",
+    "vencer",
+    "correr"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "len-c050",
+   "bloque": "Acentuación",
+   "nivel": 3,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "tf",
+   "enunciado": "Las palabras agudas llevan tilde si acaban en n, s o vocal.",
+   "pista": "Piensa en canción, sofá, compás.",
+   "explicacion": "Esa es la regla de las agudas.",
+   "correcta": true
+  },
+  {
+   "id": "len-c051",
+   "bloque": "Géneros literarios",
+   "nivel": 1,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "Un texto escrito en versos y estrofas es…",
+   "pista": "Tiene rima y ritmo.",
+   "explicacion": "El poema pertenece al género lírico.",
+   "opciones": [
+    "una noticia",
+    "una receta",
+    "un poema",
+    "una carta"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "len-c052",
+   "bloque": "Homófonos",
+   "nivel": 2,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "Completa: «___ que ir al médico.»",
+   "pista": "Hay que = es necesario.",
+   "explicacion": "«Hay que» viene del verbo haber.",
+   "opciones": [
+    "Ahí",
+    "Ay",
+    "Ahy",
+    "Hay"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "len-c053",
+   "bloque": "Homófonos",
+   "nivel": 2,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "Completa: «Voy ___ qué quiere.»",
+   "pista": "Significa «voy a mirar».",
+   "explicacion": "«a ver» = mirar; «haber» es el verbo.",
+   "opciones": [
+    "a ver",
+    "haber",
+    "a ber",
+    "ha ver"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "len-c054",
+   "bloque": "Clases de palabras",
+   "nivel": 1,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál de estas palabras es una preposición?",
+   "pista": "Une palabras: de, a, en, con…",
+   "explicacion": "«con» es una preposición.",
+   "opciones": [
+    "mesa",
+    "con",
+    "rápido",
+    "y"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "len-c055",
+   "bloque": "Clases de palabras",
+   "nivel": 2,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál de estas palabras es una conjunción?",
+   "pista": "Une oraciones: y, o, pero…",
+   "explicacion": "«pero» es una conjunción.",
+   "opciones": [
+    "azul",
+    "saltar",
+    "pero",
+    "hoy"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "len-c056",
+   "bloque": "Clases de palabras",
+   "nivel": 1,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál es un adverbio de lugar?",
+   "pista": "Responde a «¿dónde?».",
+   "explicacion": "«aquí» indica el lugar.",
+   "opciones": [
+    "ayer",
+    "rápido",
+    "mucho",
+    "aquí"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "len-c057",
+   "bloque": "Verbos",
+   "nivel": 2,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál es la forma de «yo» en pretérito perfecto simple de «escribir»?",
+   "pista": "Acción terminada en el pasado.",
+   "explicacion": "Ayer yo escribí una carta.",
+   "opciones": [
+    "escribí",
+    "escribo",
+    "escribiré",
+    "escribía"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "len-c058",
+   "bloque": "Verbos",
+   "nivel": 3,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "El participio del verbo «romper» es…",
+   "pista": "Es irregular.",
+   "explicacion": "He roto el vaso: «roto».",
+   "opciones": [
+    "rompido",
+    "roto",
+    "rompiendo",
+    "rompo"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "len-c059",
+   "bloque": "Acentuación",
+   "nivel": 2,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál de estas palabras tiene un hiato?",
+   "pista": "Vocal cerrada tónica + vocal abierta.",
+   "explicacion": "rí-o: se separan en dos sílabas y la í lleva tilde.",
+   "opciones": [
+    "tiene",
+    "cielo",
+    "río",
+    "aire"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "len-c060",
+   "bloque": "Géneros literarios",
+   "nivel": 1,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "La obra escrita para ser representada por actores es…",
+   "pista": "Se escribe con diálogos.",
+   "explicacion": "El género dramático.",
+   "opciones": [
+    "la novela",
+    "la noticia",
+    "la poesía",
+    "el teatro"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "len-c061",
+   "bloque": "Narración",
+   "nivel": 2,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "Si el narrador usa «yo» para contar la historia, está en…",
+   "pista": "Piensa en el pronombre.",
+   "explicacion": "Narrador en primera persona.",
+   "opciones": [
+    "primera persona",
+    "segunda persona",
+    "tercera persona",
+    "no hay narrador"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "len-c062",
+   "bloque": "Resumen",
+   "nivel": 1,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "Un buen resumen debe…",
+   "pista": "Resumir es acortar.",
+   "explicacion": "Se quita lo secundario y se mantiene lo importante.",
+   "opciones": [
+    "copiar el texto entero",
+    "contar lo esencial con pocas palabras",
+    "añadir opiniones",
+    "cambiar los datos"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "len-c063",
+   "bloque": "Acentuación",
+   "nivel": 3,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "tf",
+   "enunciado": "«Árbol» lleva tilde porque es llana y no acaba en n, s ni vocal.",
+   "pista": "Las llanas llevan tilde cuando no acaban en n, s o vocal.",
+   "explicacion": "ÁR-bol acaba en l, por eso lleva tilde.",
+   "correcta": true
+  },
+  {
+   "id": "len-c064",
+   "bloque": "Sinónimos y antónimos",
+   "nivel": 2,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Qué palabra es sinónimo de «ocultar»?",
+   "pista": "Significa lo mismo.",
+   "explicacion": "ocultar = esconder.",
+   "opciones": [
+    "mostrar",
+    "buscar",
+    "abrir",
+    "esconder"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "len-c065",
+   "bloque": "Sinónimos y antónimos",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Qué palabra es sinónima de «veloz»?",
+   "pista": "Piensa en un guepardo.",
+   "explicacion": "veloz y rápido significan lo mismo.",
+   "opciones": [
+    "rápido",
+    "lento",
+    "pesado",
+    "silencioso"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "len-c066",
+   "bloque": "Sinónimos y antónimos",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál es el antónimo de «generoso»?",
+   "pista": "Lo contrario de dar con gusto.",
+   "explicacion": "generoso ↔ tacaño.",
+   "opciones": [
+    "amable",
+    "tacaño",
+    "alegre",
+    "valiente"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "len-c067",
+   "bloque": "Variedades del español",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "tf",
+   "enunciado": "En Canarias se usa la palabra «guagua» para el autobús.",
+   "pista": "Es una palabra muy canaria.",
+   "explicacion": "«guagua» es el autobús en Canarias y en el Caribe.",
+   "correcta": true
+  },
+  {
+   "id": "len-c068",
+   "bloque": "Variedades del español",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "El seseo, propio del español de Canarias, consiste en pronunciar la z y la c (ante e, i) como…",
+   "pista": "«cielo» se pronuncia «sielo».",
+   "explicacion": "Se pronuncian igual que la s.",
+   "opciones": [
+    "j",
+    "t",
+    "ch",
+    "s"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "len-c069",
+   "bloque": "Diversidad lingüística",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál de estas lenguas es oficial, junto con el castellano, en alguna comunidad de España?",
+   "pista": "Se habla en Galicia.",
+   "explicacion": "El gallego es cooficial en Galicia.",
+   "opciones": [
+    "el gallego",
+    "el portugués",
+    "el francés",
+    "el italiano"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "len-c070",
+   "bloque": "Diversidad lingüística",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "tf",
+   "enunciado": "Las lenguas de signos son lenguas con gramática propia.",
+   "pista": "No son un código para el castellano.",
+   "explicacion": "Tienen su propia gramática y vocabulario.",
+   "correcta": true
+  },
+  {
+   "id": "len-c071",
+   "bloque": "La oración",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál es el sujeto de «Los alumnos leen un cuento»?",
+   "pista": "Pregunta: ¿quién lee?",
+   "explicacion": "Los alumnos realizan la acción.",
+   "opciones": [
+    "leen",
+    "un cuento",
+    "Los alumnos",
+    "leen un cuento"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "len-c072",
+   "bloque": "La oración",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál es el predicado de «Mi hermana canta en el coro»?",
+   "pista": "Lo que se dice del sujeto.",
+   "explicacion": "El predicado lleva el verbo y lo que lo completa.",
+   "opciones": [
+    "Mi hermana",
+    "en el coro",
+    "Mi hermana canta",
+    "canta en el coro"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "len-c073",
+   "bloque": "La oración",
+   "nivel": 3,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "tf",
+   "enunciado": "La oración «Nevó en el Teide» es impersonal (no tiene sujeto).",
+   "pista": "Los verbos del tiempo atmosférico no tienen sujeto.",
+   "explicacion": "Nevar es un verbo meteorológico: oración impersonal.",
+   "correcta": true
+  },
+  {
+   "id": "len-c074",
+   "bloque": "Verbos",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "input",
+   "enunciado": "Escribe el infinitivo de «cantaron».",
+   "pista": "Termina en -ar.",
+   "explicacion": "cantaron → cantar.",
+   "respuestas": [
+    "cantar"
+   ]
+  },
+  {
+   "id": "len-c075",
+   "bloque": "Verbos",
+   "nivel": 3,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "«Habíamos comido» está en…",
+   "pista": "Pasado anterior a otro pasado.",
+   "explicacion": "Habíamos + participio: pluscuamperfecto.",
+   "opciones": [
+    "pretérito perfecto simple",
+    "futuro simple",
+    "pretérito pluscuamperfecto",
+    "presente"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "len-c076",
+   "bloque": "Verbos",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "«Mañana iré al cine» está en…",
+   "pista": "Habla del futuro.",
+   "explicacion": "iré = futuro simple.",
+   "opciones": [
+    "pretérito perfecto",
+    "presente",
+    "pretérito imperfecto",
+    "futuro simple"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "len-c077",
+   "bloque": "La oración",
+   "nivel": 3,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "En «Ana compró pan», ¿qué función cumple «pan»?",
+   "pista": "Responde a ¿qué compró?",
+   "explicacion": "«pan» es lo que compra: complemento directo.",
+   "opciones": [
+    "complemento directo",
+    "sujeto",
+    "complemento de lugar",
+    "verbo"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "len-c078",
+   "bloque": "Formación de palabras",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál de estas palabras es compuesta?",
+   "pista": "Une un verbo y un nombre.",
+   "explicacion": "sacar + corchos.",
+   "opciones": [
+    "zapatero",
+    "sacacorchos",
+    "caminata",
+    "bonito"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "len-c079",
+   "bloque": "Acentuación",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál de estas palabras tiene un hiato?",
+   "pista": "pa-ís: dos sílabas.",
+   "explicacion": "La í tónica separa las vocales: hiato.",
+   "opciones": [
+    "aire",
+    "cielo",
+    "país",
+    "reina"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "len-c080",
+   "bloque": "Acentuación",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál de estas palabras es esdrújula?",
+   "pista": "mur-CIÉ-la-go.",
+   "explicacion": "El acento cae en la antepenúltima sílaba.",
+   "opciones": [
+    "camión",
+    "árbol",
+    "reloj",
+    "murciélago"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "len-c081",
+   "bloque": "Puntuación",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Qué signo usamos antes de una enumeración?",
+   "pista": "Anuncian lo que viene.",
+   "explicacion": "Ejemplo: «Necesito: pan, leche y huevos.»",
+   "opciones": [
+    "los dos puntos",
+    "el punto",
+    "la raya",
+    "los paréntesis"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "len-c082",
+   "bloque": "Puntuación",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "En un diálogo, la raya (—) sirve para…",
+   "pista": "Mira un cuento con diálogos.",
+   "explicacion": "La raya marca el cambio de interlocutor.",
+   "opciones": [
+    "cerrar la frase",
+    "introducir lo que dice cada personaje",
+    "separar sílabas",
+    "poner una pregunta"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "len-c083",
+   "bloque": "Poesía",
+   "nivel": 3,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "En la rima consonante coinciden…",
+   "pista": "casa – masa.",
+   "explicacion": "Vocales y consonantes finales coinciden.",
+   "opciones": [
+    "solo las vocales",
+    "solo la primera letra",
+    "todos los sonidos desde la última vocal acentuada",
+    "solo el número de sílabas"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "len-c084",
+   "bloque": "Poesía",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "tf",
+   "enunciado": "Un soneto tiene 14 versos.",
+   "pista": "Dos cuartetos y dos tercetos.",
+   "explicacion": "El soneto tiene 14 versos.",
+   "correcta": true
+  },
+  {
+   "id": "len-c085",
+   "bloque": "Tipos de texto",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Qué tipo de texto informa de hechos de actualidad?",
+   "pista": "Sale en los periódicos.",
+   "explicacion": "La noticia cuenta lo que ha ocurrido.",
+   "opciones": [
+    "la noticia",
+    "el cuento",
+    "la poesía",
+    "la receta"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "len-c086",
+   "bloque": "Tipos de texto",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "Una receta de cocina es un texto…",
+   "pista": "Da pasos a seguir.",
+   "explicacion": "Los textos instructivos explican cómo hacer algo.",
+   "opciones": [
+    "narrativo",
+    "instructivo",
+    "lírico",
+    "dramático"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "len-c087",
+   "bloque": "Alfabetización mediática",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "Antes de compartir una noticia sorprendente en redes sociales, lo mejor es…",
+   "pista": "No todo lo que circula es verdad.",
+   "explicacion": "Hay que contrastar la información.",
+   "opciones": [
+    "compartirla ya",
+    "borrarla",
+    "comprobarla en fuentes fiables",
+    "pedir que la compartan"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "len-c088",
+   "bloque": "Alfabetización mediática",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "tf",
+   "enunciado": "Si un mensaje lo comparte mucha gente, siempre es verdadero.",
+   "pista": "Los bulos se comparten mucho.",
+   "explicacion": "Compartirse mucho no lo hace cierto.",
+   "correcta": false
+  },
+  {
+   "id": "len-c089",
+   "bloque": "Alfabetización mediática",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "Un bulo (o noticia falsa) es…",
+   "pista": "Su objetivo es engañar.",
+   "explicacion": "Un bulo parece una noticia pero es falso.",
+   "opciones": [
+    "una información falsa que se difunde como si fuera cierta",
+    "una noticia muy corta",
+    "un chiste",
+    "un anuncio"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "len-c090",
+   "bloque": "Comprensión lectora",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "«Marcos llegó empapado y dejó el paraguas roto en la puerta.» ¿Qué se puede deducir?",
+   "pista": "Lee entre líneas.",
+   "explicacion": "Estar empapado y con el paraguas roto sugiere lluvia fuerte.",
+   "opciones": [
+    "Que hacía calor",
+    "Que había llovido mucho y con viento",
+    "Que no había salido",
+    "Que era de noche"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "len-c091",
+   "bloque": "Comprensión lectora",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "La idea principal de un texto es…",
+   "pista": "Responde a: ¿de qué trata?",
+   "explicacion": "Es la idea alrededor de la cual gira el texto.",
+   "opciones": [
+    "la primera palabra",
+    "el título siempre",
+    "lo más importante de lo que se cuenta",
+    "un detalle cualquiera"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "len-c092",
+   "bloque": "Letras y sílabas",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "input",
+   "enunciado": "¿Cuántas sílabas tiene «cacahuete»?",
+   "pista": "ca-ca-hue-te.",
+   "explicacion": "ca-ca-hue-te: 4 sílabas.",
+   "respuestas": [
+    "4"
+   ]
+  },
+  {
+   "id": "len-c093",
+   "bloque": "Clases de palabras",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál de estas palabras es un adverbio?",
+   "pista": "No cambia de género ni de número.",
+   "explicacion": "«ayer» es un adverbio de tiempo.",
+   "opciones": [
+    "ayer",
+    "azul",
+    "correr",
+    "mesa"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "len-c094",
+   "bloque": "Ortografía",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "Completa: «¿___ no viniste a la fiesta?»",
+   "pista": "Es una pregunta.",
+   "explicacion": "En preguntas directas se escribe «por qué».",
+   "opciones": [
+    "Porque",
+    "Por qué",
+    "Porqué",
+    "Por que"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "len-c095",
+   "bloque": "Comunicación oral",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "En un debate, el moderador…",
+   "pista": "Mantiene el orden.",
+   "explicacion": "El moderador organiza los turnos.",
+   "opciones": [
+    "gana siempre",
+    "habla sin parar",
+    "da los turnos de palabra",
+    "no participa nunca"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "len-c096",
+   "bloque": "Comunicación oral",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "Al hacer una exposición oral conviene…",
+   "pista": "Quieres que te entiendan.",
+   "explicacion": "Voz clara, ritmo pausado y contacto visual.",
+   "opciones": [
+    "leer sin levantar la vista",
+    "hablar muy bajo",
+    "ir muy deprisa",
+    "hablar claro y mirar al público"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "len-c097",
+   "bloque": "Letras y sílabas",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál es la primera letra del abecedario?",
+   "pista": "Empieza como «abeja».",
+   "explicacion": "El abecedario empieza por la A.",
+   "opciones": [
+    "A",
+    "B",
+    "C",
+    "Z"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "len-c098",
+   "bloque": "Letras y sílabas",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuántas vocales hay?",
+   "pista": "a, e, i, o, u.",
+   "explicacion": "Hay cinco vocales.",
+   "opciones": [
+    "3",
+    "5",
+    "7",
+    "10"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "len-c099",
+   "bloque": "Vocabulario",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "Completa: «La ___ brilla en el cielo por la noche.»",
+   "pista": "Sale de noche.",
+   "explicacion": "La luna brilla de noche.",
+   "opciones": [
+    "mesa",
+    "silla",
+    "luna",
+    "pan"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "len-c100",
+   "bloque": "Vocabulario",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál de estas palabras es un animal?",
+   "pista": "Tiene orejas largas.",
+   "explicacion": "El conejo es un animal.",
+   "opciones": [
+    "mesa",
+    "rojo",
+    "correr",
+    "conejo"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "len-c101",
+   "bloque": "Letras y sílabas",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "Une las sílabas: ma + no",
+   "pista": "Léelas seguidas.",
+   "explicacion": "ma + no = mano.",
+   "opciones": [
+    "mano",
+    "nomá",
+    "mona",
+    "nama"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "len-c102",
+   "bloque": "Sinónimos y antónimos",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál es lo contrario de «grande»?",
+   "pista": "Antónimo.",
+   "explicacion": "grande ↔ pequeño.",
+   "opciones": [
+    "alto",
+    "pequeño",
+    "ancho",
+    "gordo"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "len-c103",
+   "bloque": "Letras y sílabas",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál de estas palabras empieza por la sílaba «pa»?",
+   "pista": "Pa-to.",
+   "explicacion": "pato empieza por pa-.",
+   "opciones": [
+    "gato",
+    "mano",
+    "pato",
+    "luna"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "len-c104",
+   "bloque": "Letras y sílabas",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "tf",
+   "enunciado": "La palabra «sol» tiene una sílaba.",
+   "pista": "Da una palmada al decirla.",
+   "explicacion": "sol: una sílaba.",
+   "correcta": true
+  },
+  {
+   "id": "len-c105",
+   "bloque": "Ortografía",
+   "nivel": 2,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cómo se escribe el transporte que navega por el mar?",
+   "pista": "Empieza con b.",
+   "explicacion": "Se escribe «barco».",
+   "opciones": [
+    "barco",
+    "varco",
+    "bargo",
+    "barko"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "len-c106",
+   "bloque": "Ortografía",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Qué palabra lleva la letra «ñ»?",
+   "pista": "Es la letra con el gorrito.",
+   "explicacion": "araña lleva ñ.",
+   "opciones": [
+    "casa",
+    "araña",
+    "mesa",
+    "pelo"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "len-c107",
+   "bloque": "Letras y sílabas",
+   "nivel": 2,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuántas sílabas tiene «mariposa»?",
+   "pista": "ma-ri-po-sa.",
+   "explicacion": "Cuatro sílabas.",
+   "opciones": [
+    "3",
+    "5",
+    "4",
+    "2"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "len-c108",
+   "bloque": "La frase",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "tf",
+   "enunciado": "Una frase empieza con letra mayúscula.",
+   "pista": "Mira cómo empiezan los cuentos.",
+   "explicacion": "Toda frase empieza con mayúscula.",
+   "correcta": true
+  },
+  {
+   "id": "len-c109",
+   "bloque": "Singular y plural",
+   "nivel": 2,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál es el plural de «luz»?",
+   "pista": "La z cambia a c.",
+   "explicacion": "luz → luces.",
+   "opciones": [
+    "luces",
+    "luzes",
+    "luzs",
+    "luz"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "len-c110",
+   "bloque": "Artículos",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "Completa: «___ gato es negro.»",
+   "pista": "Gato es masculino y singular.",
+   "explicacion": "El gato.",
+   "opciones": [
+    "La",
+    "El",
+    "Los",
+    "Las"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "len-c111",
+   "bloque": "Nombres propios",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál de estas palabras es un nombre propio?",
+   "pista": "Tiene mayúscula.",
+   "explicacion": "Teide es el nombre de un volcán concreto.",
+   "opciones": [
+    "volcán",
+    "montaña",
+    "Teide",
+    "isla"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "len-c112",
+   "bloque": "Sinónimos y antónimos",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál es lo contrario de «día»?",
+   "pista": "Cuando hay oscuridad.",
+   "explicacion": "día ↔ noche.",
+   "opciones": [
+    "mañana",
+    "tarde",
+    "hoy",
+    "noche"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "len-c113",
+   "bloque": "Ortografía",
+   "nivel": 2,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cómo se escribe lo que ponen las gallinas?",
+   "pista": "Empieza con h y lleva v.",
+   "explicacion": "Se escribe «huevo».",
+   "opciones": [
+    "huevo",
+    "uevo",
+    "buevo",
+    "huebo"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "len-c114",
+   "bloque": "Verbos",
+   "nivel": 2,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "Completa: «Ayer ___ al parque.»",
+   "pista": "Ayer = pasado.",
+   "explicacion": "Ayer fui al parque.",
+   "opciones": [
+    "voy",
+    "fui",
+    "iré",
+    "ir"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "len-c115",
+   "bloque": "Acentuación",
+   "nivel": 3,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál es la sílaba que suena más fuerte en «ventana»?",
+   "pista": "ven-TA-na.",
+   "explicacion": "La sílaba tónica es «ta».",
+   "opciones": [
+    "ven",
+    "na",
+    "ta",
+    "Ninguna"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "len-c116",
+   "bloque": "Mayúsculas",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "tf",
+   "enunciado": "Después de un punto se escribe con mayúscula.",
+   "pista": "Empieza una frase nueva.",
+   "explicacion": "Tras el punto, mayúscula.",
+   "correcta": true
+  },
+  {
+   "id": "len-c117",
+   "bloque": "Clases de palabras",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "match",
+   "enunciado": "Une cada palabra con su clase.",
+   "pista": "Piensa qué hace cada palabra en la frase.",
+   "explicacion": "gato: nombre · rojo: cómo es · correr: acción · ayer: cuándo.",
+   "pares": [
+    [
+     "gato",
+     "sustantivo"
+    ],
+    [
+     "rojo",
+     "adjetivo"
+    ],
+    [
+     "correr",
+     "verbo"
+    ],
+    [
+     "ayer",
+     "adverbio"
+    ]
+   ]
+  },
+  {
+   "id": "len-c118",
+   "bloque": "Sinónimos y antónimos",
+   "nivel": 1,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "match",
+   "enunciado": "Une cada palabra con su contrario.",
+   "pista": "Busca el antónimo.",
+   "explicacion": "Son pares de antónimos.",
+   "pares": [
+    [
+     "alto",
+     "bajo"
+    ],
+    [
+     "ganar",
+     "perder"
+    ],
+    [
+     "abrir",
+     "cerrar"
+    ],
+    [
+     "día",
+     "noche"
+    ]
+   ]
+  },
+  {
+   "id": "len-c119",
+   "bloque": "Formación de palabras",
+   "nivel": 2,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "match",
+   "enunciado": "Une cada palabra con su familia.",
+   "pista": "Misma raíz.",
+   "explicacion": "Cada derivada comparte la raíz de la palabra primitiva.",
+   "pares": [
+    [
+     "pan",
+     "panadero"
+    ],
+    [
+     "zapato",
+     "zapatería"
+    ],
+    [
+     "libro",
+     "librería"
+    ],
+    [
+     "flor",
+     "florero"
+    ]
+   ]
+  },
+  {
+   "id": "len-c120",
+   "bloque": "Géneros literarios",
+   "nivel": 1,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "match",
+   "enunciado": "Une cada texto con su género.",
+   "pista": "Piensa en cómo se presenta cada texto.",
+   "explicacion": "Cada texto pertenece a un género distinto.",
+   "pares": [
+    [
+     "Un poema",
+     "lírico"
+    ],
+    [
+     "Una obra de teatro",
+     "dramático"
+    ],
+    [
+     "Una novela",
+     "narrativo"
+    ],
+    [
+     "Una noticia",
+     "periodístico"
+    ]
+   ]
+  }
+ ]
+}

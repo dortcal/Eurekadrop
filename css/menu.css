@@ -261,3 +261,29 @@
 .lic-list { text-align: left; margin: 0; padding-left: 1.2em; }
 .name3 { text-transform: uppercase; letter-spacing: 0.3em; text-align: center; max-width: 9.5em; font-size: 1.3em; }
 .privacy { margin: 0; font-size: 0.85em; background: rgba(76, 201, 240, 0.12); border-left: 4px solid var(--cyan); padding: 0.5em 0.8em; border-radius: 8px; text-align: left; }
+
+/* ---- Selector de curso ---- */
+.curso-chip { margin: 0.4em 0; min-height: 44px; }
+.curso-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 210px), 1fr)); gap: 0.8em; margin: 1em auto; max-width: 860px; padding: 0 1em; }
+.curso-btn { display: flex; flex-direction: column; align-items: center; gap: 0.2em; padding: 0.9em 0.8em; min-height: 120px; border-radius: 18px; border: 3px solid #1b1446; background: linear-gradient(#5a46c8, #3a2a8c); color: #fff; cursor: pointer; font: inherit; text-align: center; box-shadow: 0 5px 0 #1b1446; }
+.curso-btn b { font-size: 2em; color: #ffd23f; line-height: 1; }
+.curso-btn small { font-size: 0.82em; opacity: 0.92; }
+.curso-btn:hover, .curso-btn:focus-visible { outline: 3px solid #7df9ff; outline-offset: 2px; }
+.curso-btn.sel { background: linear-gradient(#ffd23f, #ffb547); color: #1b1446; }
+.curso-btn.sel b { color: #1b1446; }
+.ch-read { margin: 0 0 0.5em; min-height: 44px; }
+
+/* ---- Memoria Eureka ---- */
+.mem-areas { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
+.mem-status { font-weight: 800; margin: 0.5em 0; }
+.mem-grid { display: grid; grid-template-columns: repeat(var(--cols, 4), minmax(0, 1fr)); gap: 0.7em; max-width: 760px; margin: 0.8em auto; padding: 0 1em; }
+.mem-card { position: relative; min-height: 96px; border-radius: 16px; border: 3px solid #1b1446; background: linear-gradient(#5a46c8, #3a2a8c); color: #fff; font: inherit; font-weight: 800; cursor: pointer; box-shadow: 0 5px 0 #1b1446; padding: 0.4em; }
+.mem-card .mem-front { font-size: 2.2em; color: #ffd23f; }
+.mem-card .mem-back { display: none; font-size: 1.05em; line-height: 1.2; }
+.mem-card.up, .mem-card.done { background: linear-gradient(#fff6e0, #ffe08a); color: #1b1446; }
+.mem-card.done { background: linear-gradient(#b8f5d6, #6fe3a8); }
+.mem-card.up .mem-front, .mem-card.done .mem-front { display: none; }
+.mem-card.up .mem-back, .mem-card.done .mem-back { display: block; }
+.mem-card:focus-visible { outline: 3px solid #7df9ff; outline-offset: 2px; }
+.mem-end { text-align: center; margin: 1em auto; max-width: 520px; padding: 1em; border-radius: 16px; background: rgba(0, 0, 0, 0.25); }
+@media (max-width: 520px) { .mem-card { min-height: 80px; font-size: 0.92em; } }

@@ -100,4 +100,11 @@ window.EZ = window.EZ || {};
   ];
   EZ.area = (id) => EZ.AREAS.find((a) => a.id === id);
   EZ.LEVEL_NAMES = ['', 'Explorador', 'Aventurero', 'Leyenda'];
+  /** Curso del alumno (1-6). Si todavía no lo ha elegido, se usa 6.º (versión original). */
+  EZ.curso = () => { const c = EZ.save && EZ.save.settings ? EZ.save.settings.curso : 0; return c >= 1 && c <= 6 ? c : 6; };
+  /** Factor de facilidad (0,55 en 1.º … 1 en 6.º): enemigos, jefes y minijuegos más suaves en cursos bajos. */
+  EZ.ease = () => [1, 0.55, 0.65, 0.75, 0.85, 0.95, 1][EZ.curso()];
+  /** Nivel máximo de las mecánicas de cada isla según el curso. */
+  EZ.mechCap = () => (EZ.curso() <= 2 ? 1 : EZ.curso() <= 4 ? 2 : 3);
+  EZ.CURSO_NAMES = ['', '1.º de Primaria', '2.º de Primaria', '3.º de Primaria', '4.º de Primaria', '5.º de Primaria', '6.º de Primaria'];
 })(window.EZ);

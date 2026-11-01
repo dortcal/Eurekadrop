@@ -1,7 +1,7 @@
 {
   "name": "Eureka Drop",
   "short_name": "Eureka Drop",
-  "description": "Videojuego educativo de aventuras para 6.º de Primaria.",
+  "description": "Videojuego educativo de aventuras para Primaria (1.º a 6.º).",
   "lang": "es",
   "start_url": "./",
   "scope": "./",

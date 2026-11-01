@@ -1818,6 +1818,255 @@
       "z": 1
      }
     ]
+   },
+   {
+    "titulo": "Animales y plantas",
+    "nivel": 1,
+    "cursos": [
+     1,
+     3
+    ],
+    "zonas": [
+     "Animal",
+     "Planta"
+    ],
+    "elementos": [
+     {
+      "t": "Perro",
+      "z": 0
+     },
+     {
+      "t": "Gato",
+      "z": 0
+     },
+     {
+      "t": "Gallina",
+      "z": 0
+     },
+     {
+      "t": "Delfín",
+      "z": 0
+     },
+     {
+      "t": "Rosa",
+      "z": 1
+     },
+     {
+      "t": "Pino",
+      "z": 1
+     },
+     {
+      "t": "Palmera",
+      "z": 1
+     },
+     {
+      "t": "Tomatera",
+      "z": 1
+     }
+    ]
+   },
+   {
+    "titulo": "Día y noche",
+    "nivel": 1,
+    "cursos": [
+     1,
+     2
+    ],
+    "zonas": [
+     "De día",
+     "De noche"
+    ],
+    "elementos": [
+     {
+      "t": "Sol",
+      "z": 0
+     },
+     {
+      "t": "Desayunar",
+      "z": 0
+     },
+     {
+      "t": "Jugar en el patio",
+      "z": 0
+     },
+     {
+      "t": "Luna",
+      "z": 1
+     },
+     {
+      "t": "Estrellas",
+      "z": 1
+     },
+     {
+      "t": "Dormir",
+      "z": 1
+     }
+    ]
+   },
+   {
+    "titulo": "Verano o invierno",
+    "nivel": 1,
+    "cursos": [
+     1,
+     3
+    ],
+    "zonas": [
+     "Verano",
+     "Invierno"
+    ],
+    "elementos": [
+     {
+      "t": "Bañador",
+      "z": 0
+     },
+     {
+      "t": "Helado",
+      "z": 0
+     },
+     {
+      "t": "Playa",
+      "z": 0
+     },
+     {
+      "t": "Abrigo",
+      "z": 1
+     },
+     {
+      "t": "Bufanda",
+      "z": 1
+     },
+     {
+      "t": "Guantes",
+      "z": 1
+     }
+    ]
+   },
+   {
+    "titulo": "Vertebrados e invertebrados",
+    "nivel": 1,
+    "cursos": [
+     3,
+     4
+    ],
+    "zonas": [
+     "Vertebrado",
+     "Invertebrado"
+    ],
+    "elementos": [
+     {
+      "t": "Perro",
+      "z": 0
+     },
+     {
+      "t": "Pez",
+      "z": 0
+     },
+     {
+      "t": "Águila",
+      "z": 0
+     },
+     {
+      "t": "Lagarto",
+      "z": 0
+     },
+     {
+      "t": "Caracol",
+      "z": 1
+     },
+     {
+      "t": "Araña",
+      "z": 1
+     },
+     {
+      "t": "Mariposa",
+      "z": 1
+     },
+     {
+      "t": "Pulpo",
+      "z": 1
+     }
+    ]
+   },
+   {
+    "titulo": "Origen de los alimentos",
+    "nivel": 1,
+    "cursos": [
+     3,
+     4
+    ],
+    "zonas": [
+     "Origen animal",
+     "Origen vegetal"
+    ],
+    "elementos": [
+     {
+      "t": "Leche",
+      "z": 0
+     },
+     {
+      "t": "Huevo",
+      "z": 0
+     },
+     {
+      "t": "Pescado",
+      "z": 0
+     },
+     {
+      "t": "Manzana",
+      "z": 1
+     },
+     {
+      "t": "Lechuga",
+      "z": 1
+     },
+     {
+      "t": "Garbanzos",
+      "z": 1
+     }
+    ]
+   },
+   {
+    "titulo": "Los estados del agua",
+    "nivel": 1,
+    "cursos": [
+     4,
+     5
+    ],
+    "zonas": [
+     "Sólido",
+     "Líquido",
+     "Gaseoso"
+    ],
+    "elementos": [
+     {
+      "t": "Hielo",
+      "z": 0
+     },
+     {
+      "t": "Granizo",
+      "z": 0
+     },
+     {
+      "t": "Lluvia",
+      "z": 1
+     },
+     {
+      "t": "Río",
+      "z": 1
+     },
+     {
+      "t": "Mar",
+      "z": 1
+     },
+     {
+      "t": "Vapor de la olla",
+      "z": 2
+     },
+     {
+      "t": "Vapor de agua del aire",
+      "z": 2
+     }
+    ]
    }
   ]
  }

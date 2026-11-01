@@ -4,16 +4,18 @@
    sirve desde la caché y actualiza en segundo plano.
    Si cambias archivos, sube el número de VERSION.
    ========================================================== */
-const VERSION = 'eureka-drop-v1.1.1';
+const VERSION = 'eureka-drop-v1.2.0';
 const FILES = [
   './', 'index.html', 'manifest.webmanifest',
   'css/style.css', 'css/menu.css', 'css/game.css',
   'js/util.js', 'js/storage.js', 'js/icons.js', 'js/audio.js', 'js/questions.js', 'js/challenges.js',
   'js/art.js', 'js/level-gen.js', 'js/mechanics.js', 'js/minigames.js', 'js/controls.js', 'js/phrases.js',
   'js/story.js', 'js/scoring.js', 'js/progression.js', 'js/game-engine.js', 'js/stats.js', 'js/diploma.js',
-  'js/ui.js', 'js/main.js',
+  'js/ui.js', 'js/memory.js', 'js/main.js',
   'data/matematicas.json', 'data/lengua.json', 'data/conocimiento-medio.json', 'data/ingles.json',
   'data/educacion-fisica.json', 'data/bundle.js',
+  'data/matematicas-cursos.json', 'data/lengua-cursos.json', 'data/conocimiento-medio-cursos.json', 'data/ingles-cursos.json',
+  'data/educacion-fisica-cursos.json',
   'assets/icons/icon.svg', 'assets/icons/icon-192.png', 'assets/icons/icon-512.png'
 ];
 

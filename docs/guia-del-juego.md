@@ -1,6 +1,6 @@
 # EUREKA DROP — Documento de diseño y guía del juego
 
-> Videojuego educativo de aventuras para 6.º de Educación Primaria (11-12 años).
+> Videojuego educativo de aventuras para Educación Primaria (1.º a 6.º). El diseño original se pensó para 6.º (11-12 años); la versión 1.2 añade la adaptación por cursos (ver `docs/curriculo-canarias.md`).
 > Este documento recoge la **Fase 1 (diseño)** y sirve de guía para docentes.
 
 ---

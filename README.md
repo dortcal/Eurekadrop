@@ -1,6 +1,6 @@
 # EUREKA DROP
 
-**Videojuego educativo de aventuras para 6.º de Educación Primaria (11-12 años).**
+**Videojuego educativo de aventuras para Educación Primaria (de 1.º a 6.º), con preguntas y dificultad adaptadas a cada curso.**
 
 *Diseñado por David OZC · 2026 · Licencia CC BY-NC-ND 4.0 · Uso gratuito en centros educativos.*
 Cinco islas, un borrón gigante y toda tu sabiduría: explora, salta, resuelve retos y libera a los guardianes de Matemáticas, Lengua, Conocimiento del Medio, Inglés y Educación Física.
@@ -20,7 +20,10 @@ Funciona en el navegador (ordenador, tableta y móvil), sin instalar nada, sin r
   - Estadio Turbo · *Pista Turbo* (carrera de obstáculos) y *Calentamiento al ritmo* (secuencias).
 - **Guardianes finales** con patrones de ataque distintos; se derrotan con *orbes del saber* (retos).
 - **8 formatos de reto**: elección múltiple, verdadero/falso, respuesta escrita, ordenar, colocar en huecos, relacionar, señalar en imagen (mapa de Canarias, coordenadas, gráficos) y escuchar (voz del navegador). Muchos incluyen gráficos, tablas, ángulos, fracciones o relojes.
-- **360 retos** en archivos JSON independientes + datos de las mecánicas.
+- **Elige tu curso (1.º a 6.º):** las preguntas, las mecánicas de cada isla y la dificultad se ajustan al nivel. En 1.º-3.º hay más vidas, pistas gratis, enemigos y jefes más lentos, sin eventos con prisa y lectura en voz alta; en 4.º-5.º, apoyos intermedios. Pensado para que cualquier alumno pueda jugar y mejorar. Ver `docs/curriculo-canarias.md`.
+- **Más de 900 retos** (y cálculo mental generado al vuelo en 1.º-5.º) en archivos JSON independientes + datos de las mecánicas. Informe por curso y tema en `docs/cobertura-preguntas.md`.
+- **Memoria Eureka:** minijuego de parejas (palabra ↔ significado, operación ↔ resultado…) con contenido del curso, sin tiempo límite.
+- **Botón «Leer»** en cada reto para escuchar la pregunta (voz del navegador).
 - **Modos**: Historia (5 islas × 3 fases + combate final), Rápido (cualquier área y nivel) y **Desafío del Día** (mezcla de áreas, recompensa diaria y racha).
 - **Niveles** Explorador / Aventurero / Leyenda y **dificultad adaptativa** dentro de la partida.
 - Vidas, puntuación con rachas y multiplicadores, monedas, pistas, logros (22), reliquias (18), accesorios desbloqueables y rival (Rayo).
@@ -79,21 +82,28 @@ eureka-drop/
 │   ├── game-engine.js      Bucle de juego, física, enemigos, jefes, eventos
 │   ├── stats.js            Panel de seguimiento del aprendizaje
 │   ├── diploma.js          Diploma PNG/PDF
-│   ├── ui.js               Pantallas, menús, créditos y pie de licencia
+│   ├── ui.js               Pantallas, menús, selector de curso, créditos y pie de licencia
+│   ├── memory.js           Minijuego «Memoria Eureka»
 │   └── main.js             Arranque
 ├── data/
-│   ├── matematicas.json        74 retos
-│   ├── lengua.json             72 retos + palabras de «Letras perdidas»
-│   ├── conocimiento-medio.json 92 retos + clasificaciones
+│   ├── matematicas.json        74 retos originales (5.º-6.º)
+│   ├── lengua.json             72 retos + palabras de «Letras perdidas» (con etiqueta de curso)
+│   ├── conocimiento-medio.json 92 retos + clasificaciones (con etiqueta de curso)
 │   ├── ingles.json             70 retos + lugares de «Follow directions»
 │   ├── educacion-fisica.json   52 retos + movimientos y consejos
+│   ├── *-cursos.json           Banco ampliado por cursos (1.º-6.º); campo "cursos": [mín, máx]
 │   └── bundle.js               Copia generada para abrir sin servidor
 ├── assets/icons/           Iconos de la app
 ├── tools/
+│   ├── content/*.py        Fuente de las preguntas por curso (se escriben en Python)
+│   ├── build-questions.py  Regenera los *-cursos.json, el bundle y comprueba la estructura
+│   ├── coverage-report.py  Informe de preguntas por curso y bloque
 │   ├── build-bundle.py     Regenera data/bundle.js
 │   ├── check-questions.py  Revisa la estructura de los JSON
 │   └── test-bot.js         Pruebas automáticas en el navegador (desarrollo)
-└── docs/guia-del-juego.md  Documento de diseño y guía docente
+├── docs/guia-del-juego.md  Documento de diseño y guía docente
+├── docs/curriculo-canarias.md  Relación con el currículo y estado de la verificación
+└── docs/cobertura-preguntas.md Preguntas por curso y bloque
 ```
 
 No hay carpetas de imágenes ni de música: todos los gráficos y sonidos se generan por código. Así el juego pesa poco, carga rápido y no usa recursos de terceros.
@@ -118,6 +128,8 @@ No hay carpetas de imágenes ni de música: todos los gráficos y sonidos se gen
 3. Los jugadores verán los cambios la siguiente vez que abran el juego (a veces hace falta recargar dos veces).
 
 ## Añadir o corregir preguntas
+
+Las preguntas por curso se escriben en `tools/content/*.py` y se generan con `python3 tools/build-questions.py` (también regenera `data/bundle.js` y comprueba la estructura). Las preguntas originales están en `data/*.json`. Para que una pregunta aparezca solo en ciertos cursos, añade `"cursos": [3, 4]` (mínimo y máximo, de 1 a 6); sin ese campo se considera de 5.º-6.º.
 
 Las preguntas están en `data/*.json`. Puedes editarlas con cualquier editor de texto (recomendado: VS Code o la propia web de GitHub, pulsando el lápiz ✏️).
 

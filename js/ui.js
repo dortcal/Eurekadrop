@@ -70,11 +70,13 @@
         <div class="menu-left">
           <div class="logo" aria-label="Eureka Drop"><span class="logo-eureka">EUREKA</span><span class="logo-drop">DROP</span></div>
           <p class="menu-tag">${S.profile.name ? '¡Hola, ' + U.esc(S.profile.name) + '! ' : ''}El Borrón sigue suelto. Historia completada: <b>${EZ.progression.storyPercent()} %</b></p>
+          <button class="btn btn-ghost curso-chip" id="m-curso" type="button" aria-label="Cambiar de curso">${I.star}<span>${S.settings.curso ? 'Curso: ' + EZ.CURSO_NAMES[S.settings.curso] : 'Elige tu curso'}</span></button>
           <button class="btn btn-play btn-xl" id="m-play" type="button" data-autofocus>${I.play}<span>${S.story.introSeen ? 'CONTINUAR AVENTURA' : 'JUGAR'}</span></button>
           <div class="menu-grid">
             <button class="mbtn" data-go="map" type="button">${I.map}<span>Modo Historia</span></button>
             <button class="mbtn" data-go="quick" type="button">${I.bolt}<span>Modo Rápido</span></button>
             <button class="mbtn" data-go="daily" type="button">${I.calendar}<span>Desafío del Día</span>${dailyNew ? '<em class="badge-new">¡NUEVO!</em>' : ''}</button>
+            <button class="mbtn" data-go="memoria" type="button">${I.star}<span>Memoria Eureka</span></button>
             <button class="mbtn" data-go="avatar" type="button">${I.user}<span>Personaje</span></button>
             <button class="mbtn" data-go="stats" type="button">${I.chart}<span>Estadísticas</span></button>
             <button class="mbtn" data-go="diary" type="button">${I.book}<span>Diario</span></button>
@@ -88,8 +90,10 @@
         <div class="menu-right"><canvas id="menu-hero" width="360" height="420" aria-hidden="true"></canvas></div>
       </div>`;
     bindGo(el);
+    $('#m-curso', el).addEventListener('click', () => { EZ.audio.play('click'); UI.go('curso'); });
     $('#m-play', el).addEventListener('click', async () => {
       EZ.audio.play('click');
+      if (!EZ.save.settings.curso) { UI.go('curso', { play: true }); return; }
       if (!EZ.save.story.introSeen) {
         await UI.dialog(EZ.story.intro);
         EZ.save.story.introSeen = true; EZ.store.persist();
@@ -97,6 +101,33 @@
       } else UI.go('map');
     });
     UI.heroCanvas($('#menu-hero', el), 1.9);
+  };
+
+  /* ================= Elegir curso ================= */
+  const CURSO_INFO = [
+    '', 'Números hasta 99, palabras sencillas y animales. Todo se puede escuchar.',
+    'Sumas y restas, frases cortas y el cuerpo humano. Todo se puede escuchar.',
+    'Tablas, lectura y la naturaleza. Muchas ayudas.',
+    'Multiplicar y dividir, textos y el entorno. Algunas ayudas.',
+    'Fracciones, gramática y la historia.', 'Decimales, porcentajes y retos más largos.'
+  ];
+  UI.render.curso = function (el, arg) {
+    const cur = EZ.save.settings.curso || 0;
+    el.innerHTML = header('¿En qué curso estás?') + `<p class="lead">Las preguntas y la dificultad se ajustan a tu curso. Puedes cambiarlo cuando quieras. Si te resulta fácil o difícil, prueba el curso de arriba o de abajo.</p>
+      <div class="curso-grid" role="radiogroup" aria-label="Curso">${[1, 2, 3, 4, 5, 6].map((c) => `<button type="button" role="radio" class="curso-btn ${c === cur ? 'sel' : ''}" aria-checked="${c === cur}" data-c="${c}"><b>${c}.º</b><span>Primaria</span><small>${CURSO_INFO[c]}</small></button>`).join('')}</div>
+      <p class="muted small center">Cursos 1.º a 3.º: más vidas, pistas gratis, enemigos más lentos, sin prisas y lectura en voz alta activada.</p>`;
+    bindGo(el);
+    U.$$('.curso-btn', el).forEach((b) => b.addEventListener('click', async () => {
+      const c = +b.getAttribute('data-c');
+      EZ.save.settings.curso = c;
+      EZ.save.settings.readAloud = c <= 2;
+      EZ.store.persist(); EZ.audio.play('coin');
+      UI.toast('Curso elegido: ' + EZ.CURSO_NAMES[c], 'good', 1800);
+      if (arg && arg.play) {
+        if (!EZ.save.story.introSeen) { await UI.dialog(EZ.story.intro); EZ.save.story.introSeen = true; EZ.store.persist(); UI.go('avatar', { then: 'map' }); }
+        else UI.go('map');
+      } else UI.go('menu');
+    }));
   };
 
   /** Personaje animado en un lienzo (menú y editor). */
@@ -196,7 +227,7 @@
     let area = UI._qa || 'mat', lv = UI._ql || 1;
     el.innerHTML = header('Modo Rápido') + `<p class="lead">Elige un territorio y un nivel. Partida de 5-10 minutos.</p>
       <div class="area-grid" role="radiogroup" aria-label="Territorio">${EZ.AREAS.map((a) => `<button class="area-card" type="button" role="radio" data-a="${a.id}" style="--ac:${a.color}">
-        <canvas width="160" height="110" data-art="${a.id}" aria-hidden="true"></canvas><b>${a.subject}</b><small>${a.island}</small><small class="q-count">${EZ.questions.count(a.id)} retos</small></button>`).join('')}</div>
+        <canvas width="160" height="110" data-art="${a.id}" aria-hidden="true"></canvas><b>${a.subject}</b><small>${a.island}</small><small class="q-count">${EZ.questions.countCurso(a.id, EZ.curso())} retos de tu curso</small></button>`).join('')}</div>
       <div class="lv-row" role="radiogroup" aria-label="Nivel">${[1, 2, 3].map((k) => `<button class="lv-btn" type="button" role="radio" data-l="${k}"><b>${k}</b> ${EZ.LEVEL_NAMES[k]}</button>`).join('')}</div>
       <button class="btn btn-play btn-xl" id="q-go" type="button">${I.play}<span>¡DROP!</span></button>
       <p class="muted small center" id="q-best"></p>`;
@@ -317,7 +348,9 @@
       <label class="toggle"><input type="checkbox" id="s-motion" ${s.reduceMotion ? 'checked' : ''}><span>Reducir animaciones intensas (sin temblores ni destellos)</span></label>
       <label class="toggle"><input type="checkbox" id="s-big" ${s.bigText ? 'checked' : ''}><span>Letra más grande</span></label>
       <label class="toggle"><input type="checkbox" id="s-speed" ${s.speedBonus ? 'checked' : ''}><span>Bonus por rapidez (nunca resta puntos)</span></label>
-      <label class="field"><span>Vidas iniciales</span><select id="s-lives">${[3, 5, 7].map((n) => `<option value="${n}" ${s.lives === n ? 'selected' : ''}>${n}</option>`).join('')}</select></label>
+      <label class="field"><span>Curso</span><select id="s-curso">${[1, 2, 3, 4, 5, 6].map((n) => `<option value="${n}" ${EZ.curso() === n ? 'selected' : ''}>${EZ.CURSO_NAMES[n]}</option>`).join('')}</select></label>
+      <label class="toggle"><input type="checkbox" id="s-read" ${s.readAloud ? 'checked' : ''}><span>Leer las preguntas en voz alta automáticamente</span></label>
+      <label class="field"><span>Vidas iniciales (en 1.º-5.º se suman vidas de apoyo)</span><select id="s-lives">${[3, 5, 7].map((n) => `<option value="${n}" ${s.lives === n ? 'selected' : ''}>${n}</option>`).join('')}</select></label>
       <label class="field"><span>Controles táctiles</span><select id="s-touch"><option value="auto" ${s.touch === 'auto' ? 'selected' : ''}>Automático</option><option value="always" ${s.touch === 'always' ? 'selected' : ''}>Mostrar siempre</option><option value="never" ${s.touch === 'never' ? 'selected' : ''}>Ocultar</option></select></label>
       <div class="danger-zone">
         <h3>Datos guardados en este navegador</h3>
@@ -325,7 +358,7 @@
         <button class="btn btn-ghost" type="button" id="s-rstats">Reiniciar estadísticas</button>
         <button class="btn btn-danger" type="button" id="s-reset">Reiniciar todo el progreso</button>
       </div>
-      <p class="muted small">Eureka Drop v1.0 · Música y gráficos originales generados por código · Bancos de preguntas: ${EZ.AREAS.map((a) => a.subject + ' ' + EZ.questions.count(a.id)).join(', ')}.</p></div>`;
+      <p class="muted small">Eureka Drop v1.2 · Música y gráficos originales generados por código · Preguntas totales: ${EZ.AREAS.map((a) => a.subject + ' ' + EZ.questions.count(a.id)).join(', ')}.</p></div>`;
     bindGo(el);
     const apply = () => { EZ.store.persist(); EZ.audio.applySettings(); UI.applyA11y(); };
     $('#s-music', el).addEventListener('input', (e) => { s.music = +e.target.value; $('#v-music', el).textContent = Math.round(s.music * 100) + '%'; apply(); });
@@ -335,6 +368,8 @@
     $('#s-motion', el).addEventListener('change', (e) => { s.reduceMotion = e.target.checked; apply(); });
     $('#s-big', el).addEventListener('change', (e) => { s.bigText = e.target.checked; apply(); });
     $('#s-speed', el).addEventListener('change', (e) => { s.speedBonus = e.target.checked; apply(); });
+    $('#s-curso', el).addEventListener('change', (e) => { s.curso = +e.target.value; apply(); });
+    $('#s-read', el).addEventListener('change', (e) => { s.readAloud = e.target.checked; apply(); });
     $('#s-lives', el).addEventListener('change', (e) => { s.lives = +e.target.value; apply(); });
     $('#s-touch', el).addEventListener('change', (e) => { s.touch = e.target.value; apply(); EZ.controls.applyTouchSetting(); });
     $('#s-rstats', el).addEventListener('click', async () => { if (await UI.confirm('¿Borrar todas las estadísticas y récords?')) { EZ.store.resetStats(); UI.toast('Estadísticas reiniciadas.'); } });

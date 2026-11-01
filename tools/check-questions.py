@@ -14,6 +14,9 @@ TYPES = {'mc', 'tf', 'input', 'order', 'place', 'match', 'hotspot', 'listen'}
 errors, ids = [], set()
 for f in FILES:
     data = json.load(open(os.path.join(ROOT, 'data', f + '.json'), encoding='utf-8'))
+    _x = os.path.join(ROOT, 'data', f + '-cursos.json')
+    if os.path.exists(_x):
+        data['preguntas'] = data['preguntas'] + json.load(open(_x, encoding='utf-8'))['preguntas']
     for q in data['preguntas']:
         qid = q.get('id', '?')
         def err(m): errors.append(f'{f}: {qid}: {m}')
@@ -24,6 +27,8 @@ for f in FILES:
         t = q.get('tipo')
         if t not in TYPES: err('tipo desconocido ' + str(t)); continue
         if q.get('nivel') not in (1, 2, 3): err('nivel debe ser 1, 2 o 3')
+        c = q.get('cursos')
+        if c is not None and not (isinstance(c, list) and len(c) == 2 and 1 <= c[0] <= c[1] <= 6): err('cursos debe ser [min, max] entre 1 y 6')
         if t in ('mc', 'listen'):
             o = q.get('opciones', [])
             if len(o) < 2: err('pocas opciones')

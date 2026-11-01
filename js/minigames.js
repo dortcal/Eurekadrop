@@ -45,7 +45,7 @@
       const resize = () => { W = cv.clientWidth; H = cv.clientHeight; cv.width = W * dpr; cv.height = H * dpr; ctx.setTransform(dpr, 0, 0, dpr, 0, 0); };
       resize(); window.addEventListener('resize', resize);
       const dur = [0, 25, 30, 35][lv];
-      let speed = [0, 300, 350, 400][lv], t = 0, hits = 0, stars = 0, inv = 0, spawn = 1.2, last = performance.now(), done = false, py = 0, vy = 0, duck = 0, walk = 0;
+      let speed = [0, 300, 350, 400][lv] * EZ.ease(), t = 0, hits = 0, stars = 0, inv = 0, spawn = 1.2, last = performance.now(), done = false, py = 0, vy = 0, duck = 0, walk = 0;
       const obs = [];
       const ground = () => H * 0.78;
       const jump = () => { if (py === 0 && duck <= 0) { vy = 760; EZ.audio.play('jump'); } };

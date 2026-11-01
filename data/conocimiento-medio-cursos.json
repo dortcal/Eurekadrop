@@ -1,0 +1,2489 @@
+{
+ "area": "med",
+ "nombre": "Conocimiento del Medio",
+ "version": 1,
+ "nota": "Banco ampliado por cursos (1.º-6.º). Campo 'cursos': [mínimo, máximo].",
+ "preguntas": [
+  {
+   "id": "med-c001",
+   "bloque": "Los sentidos",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Con qué sentido olemos?",
+   "pista": "Usamos la nariz.",
+   "explicacion": "Olemos con el olfato.",
+   "opciones": [
+    "El olfato",
+    "La vista",
+    "El oído",
+    "El gusto"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "med-c002",
+   "bloque": "Los sentidos",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuántos sentidos tenemos?",
+   "pista": "Vista, oído, olfato, gusto y tacto.",
+   "explicacion": "Tenemos 5 sentidos.",
+   "opciones": [
+    "3",
+    "5",
+    "4",
+    "10"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "med-c003",
+   "bloque": "Los sentidos",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "match",
+   "enunciado": "Une cada parte del cuerpo con lo que nos permite hacer.",
+   "pista": "Piensa en qué usas para cada cosa.",
+   "explicacion": "Ojos: ver · oídos: oír · nariz: oler · lengua: saborear.",
+   "pares": [
+    [
+     "Los ojos",
+     "ver"
+    ],
+    [
+     "Los oídos",
+     "oír"
+    ],
+    [
+     "La nariz",
+     "oler"
+    ],
+    [
+     "La lengua",
+     "saborear"
+    ]
+   ]
+  },
+  {
+   "id": "med-c004",
+   "bloque": "Seres vivos",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál de estos animales vive en el mar?",
+   "pista": "Nada y vive en el agua salada.",
+   "explicacion": "El delfín es un animal marino.",
+   "opciones": [
+    "La vaca",
+    "La gallina",
+    "El burro",
+    "El delfín"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "med-c005",
+   "bloque": "Seres vivos",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "Para crecer, una planta necesita agua y…",
+   "pista": "Las plantas buscan el sol.",
+   "explicacion": "Agua, luz y aire para vivir.",
+   "opciones": [
+    "luz del sol",
+    "chocolate",
+    "juguetes",
+    "sombra todo el día"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "med-c006",
+   "bloque": "El tiempo y las estaciones",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "¿En qué estación del año hace más calor?",
+   "pista": "Es cuando vamos a la playa.",
+   "explicacion": "El verano es la estación más cálida.",
+   "opciones": [
+    "En invierno",
+    "En verano",
+    "En otoño",
+    "En primavera"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "med-c007",
+   "bloque": "El tiempo y las estaciones",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuántas estaciones tiene el año?",
+   "pista": "Primavera, verano, otoño e invierno.",
+   "explicacion": "El año tiene 4 estaciones.",
+   "opciones": [
+    "2",
+    "3",
+    "4",
+    "6"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "med-c008",
+   "bloque": "Salud e higiene",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Qué debemos hacer antes de comer?",
+   "pista": "Los microbios viven en las manos.",
+   "explicacion": "Lavarse las manos evita enfermedades.",
+   "opciones": [
+    "Correr",
+    "Saltar",
+    "Dormir",
+    "Lavarnos las manos"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "med-c009",
+   "bloque": "Canarias",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "Las islas Canarias están en el océano…",
+   "pista": "Está entre Europa, África y América.",
+   "explicacion": "Canarias está en el océano Atlántico.",
+   "opciones": [
+    "Atlántico",
+    "Pacífico",
+    "Índico",
+    "Ártico"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "med-c010",
+   "bloque": "El universo",
+   "nivel": 2,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "tf",
+   "enunciado": "El Sol es una estrella.",
+   "pista": "Da luz y calor.",
+   "explicacion": "El Sol es la estrella más cercana a la Tierra.",
+   "correcta": true
+  },
+  {
+   "id": "med-c011",
+   "bloque": "Seres vivos",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál de estos animales es doméstico?",
+   "pista": "Vive con las personas.",
+   "explicacion": "El perro vive con las personas.",
+   "opciones": [
+    "El lobo",
+    "El águila",
+    "El perro",
+    "El tiburón"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "med-c012",
+   "bloque": "Seguridad vial",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "Si el semáforo está en rojo para los peatones, debemos…",
+   "pista": "Rojo significa parar.",
+   "explicacion": "Con el semáforo en rojo se espera.",
+   "opciones": [
+    "cruzar corriendo",
+    "cruzar despacio",
+    "jugar en la calle",
+    "esperar"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "med-c013",
+   "bloque": "El agua",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "El hielo es agua en estado…",
+   "pista": "Tiene forma propia.",
+   "explicacion": "El hielo es agua sólida.",
+   "opciones": [
+    "sólido",
+    "líquido",
+    "gaseoso",
+    "vapor"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "med-c014",
+   "bloque": "El agua",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "Si calentamos mucho el agua líquida, se convierte en…",
+   "pista": "Sale de la olla cuando hierve.",
+   "explicacion": "El agua caliente se evapora.",
+   "opciones": [
+    "hielo",
+    "vapor",
+    "arena",
+    "aceite"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "med-c015",
+   "bloque": "Los animales",
+   "nivel": 2,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál de estos animales es vertebrado?",
+   "pista": "Tiene huesos y columna vertebral.",
+   "explicacion": "El perro tiene esqueleto interno.",
+   "opciones": [
+    "La mariposa",
+    "La araña",
+    "El perro",
+    "El caracol"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "med-c016",
+   "bloque": "Los animales",
+   "nivel": 2,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál de estos animales es invertebrado?",
+   "pista": "No tiene huesos.",
+   "explicacion": "La mariposa no tiene columna vertebral.",
+   "opciones": [
+    "El gato",
+    "El pez",
+    "La gallina",
+    "La mariposa"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "med-c017",
+   "bloque": "La alimentación",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál de estos alimentos es de origen vegetal?",
+   "pista": "Crece en un árbol.",
+   "explicacion": "La manzana viene de una planta.",
+   "opciones": [
+    "La manzana",
+    "La leche",
+    "El huevo",
+    "El jamón"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "med-c018",
+   "bloque": "La alimentación",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "La leche es un alimento de origen…",
+   "pista": "Nos la dan las vacas, cabras…",
+   "explicacion": "Es de origen animal.",
+   "opciones": [
+    "vegetal",
+    "animal",
+    "mineral",
+    "artificial"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "med-c019",
+   "bloque": "Los materiales",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál de estos materiales es transparente?",
+   "pista": "Se puede ver a través.",
+   "explicacion": "El vidrio deja pasar la luz.",
+   "opciones": [
+    "La madera",
+    "El hierro",
+    "El vidrio",
+    "El cartón"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "med-c020",
+   "bloque": "El transporte",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál de estos es un medio de transporte aéreo?",
+   "pista": "Vuela por el aire.",
+   "explicacion": "El avión viaja por el aire.",
+   "opciones": [
+    "El barco",
+    "El tren",
+    "La bicicleta",
+    "El avión"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "med-c021",
+   "bloque": "Canarias",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "El Teide, el pico más alto de Canarias, está en la isla de…",
+   "pista": "Es la isla más grande.",
+   "explicacion": "El Teide está en Tenerife.",
+   "opciones": [
+    "Tenerife",
+    "La Palma",
+    "Lanzarote",
+    "El Hierro"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "med-c022",
+   "bloque": "Canarias",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "Un volcán en erupción echa…",
+   "pista": "Está muy caliente.",
+   "explicacion": "La lava es roca fundida.",
+   "opciones": [
+    "nieve",
+    "lava",
+    "agua dulce",
+    "arena de playa"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "med-c023",
+   "bloque": "El cuerpo humano",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "Los pulmones sirven para…",
+   "pista": "Entra y sale aire.",
+   "explicacion": "Respiramos con los pulmones.",
+   "opciones": [
+    "comer",
+    "ver",
+    "respirar",
+    "andar"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "med-c024",
+   "bloque": "Las plantas",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Qué parte de la planta absorbe el agua del suelo?",
+   "pista": "Está bajo tierra.",
+   "explicacion": "La raíz absorbe agua y sales.",
+   "opciones": [
+    "La hoja",
+    "La flor",
+    "El fruto",
+    "La raíz"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "med-c025",
+   "bloque": "Las profesiones",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "match",
+   "enunciado": "Une cada profesión con lo que hace.",
+   "pista": "Piensa en el trabajo de cada uno.",
+   "explicacion": "Cada profesión cumple una tarea útil.",
+   "pares": [
+    [
+     "El médico",
+     "cura a los enfermos"
+    ],
+    [
+     "El bombero",
+     "apaga los fuegos"
+    ],
+    [
+     "El panadero",
+     "hace pan"
+    ],
+    [
+     "La maestra",
+     "enseña a los niños"
+    ]
+   ]
+  },
+  {
+   "id": "med-c026",
+   "bloque": "Los animales",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "Los animales que dan leche a sus crías son los…",
+   "pista": "Mamar = tomar leche.",
+   "explicacion": "Los mamíferos amamantan a sus crías.",
+   "opciones": [
+    "reptiles",
+    "mamíferos",
+    "peces",
+    "insectos"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "med-c027",
+   "bloque": "Los animales",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "Las aves se distinguen porque tienen…",
+   "pista": "Les permiten volar.",
+   "explicacion": "Las aves tienen plumas y pico.",
+   "opciones": [
+    "pelo",
+    "escamas",
+    "plumas",
+    "caparazón"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "med-c028",
+   "bloque": "Los animales",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "El lagarto es un animal…",
+   "pista": "Tiene la piel con escamas.",
+   "explicacion": "Los lagartos son reptiles.",
+   "opciones": [
+    "mamífero",
+    "ave",
+    "pez",
+    "reptil"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "med-c029",
+   "bloque": "El cuerpo humano",
+   "nivel": 2,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Qué hueso protege el cerebro?",
+   "pista": "Está en la cabeza.",
+   "explicacion": "El cráneo cubre el cerebro.",
+   "opciones": [
+    "El cráneo",
+    "El fémur",
+    "El húmero",
+    "La costilla"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "med-c030",
+   "bloque": "El cuerpo humano",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "Los músculos sirven para…",
+   "pista": "Se contraen y se relajan.",
+   "explicacion": "Gracias a los músculos nos movemos.",
+   "opciones": [
+    "pensar",
+    "mover el cuerpo",
+    "oler",
+    "digerir las ideas"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "med-c031",
+   "bloque": "Las plantas",
+   "nivel": 2,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "Las plantas fabrican su alimento con la luz del sol mediante la…",
+   "pista": "Foto = luz.",
+   "explicacion": "En la fotosíntesis fabrican su alimento.",
+   "opciones": [
+    "respiración",
+    "digestión",
+    "fotosíntesis",
+    "germinación"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "med-c032",
+   "bloque": "La energía",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál de estas fuentes de energía es renovable?",
+   "pista": "Nunca se acaba.",
+   "explicacion": "El viento es una energía renovable.",
+   "opciones": [
+    "El petróleo",
+    "El carbón",
+    "El gas",
+    "El viento"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "med-c033",
+   "bloque": "El universo",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "El Sol sale por el…",
+   "pista": "Por donde amanece.",
+   "explicacion": "Sale por el este y se pone por el oeste.",
+   "opciones": [
+    "este",
+    "oeste",
+    "norte",
+    "sur"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "med-c034",
+   "bloque": "Canarias",
+   "nivel": 2,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál es la isla más grande de Canarias?",
+   "pista": "Tiene el Teide.",
+   "explicacion": "Tenerife es la isla de mayor extensión.",
+   "opciones": [
+    "La Gomera",
+    "Tenerife",
+    "El Hierro",
+    "Lanzarote"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "med-c035",
+   "bloque": "Canarias",
+   "nivel": 3,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál es la isla más occidental de Canarias?",
+   "pista": "Está más al oeste que todas.",
+   "explicacion": "El Hierro es la isla situada más al oeste.",
+   "opciones": [
+    "Fuerteventura",
+    "Lanzarote",
+    "El Hierro",
+    "La Palma"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "med-c036",
+   "bloque": "El universo",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "tf",
+   "enunciado": "La Tierra gira alrededor del Sol.",
+   "pista": "A ese movimiento se le llama traslación.",
+   "explicacion": "La Tierra orbita alrededor del Sol.",
+   "correcta": true
+  },
+  {
+   "id": "med-c037",
+   "bloque": "El universo",
+   "nivel": 2,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "La rotación de la Tierra sobre sí misma produce…",
+   "pista": "Gira en 24 horas.",
+   "explicacion": "Al girar, un lado recibe luz y el otro no.",
+   "opciones": [
+    "el día y la noche",
+    "las estaciones",
+    "las mareas solo",
+    "los eclipses"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "med-c038",
+   "bloque": "El universo",
+   "nivel": 2,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "La traslación de la Tierra alrededor del Sol produce…",
+   "pista": "Dura un año.",
+   "explicacion": "Con la inclinación del eje, originan las estaciones.",
+   "opciones": [
+    "el día y la noche",
+    "las estaciones",
+    "los volcanes",
+    "el viento"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "med-c039",
+   "bloque": "Ecosistemas",
+   "nivel": 1,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "En una cadena alimentaria, los productores son…",
+   "pista": "Fabrican su alimento.",
+   "explicacion": "Las plantas producen alimento con la luz.",
+   "opciones": [
+    "los leones",
+    "los hongos",
+    "las plantas",
+    "las personas"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "med-c040",
+   "bloque": "Ecosistemas",
+   "nivel": 1,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "Un animal que come solo plantas es…",
+   "pista": "Herba = hierba.",
+   "explicacion": "Herbívoro: come vegetales.",
+   "opciones": [
+    "carnívoro",
+    "omnívoro",
+    "descomponedor",
+    "herbívoro"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "med-c041",
+   "bloque": "Ecosistemas",
+   "nivel": 1,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál de estos animales es carnívoro?",
+   "pista": "Se alimenta de otros animales.",
+   "explicacion": "El león come carne.",
+   "opciones": [
+    "El león",
+    "La vaca",
+    "El conejo",
+    "La cabra"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "med-c042",
+   "bloque": "El cuerpo humano",
+   "nivel": 1,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Qué órgano bombea la sangre por el cuerpo?",
+   "pista": "Late sin parar.",
+   "explicacion": "El corazón impulsa la sangre.",
+   "opciones": [
+    "El estómago",
+    "El corazón",
+    "El pulmón",
+    "El riñón"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "med-c043",
+   "bloque": "El cuerpo humano",
+   "nivel": 2,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "Al respirar expulsamos…",
+   "pista": "Es el gas que desechamos.",
+   "explicacion": "Tomamos oxígeno y expulsamos CO₂.",
+   "opciones": [
+    "oxígeno puro",
+    "nitrógeno solo",
+    "dióxido de carbono",
+    "agua"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "med-c044",
+   "bloque": "La materia",
+   "nivel": 2,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "Cuando el agua líquida se convierte en hielo, el cambio se llama…",
+   "pista": "Pasa de líquido a sólido.",
+   "explicacion": "Líquido → sólido: solidificación.",
+   "opciones": [
+    "evaporación",
+    "fusión",
+    "condensación",
+    "solidificación"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "med-c045",
+   "bloque": "La electricidad",
+   "nivel": 2,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál de estos materiales es buen conductor eléctrico?",
+   "pista": "Los cables llevan este metal.",
+   "explicacion": "El cobre conduce muy bien la electricidad.",
+   "opciones": [
+    "El cobre",
+    "La madera",
+    "El plástico",
+    "El vidrio"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "med-c046",
+   "bloque": "La Historia",
+   "nivel": 1,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "La etapa de la Historia anterior a la escritura se llama…",
+   "pista": "Pre = antes.",
+   "explicacion": "La Prehistoria es anterior a la escritura.",
+   "opciones": [
+    "Edad Media",
+    "Prehistoria",
+    "Edad Moderna",
+    "Edad Antigua"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "med-c047",
+   "bloque": "Organización política",
+   "nivel": 2,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "El órgano que gobierna un municipio es…",
+   "pista": "Lo encabeza el alcalde o la alcaldesa.",
+   "explicacion": "Cada municipio lo gobierna su ayuntamiento.",
+   "opciones": [
+    "el Parlamento",
+    "el Congreso",
+    "el ayuntamiento",
+    "el Senado"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "med-c048",
+   "bloque": "La materia",
+   "nivel": 3,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "Si mezclas agua y aceite, ¿qué ocurre?",
+   "pista": "El aceite flota.",
+   "explicacion": "Se ven las dos sustancias separadas.",
+   "opciones": [
+    "Se mezclan del todo",
+    "Se convierten en gas",
+    "Desaparecen",
+    "No se mezclan: forman una mezcla heterogénea"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "med-c049",
+   "bloque": "Geografía",
+   "nivel": 2,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "Un río desemboca en…",
+   "pista": "Es donde termina.",
+   "explicacion": "El río termina en el mar o en otro río.",
+   "opciones": [
+    "el mar",
+    "la montaña",
+    "un desierto",
+    "una nube"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "med-c050",
+   "bloque": "Canarias",
+   "nivel": 1,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "tf",
+   "enunciado": "Las islas Canarias son de origen volcánico.",
+   "pista": "El Teide es un volcán.",
+   "explicacion": "Surgieron de erupciones volcánicas bajo el mar.",
+   "correcta": true
+  },
+  {
+   "id": "med-c051",
+   "bloque": "Reciclaje",
+   "nivel": 1,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "match",
+   "enunciado": "Une cada contenedor con lo que se echa en él.",
+   "pista": "Piensa en el color de cada contenedor.",
+   "explicacion": "Azul: papel · amarillo: envases · verde: vidrio · marrón: orgánico.",
+   "pares": [
+    [
+     "Azul",
+     "papel y cartón"
+    ],
+    [
+     "Amarillo",
+     "envases de plástico y latas"
+    ],
+    [
+     "Verde",
+     "vidrio"
+    ],
+    [
+     "Marrón",
+     "restos orgánicos"
+    ]
+   ]
+  },
+  {
+   "id": "med-c052",
+   "bloque": "El cuerpo humano",
+   "nivel": 2,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Qué órganos filtran la sangre y fabrican la orina?",
+   "pista": "Son dos, con forma de judía.",
+   "explicacion": "Los riñones filtran la sangre.",
+   "opciones": [
+    "Los pulmones",
+    "El hígado",
+    "El estómago",
+    "Los riñones"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "med-c053",
+   "bloque": "El cuerpo humano",
+   "nivel": 3,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuántos huesos tiene aproximadamente un adulto?",
+   "pista": "Un número entre 200 y 210.",
+   "explicacion": "El esqueleto adulto tiene 206 huesos.",
+   "opciones": [
+    "206",
+    "106",
+    "306",
+    "56"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "med-c054",
+   "bloque": "La energía",
+   "nivel": 2,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "La energía que tiene un cuerpo por estar en movimiento se llama…",
+   "pista": "Kinesis = movimiento.",
+   "explicacion": "Energía cinética = movimiento.",
+   "opciones": [
+    "potencial",
+    "cinética",
+    "térmica",
+    "química"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "med-c055",
+   "bloque": "La Historia",
+   "nivel": 3,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "El año 476 d. C. se considera el fin de…",
+   "pista": "Cae el Imperio romano de Occidente.",
+   "explicacion": "Marca el paso de la Edad Antigua a la Edad Media.",
+   "opciones": [
+    "la Prehistoria",
+    "la Edad Media",
+    "la Edad Antigua",
+    "la Edad Moderna"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "med-c056",
+   "bloque": "La Historia",
+   "nivel": 3,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "La Edad Contemporánea suele comenzar con…",
+   "pista": "Es a finales del siglo XVIII.",
+   "explicacion": "La Revolución Francesa es el inicio habitual.",
+   "opciones": [
+    "el descubrimiento de América",
+    "la caída de Roma",
+    "la invención de la rueda",
+    "la Revolución Francesa (1789)"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "med-c057",
+   "bloque": "Geografía",
+   "nivel": 1,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "España está en el continente de…",
+   "pista": "Aunque Canarias esté cerca de África.",
+   "explicacion": "España es un país europeo.",
+   "opciones": [
+    "Europa",
+    "África",
+    "Asia",
+    "América"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "med-c058",
+   "bloque": "Geografía",
+   "nivel": 2,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "La cordillera que separa España de Francia es…",
+   "pista": "Está en el norte.",
+   "explicacion": "Los Pirineos forman la frontera natural.",
+   "opciones": [
+    "los Alpes",
+    "los Pirineos",
+    "los Andes",
+    "los Picos de Europa"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "med-c059",
+   "bloque": "Geografía",
+   "nivel": 2,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Qué río pasa por Sevilla?",
+   "pista": "Es el río andaluz más largo.",
+   "explicacion": "Sevilla está junto al Guadalquivir.",
+   "opciones": [
+    "El Ebro",
+    "El Tajo",
+    "El Guadalquivir",
+    "El Duero"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "med-c060",
+   "bloque": "Clima de Canarias",
+   "nivel": 2,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "El clima de Canarias es…",
+   "pista": "Las temperaturas casi no cambian.",
+   "explicacion": "Es un clima suave por su latitud y el océano.",
+   "opciones": [
+    "polar",
+    "desértico siempre",
+    "muy frío en invierno",
+    "subtropical, suave durante todo el año"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "med-c061",
+   "bloque": "Clima de Canarias",
+   "nivel": 3,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "Los vientos alisios forman en las islas altas…",
+   "pista": "Chocan con las montañas.",
+   "explicacion": "Las nubes se acumulan en la vertiente norte.",
+   "opciones": [
+    "el mar de nubes",
+    "las auroras",
+    "los glaciares",
+    "los tornados"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "med-c062",
+   "bloque": "Sectores económicos",
+   "nivel": 2,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "El turismo pertenece al sector…",
+   "pista": "Es un servicio.",
+   "explicacion": "El turismo es un servicio.",
+   "opciones": [
+    "primario",
+    "terciario (servicios)",
+    "secundario",
+    "ninguno"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "med-c063",
+   "bloque": "La Unión Europea",
+   "nivel": 1,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "La moneda común de la mayor parte de la Unión Europea es…",
+   "pista": "Con ella pagamos en España.",
+   "explicacion": "El euro es la moneda de la zona euro.",
+   "opciones": [
+    "la libra",
+    "el dólar",
+    "el euro",
+    "el franco"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "med-c064",
+   "bloque": "Método científico",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "order",
+   "enunciado": "Ordena los pasos del método científico.",
+   "pista": "Primero miras, al final cuentas lo que has descubierto.",
+   "explicacion": "Observar → hipótesis → experimento → análisis → conclusiones.",
+   "elementos": [
+    "Observar y hacerse una pregunta",
+    "Formular una hipótesis",
+    "Realizar un experimento",
+    "Analizar los resultados",
+    "Comunicar las conclusiones"
+   ],
+   "separador": " → "
+  },
+  {
+   "id": "med-c065",
+   "bloque": "Método científico",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "Una hipótesis es…",
+   "pista": "Se pone a prueba.",
+   "explicacion": "Es una respuesta provisional que se comprueba.",
+   "opciones": [
+    "una explicación posible que hay que comprobar",
+    "una conclusión segura",
+    "un instrumento",
+    "una medida"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "med-c066",
+   "bloque": "Método científico",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "tf",
+   "enunciado": "En un experimento justo se cambian varias cosas a la vez.",
+   "pista": "Si cambias muchas cosas, no sabes cuál influye.",
+   "explicacion": "Se cambia una sola variable cada vez.",
+   "correcta": false
+  },
+  {
+   "id": "med-c067",
+   "bloque": "El cuerpo humano",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Dónde se absorben la mayoría de los nutrientes?",
+   "pista": "Tiene millones de vellosidades.",
+   "explicacion": "El intestino delgado absorbe nutrientes.",
+   "opciones": [
+    "En el estómago",
+    "En la boca",
+    "En el intestino delgado",
+    "En el esófago"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "med-c068",
+   "bloque": "El cuerpo humano",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuántas cavidades tiene el corazón humano?",
+   "pista": "Dos aurículas y dos ventrículos.",
+   "explicacion": "El corazón tiene 4 cavidades.",
+   "opciones": [
+    "2",
+    "3",
+    "6",
+    "4"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "med-c069",
+   "bloque": "El cuerpo humano",
+   "nivel": 3,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "El intercambio de gases en los pulmones ocurre en…",
+   "pista": "Son sacos minúsculos.",
+   "explicacion": "Los alvéolos pasan oxígeno a la sangre.",
+   "opciones": [
+    "los alvéolos",
+    "los bronquios",
+    "la tráquea",
+    "las costillas"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "med-c070",
+   "bloque": "El cuerpo humano",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "Los nervios llevan información entre el cuerpo y…",
+   "pista": "Son como cables.",
+   "explicacion": "Los nervios conectan con cerebro y médula espinal.",
+   "opciones": [
+    "los pulmones",
+    "el sistema nervioso central (cerebro y médula)",
+    "el estómago",
+    "los huesos"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "med-c071",
+   "bloque": "Salud",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "Los niños y niñas de esta edad necesitan dormir aproximadamente…",
+   "pista": "Dormir bien ayuda a aprender.",
+   "explicacion": "Se recomienda dormir unas 9–11 horas.",
+   "opciones": [
+    "4 horas",
+    "6 horas",
+    "entre 9 y 11 horas",
+    "14 horas"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "med-c072",
+   "bloque": "Salud",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "tf",
+   "enunciado": "Lavarse las manos ayuda a prevenir infecciones.",
+   "pista": "Eliminas microbios.",
+   "explicacion": "Es una de las mejores medidas de higiene.",
+   "correcta": true
+  },
+  {
+   "id": "med-c073",
+   "bloque": "Salud",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Qué número de teléfono debes llamar en una emergencia en España?",
+   "pista": "Es el teléfono europeo de emergencias.",
+   "explicacion": "El 112 atiende emergencias.",
+   "opciones": [
+    "112",
+    "091",
+    "012",
+    "900"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "med-c074",
+   "bloque": "La materia",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "El cambio de líquido a gas se llama…",
+   "pista": "Pasa a vapor.",
+   "explicacion": "Líquido → gas: vaporización.",
+   "opciones": [
+    "solidificación",
+    "vaporización",
+    "fusión",
+    "sublimación inversa"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "med-c075",
+   "bloque": "La materia",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "El agua con sal disuelta es una mezcla…",
+   "pista": "No se distinguen sus componentes.",
+   "explicacion": "No se ven por separado: homogénea.",
+   "opciones": [
+    "heterogénea",
+    "imposible",
+    "homogénea",
+    "gaseosa"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "med-c076",
+   "bloque": "La materia",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "Para separar arena del agua se usa…",
+   "pista": "Se pasa por un filtro.",
+   "explicacion": "El filtro retiene la arena.",
+   "opciones": [
+    "la evaporación",
+    "la imantación",
+    "la destilación",
+    "la filtración"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "med-c077",
+   "bloque": "La materia",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "tf",
+   "enunciado": "La oxidación del hierro es un cambio químico.",
+   "pista": "Se forma una sustancia nueva: el óxido.",
+   "explicacion": "Aparece óxido: cambio químico.",
+   "correcta": true
+  },
+  {
+   "id": "med-c078",
+   "bloque": "La energía",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Qué energía renovable se aprovecha mucho en Canarias gracias al viento constante?",
+   "pista": "Los aerogeneradores.",
+   "explicacion": "La energía eólica usa el viento.",
+   "opciones": [
+    "El carbón",
+    "La eólica",
+    "El gas natural",
+    "El petróleo"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "med-c079",
+   "bloque": "La energía",
+   "nivel": 3,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "En El Hierro, la central Gorona del Viento combina energía eólica con…",
+   "pista": "Bombea agua a un depósito.",
+   "explicacion": "Es una central hidroeólica.",
+   "opciones": [
+    "energía nuclear",
+    "carbón",
+    "energía hidráulica",
+    "gas natural"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "med-c080",
+   "bloque": "La energía",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "tf",
+   "enunciado": "Las placas fotovoltaicas transforman la luz del Sol en electricidad.",
+   "pista": "Fotovoltaica = luz + electricidad.",
+   "explicacion": "Eso es la energía solar fotovoltaica.",
+   "correcta": true
+  },
+  {
+   "id": "med-c081",
+   "bloque": "La electricidad",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "En un circuito en serie, si se funde una bombilla…",
+   "pista": "La corriente sigue un único camino.",
+   "explicacion": "El circuito queda abierto.",
+   "opciones": [
+    "se apagan todas",
+    "se encienden más",
+    "no pasa nada",
+    "solo se apaga la siguiente"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "med-c082",
+   "bloque": "Las fuerzas",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Qué fuerza nos mantiene pegados al suelo?",
+   "pista": "Hace caer los objetos.",
+   "explicacion": "La gravedad atrae hacia el centro de la Tierra.",
+   "opciones": [
+    "El magnetismo",
+    "La gravedad",
+    "El rozamiento",
+    "La electricidad"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "med-c083",
+   "bloque": "Máquinas",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "Una carretilla es un ejemplo de…",
+   "pista": "Se apoya en un punto.",
+   "explicacion": "La carretilla es una palanca de segundo grado.",
+   "opciones": [
+    "polea",
+    "rueda dentada",
+    "palanca",
+    "plano inclinado"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "med-c084",
+   "bloque": "Ecosistemas",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "En «lechuga → caracol → lagarto», ¿quién es el consumidor secundario?",
+   "pista": "Come a un herbívoro.",
+   "explicacion": "El lagarto se alimenta de un consumidor primario.",
+   "opciones": [
+    "La lechuga",
+    "El caracol",
+    "Ninguno",
+    "El lagarto"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "med-c085",
+   "bloque": "Ecosistemas",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "Los descomponedores son sobre todo…",
+   "pista": "Transforman la materia muerta.",
+   "explicacion": "Hongos y bacterias descomponen restos.",
+   "opciones": [
+    "hongos y bacterias",
+    "leones",
+    "plantas",
+    "aves"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "med-c086",
+   "bloque": "Biodiversidad",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "tf",
+   "enunciado": "Una especie endémica de Canarias no vive de forma natural en ningún otro lugar.",
+   "pista": "Endémica = exclusiva de un lugar.",
+   "explicacion": "Son especies únicas del archipiélago.",
+   "correcta": true
+  },
+  {
+   "id": "med-c087",
+   "bloque": "Biodiversidad",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál de estas aves es endémica de Canarias?",
+   "pista": "Vive en los pinares.",
+   "explicacion": "El pinzón azul es exclusivo de Canarias.",
+   "opciones": [
+    "El gorrión común",
+    "La cigüeña blanca",
+    "El pinzón azul",
+    "El flamenco rosa"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "med-c088",
+   "bloque": "Espacios naturales",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "El Parque Nacional de la Caldera de Taburiente está en…",
+   "pista": "Es la isla bonita.",
+   "explicacion": "La Caldera de Taburiente está en La Palma.",
+   "opciones": [
+    "La Gomera",
+    "Lanzarote",
+    "Tenerife",
+    "La Palma"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "med-c089",
+   "bloque": "Espacios naturales",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "El Parque Nacional de Garajonay protege sobre todo…",
+   "pista": "Es un bosque húmedo y antiguo.",
+   "explicacion": "Garajonay conserva uno de los mejores bosques de laurisilva.",
+   "opciones": [
+    "la laurisilva",
+    "las dunas",
+    "el malpaís",
+    "los pinares secos"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "med-c090",
+   "bloque": "Historia de Canarias",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cómo se llamaba la población aborigen de Tenerife?",
+   "pista": "Vivían en la isla antes de la conquista.",
+   "explicacion": "Los guanches eran los antiguos pobladores de Tenerife.",
+   "opciones": [
+    "Mayas",
+    "Guanches",
+    "Romanos",
+    "Vikingos"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "med-c091",
+   "bloque": "Historia de Canarias",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "La conquista castellana de Canarias terminó en el siglo…",
+   "pista": "Tenerife se conquistó en 1496.",
+   "explicacion": "Se completó a finales del siglo XV.",
+   "opciones": [
+    "XI",
+    "XVIII",
+    "XV",
+    "XX"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "med-c092",
+   "bloque": "Canarias",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "El Día de Canarias se celebra el…",
+   "pista": "Recuerda la primera sesión del Parlamento.",
+   "explicacion": "El 30 de mayo se celebra el Día de Canarias.",
+   "opciones": [
+    "12 de octubre",
+    "6 de diciembre",
+    "1 de enero",
+    "30 de mayo"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "med-c093",
+   "bloque": "Canarias",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "El Parlamento de Canarias tiene su sede en…",
+   "pista": "Está en la isla del Teide.",
+   "explicacion": "Su sede está en Santa Cruz de Tenerife.",
+   "opciones": [
+    "Santa Cruz de Tenerife",
+    "Las Palmas de Gran Canaria",
+    "Arrecife",
+    "Santa Cruz de La Palma"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "med-c094",
+   "bloque": "Derechos",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "El Día Universal de la Infancia se celebra el…",
+   "pista": "Recuerda la Convención sobre los Derechos del Niño.",
+   "explicacion": "Se celebra el 20 de noviembre.",
+   "opciones": [
+    "1 de mayo",
+    "20 de noviembre",
+    "8 de marzo",
+    "25 de diciembre"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "med-c095",
+   "bloque": "Organización política",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Quién hace las leyes en España?",
+   "pista": "Es el poder legislativo.",
+   "explicacion": "Congreso y Senado forman las Cortes.",
+   "opciones": [
+    "Los jueces",
+    "Los alcaldes",
+    "Las Cortes Generales",
+    "La policía"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "med-c096",
+   "bloque": "Geografía",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "El río más largo de la península ibérica es el…",
+   "pista": "Pasa por Toledo y Lisboa.",
+   "explicacion": "El Tajo es el río más largo de la península.",
+   "opciones": [
+    "Ebro",
+    "Guadalquivir",
+    "Duero",
+    "Tajo"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "med-c097",
+   "bloque": "Geografía",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "La montaña más alta de España es…",
+   "pista": "Está en Canarias.",
+   "explicacion": "El Teide (3 715 m) es la cima más alta.",
+   "opciones": [
+    "el Teide",
+    "el Mulhacén",
+    "el Aneto",
+    "Peña Vieja"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "med-c098",
+   "bloque": "Seguridad digital",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "Una contraseña segura debe…",
+   "pista": "Que no sea fácil de adivinar.",
+   "explicacion": "Larga y variada es más segura.",
+   "opciones": [
+    "ser tu nombre",
+    "ser larga y mezclar letras, números y símbolos",
+    "ser «1234»",
+    "ser igual en todas partes"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "med-c099",
+   "bloque": "Seguridad digital",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "tf",
+   "enunciado": "Es seguro compartir tu dirección y tu colegio con desconocidos en internet.",
+   "pista": "Nunca sabes quién hay al otro lado.",
+   "explicacion": "No hay que dar datos personales a desconocidos.",
+   "correcta": false
+  },
+  {
+   "id": "med-c100",
+   "bloque": "Sostenibilidad",
+   "nivel": 3,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "Los Objetivos de Desarrollo Sostenible de la ONU son…",
+   "pista": "Es un número entre 15 y 20.",
+   "explicacion": "La Agenda 2030 tiene 17 ODS.",
+   "opciones": [
+    "7",
+    "10",
+    "30",
+    "17"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "med-c101",
+   "bloque": "Cambio climático",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Qué gas aumenta el efecto invernadero por la actividad humana?",
+   "pista": "Se produce al quemar combustibles.",
+   "explicacion": "El CO₂ retiene calor en la atmósfera.",
+   "opciones": [
+    "El dióxido de carbono",
+    "El oxígeno",
+    "El nitrógeno",
+    "El helio"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "med-c102",
+   "bloque": "El cuerpo humano",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Con qué órgano pensamos?",
+   "pista": "Está en la cabeza.",
+   "explicacion": "El cerebro controla el pensamiento.",
+   "opciones": [
+    "Con el corazón",
+    "Con el cerebro",
+    "Con el estómago",
+    "Con el pulmón"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "med-c103",
+   "bloque": "Los sentidos",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Con qué parte del cuerpo oímos?",
+   "pista": "Están a los lados de la cabeza.",
+   "explicacion": "Oímos con los oídos.",
+   "opciones": [
+    "Con los ojos",
+    "Con la nariz",
+    "Con los oídos",
+    "Con las manos"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "med-c104",
+   "bloque": "La alimentación",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál de estos alimentos es una fruta?",
+   "pista": "Crece en una platanera.",
+   "explicacion": "El plátano es una fruta.",
+   "opciones": [
+    "El pan",
+    "La leche",
+    "El queso",
+    "El plátano"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "med-c105",
+   "bloque": "Seres vivos",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "Los animales necesitan para vivir…",
+   "pista": "Como nosotros.",
+   "explicacion": "Todos los seres vivos necesitan alimento, agua y aire.",
+   "opciones": [
+    "comida, agua y aire",
+    "solo juguetes",
+    "solo sol",
+    "nada"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "med-c106",
+   "bloque": "El tiempo",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "La lluvia cae de…",
+   "pista": "Están en el cielo.",
+   "explicacion": "La lluvia sale de las nubes.",
+   "opciones": [
+    "las montañas",
+    "las nubes",
+    "el suelo",
+    "los árboles"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "med-c107",
+   "bloque": "El calendario",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuántos días tiene una semana?",
+   "pista": "De lunes a domingo.",
+   "explicacion": "Una semana tiene 7 días.",
+   "opciones": [
+    "5",
+    "6",
+    "7",
+    "10"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "med-c108",
+   "bloque": "La ropa",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "Cuando hace frío nos ponemos…",
+   "pista": "Para abrigarnos.",
+   "explicacion": "Con frío usamos abrigo.",
+   "opciones": [
+    "un bañador",
+    "unas sandalias",
+    "unas gafas de sol",
+    "un abrigo"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "med-c109",
+   "bloque": "El universo",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "El planeta en el que vivimos se llama…",
+   "pista": "Es nuestro hogar.",
+   "explicacion": "Vivimos en la Tierra.",
+   "opciones": [
+    "la Tierra",
+    "Marte",
+    "la Luna",
+    "el Sol"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "med-c110",
+   "bloque": "Los animales",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Qué animal pone huevos?",
+   "pista": "Vive en la granja.",
+   "explicacion": "Las gallinas ponen huevos.",
+   "opciones": [
+    "La vaca",
+    "La gallina",
+    "El perro",
+    "La cabra"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "med-c111",
+   "bloque": "Seres vivos",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "tf",
+   "enunciado": "Las plantas son seres vivos.",
+   "pista": "Nacen, crecen y mueren.",
+   "explicacion": "Las plantas son seres vivos.",
+   "correcta": true
+  },
+  {
+   "id": "med-c112",
+   "bloque": "La casa",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "¿En qué parte de la casa dormimos?",
+   "pista": "Tiene una cama.",
+   "explicacion": "Dormimos en el dormitorio.",
+   "opciones": [
+    "En la cocina",
+    "En el baño",
+    "En el balcón",
+    "En el dormitorio"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "med-c113",
+   "bloque": "Salud e higiene",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "Para cuidar nuestros dientes debemos…",
+   "pista": "Cada día.",
+   "explicacion": "El cepillado evita las caries.",
+   "opciones": [
+    "cepillarlos después de comer",
+    "comer muchos caramelos",
+    "no lavarlos",
+    "morder cosas duras"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "med-c114",
+   "bloque": "El cuerpo humano",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Qué órgano bombea la sangre?",
+   "pista": "Late todo el día.",
+   "explicacion": "El corazón bombea la sangre.",
+   "opciones": [
+    "El estómago",
+    "El corazón",
+    "El pulmón",
+    "El cerebro"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "med-c115",
+   "bloque": "El cuerpo humano",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "Los huesos forman el…",
+   "pista": "Sostiene el cuerpo.",
+   "explicacion": "El esqueleto sostiene el cuerpo.",
+   "opciones": [
+    "músculo",
+    "cerebro",
+    "esqueleto",
+    "estómago"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "med-c116",
+   "bloque": "El agua",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "El agua del mar es…",
+   "pista": "No sirve para beber.",
+   "explicacion": "El agua del mar tiene sal.",
+   "opciones": [
+    "dulce",
+    "amarga",
+    "ácida",
+    "salada"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "med-c117",
+   "bloque": "Las plantas",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "El fruto de una planta nace de la…",
+   "pista": "Después de la flor, el fruto.",
+   "explicacion": "El fruto se forma a partir de la flor.",
+   "opciones": [
+    "flor",
+    "raíz",
+    "tierra",
+    "piedra"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "med-c118",
+   "bloque": "El universo",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "El Sol nos da…",
+   "pista": "Nos calienta.",
+   "explicacion": "El Sol da luz y calor.",
+   "opciones": [
+    "lluvia",
+    "luz y calor",
+    "viento",
+    "sonido"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "med-c119",
+   "bloque": "Los animales",
+   "nivel": 2,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál de estos animales nace de un huevo?",
+   "pista": "Es un reptil.",
+   "explicacion": "Las tortugas ponen huevos.",
+   "opciones": [
+    "La vaca",
+    "El perro",
+    "La tortuga",
+    "La cabra"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "med-c120",
+   "bloque": "El universo",
+   "nivel": 3,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "tf",
+   "enunciado": "La Luna brilla con luz propia.",
+   "pista": "Fíjate en que cambia de forma.",
+   "explicacion": "La Luna refleja la luz del Sol.",
+   "correcta": false
+  },
+  {
+   "id": "med-c121",
+   "bloque": "Seguridad vial",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "Para cruzar la calle usamos…",
+   "pista": "Rayas blancas en el suelo.",
+   "explicacion": "Se cruza por el paso de peatones.",
+   "opciones": [
+    "el paso de peatones",
+    "la acera",
+    "el carril bici",
+    "la calzada"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "med-c122",
+   "bloque": "Los animales",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "match",
+   "enunciado": "Une cada animal con su grupo.",
+   "pista": "Piensa cómo nacen y qué piel tienen.",
+   "explicacion": "Delfín: mamífero · águila: ave · lagarto: reptil · atún: pez.",
+   "pares": [
+    [
+     "delfín",
+     "mamífero"
+    ],
+    [
+     "águila",
+     "ave"
+    ],
+    [
+     "lagarto",
+     "reptil"
+    ],
+    [
+     "atún",
+     "pez"
+    ]
+   ]
+  },
+  {
+   "id": "med-c123",
+   "bloque": "El cuerpo humano",
+   "nivel": 1,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "match",
+   "enunciado": "Une cada órgano con su función.",
+   "pista": "Piensa para qué sirve cada uno.",
+   "explicacion": "Cada órgano tiene una función.",
+   "pares": [
+    [
+     "corazón",
+     "bombea la sangre"
+    ],
+    [
+     "pulmones",
+     "intercambian gases"
+    ],
+    [
+     "estómago",
+     "digiere los alimentos"
+    ],
+    [
+     "cerebro",
+     "controla el cuerpo"
+    ]
+   ]
+  },
+  {
+   "id": "med-c124",
+   "bloque": "El universo",
+   "nivel": 1,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "match",
+   "enunciado": "Une cada astro con lo que es.",
+   "pista": "Piensa en el sistema solar.",
+   "explicacion": "El Sol es una estrella; la Luna es el satélite de la Tierra.",
+   "pares": [
+    [
+     "Sol",
+     "estrella"
+    ],
+    [
+     "Tierra",
+     "planeta"
+    ],
+    [
+     "Luna",
+     "satélite"
+    ],
+    [
+     "Marte",
+     "planeta rojo"
+    ]
+   ]
+  }
+ ]
+}

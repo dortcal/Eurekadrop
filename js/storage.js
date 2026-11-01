@@ -12,7 +12,7 @@
     return {
       v: 1,
       profile: { name: '', avatar: { skin: 1, hair: 0, hairColor: 0, outfit: 0, acc: 'none' } },
-      settings: { music: 0.55, sfx: 0.8, mute: false, reduceMotion: false, bigText: false, lives: 5, speedBonus: true, touch: 'auto' },
+      settings: { music: 0.55, sfx: 0.8, mute: false, reduceMotion: false, bigText: false, lives: 5, speedBonus: true, touch: 'auto', curso: 0, readAloud: false },
       wallet: { coins: 0, hints: 2, totalCoins: 0 },
       owned: ['none', 'cap', 'glasses'],
       story: { introSeen: false, islands: { mat: 0, len: 0, med: 0, ing: 0, ef: 0 }, final: false, visited: [] },

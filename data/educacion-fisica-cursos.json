@@ -1,0 +1,1747 @@
+{
+ "area": "ef",
+ "nombre": "Educación Física",
+ "version": 1,
+ "nota": "Banco ampliado por cursos (1.º-6.º). Campo 'cursos': [mínimo, máximo].",
+ "preguntas": [
+  {
+   "id": "ef-c001",
+   "bloque": "El cuerpo y el movimiento",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Con qué parte del cuerpo damos una patada a un balón?",
+   "pista": "Piensa en el fútbol.",
+   "explicacion": "Pateamos con el pie.",
+   "opciones": [
+    "Con el pie",
+    "Con la cabeza",
+    "Con la mano",
+    "Con el codo"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "ef-c002",
+   "bloque": "El cuerpo y el movimiento",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Qué hacemos para llegar muy rápido a un sitio?",
+   "pista": "Movemos las piernas deprisa.",
+   "explicacion": "Corremos para ir rápido.",
+   "opciones": [
+    "Dormir",
+    "Correr",
+    "Sentarnos",
+    "Leer"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "ef-c003",
+   "bloque": "Higiene",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "Después de hacer deporte, es bueno…",
+   "pista": "Cuidamos nuestro cuerpo.",
+   "explicacion": "La higiene después del deporte es importante.",
+   "opciones": [
+    "quedarnos sudados",
+    "no beber agua",
+    "lavarnos y cambiarnos de camiseta",
+    "dormir con la ropa de deporte"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "ef-c004",
+   "bloque": "Salud",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "Cuando hacemos mucho ejercicio, nos conviene beber…",
+   "pista": "El cuerpo pierde agua al sudar.",
+   "explicacion": "El agua nos hidrata.",
+   "opciones": [
+    "refresco",
+    "café",
+    "nada",
+    "agua"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "ef-c005",
+   "bloque": "Juegos",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "tf",
+   "enunciado": "En los juegos hay que respetar a los compañeros.",
+   "pista": "Piensa en jugar todos juntos.",
+   "explicacion": "El respeto es lo primero.",
+   "correcta": true
+  },
+  {
+   "id": "ef-c006",
+   "bloque": "Equilibrio",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "Estar a la pata coja es mantener el equilibrio sobre…",
+   "pista": "Una pierna levantada.",
+   "explicacion": "A la pata coja se apoya un solo pie.",
+   "opciones": [
+    "dos manos",
+    "un solo pie",
+    "la cabeza",
+    "las rodillas"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "ef-c007",
+   "bloque": "Seguridad",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "Antes de jugar, debemos…",
+   "pista": "Evita caídas.",
+   "explicacion": "Con los cordones atados evitamos tropezar.",
+   "opciones": [
+    "correr con los cordones sueltos",
+    "empujar a los demás",
+    "atarnos bien los cordones",
+    "jugar sin mirar"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "ef-c008",
+   "bloque": "Partes del cuerpo",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "Cuando corres, el corazón late…",
+   "pista": "Pon la mano en el pecho.",
+   "explicacion": "Con el ejercicio el corazón late más rápido.",
+   "opciones": [
+    "más despacio",
+    "igual",
+    "se para",
+    "más rápido"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "ef-c009",
+   "bloque": "Movimientos",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "match",
+   "enunciado": "Une cada movimiento con la parte del cuerpo que más trabaja.",
+   "pista": "Piensa en cada movimiento.",
+   "explicacion": "Cada movimiento usa músculos distintos.",
+   "pares": [
+    [
+     "Saltar",
+     "las piernas"
+    ],
+    [
+     "Lanzar",
+     "los brazos"
+    ],
+    [
+     "Girar el cuello",
+     "la cabeza"
+    ],
+    [
+     "Aplaudir",
+     "las manos"
+    ]
+   ]
+  },
+  {
+   "id": "ef-c010",
+   "bloque": "Juegos",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "En el juego del «pilla-pilla», el que se la queda debe…",
+   "pista": "Corre detrás de los demás.",
+   "explicacion": "Debe tocar a alguien para pasarle el turno.",
+   "opciones": [
+    "esconderse",
+    "tocar a otro compañero",
+    "sentarse",
+    "dormir"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "ef-c011",
+   "bloque": "Lateralidad",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "Si levantas la mano con la que escribes (eres diestro), levantas la mano…",
+   "pista": "Normalmente se escribe con la derecha.",
+   "explicacion": "Los diestros escriben con la derecha.",
+   "opciones": [
+    "izquierda",
+    "ninguna",
+    "derecha",
+    "la de otra persona"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "ef-c012",
+   "bloque": "Equilibrio",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "Para mantener mejor el equilibrio es útil…",
+   "pista": "Ayuda a no marearte.",
+   "explicacion": "Mirar un punto fijo ayuda al equilibrio.",
+   "opciones": [
+    "cerrar los ojos y saltar",
+    "correr muy deprisa",
+    "mover los brazos sin control",
+    "mirar un punto fijo"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "ef-c013",
+   "bloque": "Salud",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "Para estar sanos conviene dormir…",
+   "pista": "El cuerpo descansa y crece.",
+   "explicacion": "Dormir bien ayuda a crecer.",
+   "opciones": [
+    "bastantes horas",
+    "muy pocas horas",
+    "solo en fin de semana",
+    "nada"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "ef-c014",
+   "bloque": "Juegos cooperativos",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "En un juego cooperativo todos…",
+   "pista": "Cooperar = trabajar juntos.",
+   "explicacion": "Se juega en equipo, sin perdedores.",
+   "opciones": [
+    "compiten contra todos",
+    "ayudan para conseguir el objetivo común",
+    "juegan solos",
+    "se enfadan"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "ef-c015",
+   "bloque": "Higiene",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "tf",
+   "enunciado": "Después de la clase de Educación Física debemos lavarnos las manos.",
+   "pista": "Pensando en los microbios.",
+   "explicacion": "Es un buen hábito de higiene.",
+   "correcta": true
+  },
+  {
+   "id": "ef-c016",
+   "bloque": "Calentamiento",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "El calentamiento sirve para…",
+   "pista": "Se hace al principio.",
+   "explicacion": "Evita lesiones.",
+   "opciones": [
+    "terminar la clase",
+    "dormir",
+    "comer",
+    "preparar el cuerpo antes de hacer ejercicio"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "ef-c017",
+   "bloque": "Ritmo",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "Seguir el ritmo de la música al bailar es…",
+   "pista": "Mira el compás.",
+   "explicacion": "Bailar es moverse al compás.",
+   "opciones": [
+    "moverse al compás",
+    "quedarse quieto",
+    "ir siempre más rápido",
+    "hablar alto"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "ef-c018",
+   "bloque": "Alimentación",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál es un buen desayuno para hacer deporte?",
+   "pista": "Da energía.",
+   "explicacion": "Fruta, lácteos y cereales dan energía.",
+   "opciones": [
+    "Solo refresco",
+    "Fruta y leche con cereales",
+    "Caramelos",
+    "Nada"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "ef-c019",
+   "bloque": "Seguridad",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "En el patio, si alguien se cae y se hace daño, debemos…",
+   "pista": "Pide ayuda.",
+   "explicacion": "Siempre se avisa a un adulto.",
+   "opciones": [
+    "reírnos",
+    "seguir jugando",
+    "avisar a un adulto",
+    "irnos"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "ef-c020",
+   "bloque": "Habilidades",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "Lanzar y recoger una pelota trabaja la…",
+   "pista": "Ojos y manos juntos.",
+   "explicacion": "Se llama coordinación óculo-manual.",
+   "opciones": [
+    "lectura",
+    "memoria del teléfono",
+    "cocina",
+    "coordinación"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "ef-c021",
+   "bloque": "Calentamiento",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "order",
+   "enunciado": "Ordena las partes de una clase de Educación Física.",
+   "pista": "Empieza preparando el cuerpo.",
+   "explicacion": "Calentamiento, parte principal y vuelta a la calma.",
+   "elementos": [
+    "Calentamiento",
+    "Parte principal",
+    "Vuelta a la calma"
+   ],
+   "separador": " → "
+  },
+  {
+   "id": "ef-c022",
+   "bloque": "Capacidades físicas",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "La capacidad de correr muy deprisa se llama…",
+   "pista": "Pensar en una carrera de 50 m.",
+   "explicacion": "La velocidad es la rapidez de movimiento.",
+   "opciones": [
+    "flexibilidad",
+    "velocidad",
+    "resistencia",
+    "fuerza"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "ef-c023",
+   "bloque": "Capacidades físicas",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "Los estiramientos trabajan sobre todo la…",
+   "pista": "Alcanzar la punta de los pies.",
+   "explicacion": "Estirar mejora la flexibilidad.",
+   "opciones": [
+    "fuerza",
+    "velocidad",
+    "flexibilidad",
+    "puntería"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "ef-c024",
+   "bloque": "Capacidades físicas",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "Aguantar mucho tiempo corriendo suave es resistencia. ¿Qué capacidad es?",
+   "pista": "Sirve para esfuerzos largos.",
+   "explicacion": "Resistencia = esfuerzo prolongado.",
+   "opciones": [
+    "La fuerza",
+    "La velocidad",
+    "La flexibilidad",
+    "La resistencia"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "ef-c025",
+   "bloque": "Calentamiento",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál es un buen ejercicio de calentamiento?",
+   "pista": "Sube la temperatura del cuerpo.",
+   "explicacion": "Se empieza suave y se aumenta el ritmo.",
+   "opciones": [
+    "Trotar suave y mover las articulaciones",
+    "Levantar peso muy grande",
+    "Estar sentado",
+    "Comer"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "ef-c026",
+   "bloque": "Juegos tradicionales",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "La rayuela es un juego de…",
+   "pista": "Se salta a la pata coja.",
+   "explicacion": "Se salta por casillas dibujadas.",
+   "opciones": [
+    "lanzar una canasta",
+    "saltar sobre casillas dibujadas en el suelo",
+    "correr en bicicleta",
+    "nadar"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "ef-c027",
+   "bloque": "Juego limpio",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "tf",
+   "enunciado": "Ganar es más importante que respetar las reglas.",
+   "pista": "El juego limpio es lo primero.",
+   "explicacion": "Se debe jugar limpio, ganando o perdiendo.",
+   "correcta": false
+  },
+  {
+   "id": "ef-c028",
+   "bloque": "Salud",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "Es bueno hacer ejercicio al menos…",
+   "pista": "Se recomienda mantenerse activo cada día.",
+   "explicacion": "Para niños y niñas se aconseja una hora diaria de actividad.",
+   "opciones": [
+    "5 minutos al mes",
+    "1 hora al año",
+    "solo los domingos",
+    "60 minutos al día"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "ef-c029",
+   "bloque": "Postura",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "Al llevar la mochila es mejor…",
+   "pista": "Reparte el peso.",
+   "explicacion": "Con las dos asas se reparte el peso.",
+   "opciones": [
+    "llevarla en los dos hombros",
+    "llevarla en uno",
+    "arrastrarla",
+    "llenarla al máximo"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "ef-c030",
+   "bloque": "Equilibrio",
+   "nivel": 2,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "Una barra de equilibrio trabaja la…",
+   "pista": "Mantener el cuerpo estable.",
+   "explicacion": "Trabaja el equilibrio.",
+   "opciones": [
+    "flexibilidad solo",
+    "coordinación y el equilibrio",
+    "lectura",
+    "memoria"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "ef-c031",
+   "bloque": "Expresión corporal",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "Un mimo se comunica con…",
+   "pista": "Piensa en un mimo en la calle.",
+   "explicacion": "El mimo usa gestos.",
+   "opciones": [
+    "canciones",
+    "libros",
+    "gestos y sin palabras",
+    "mensajes"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "ef-c032",
+   "bloque": "Orientación",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "mc",
+   "enunciado": "Si el Sol sale por tu derecha, tú miras hacia el…",
+   "pista": "El Sol sale por el este.",
+   "explicacion": "Con el este a la derecha, miras al norte.",
+   "opciones": [
+    "sur",
+    "este",
+    "oeste",
+    "norte"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "ef-c033",
+   "bloque": "Deportes colectivos",
+   "nivel": 1,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuántos jugadores hay en un equipo de fútbol sala en la pista?",
+   "pista": "Cuatro de campo y un portero.",
+   "explicacion": "Se juega 5 contra 5.",
+   "opciones": [
+    "5",
+    "7",
+    "9",
+    "11"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "ef-c034",
+   "bloque": "Deportes colectivos",
+   "nivel": 1,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuántos puntos vale un triple en baloncesto?",
+   "pista": "El nombre ya lo dice.",
+   "explicacion": "Un triple vale 3 puntos.",
+   "opciones": [
+    "2",
+    "3",
+    "1",
+    "4"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "ef-c035",
+   "bloque": "Deportes colectivos",
+   "nivel": 1,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "En voleibol, ¿cuántos toques como máximo puede dar un equipo antes de pasar el balón?",
+   "pista": "Recepción, colocación y remate.",
+   "explicacion": "Máximo 3 toques.",
+   "opciones": [
+    "1",
+    "2",
+    "3",
+    "5"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "ef-c036",
+   "bloque": "Primeros auxilios",
+   "nivel": 1,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Qué número llamas en una emergencia?",
+   "pista": "Es el teléfono europeo.",
+   "explicacion": "El 112 es el número de emergencias.",
+   "opciones": [
+    "091",
+    "012",
+    "800",
+    "112"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "ef-c037",
+   "bloque": "Primeros auxilios",
+   "nivel": 1,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "Si te haces una herida pequeña, lo primero es…",
+   "pista": "Eliminar la suciedad.",
+   "explicacion": "Se limpia con agua y jabón.",
+   "opciones": [
+    "lavarla con agua y jabón",
+    "taparla sin limpiar",
+    "frotarla fuerte",
+    "ponerle arena"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "ef-c038",
+   "bloque": "Higiene postural",
+   "nivel": 2,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "Para coger un objeto pesado del suelo debes…",
+   "pista": "Protege la espalda.",
+   "explicacion": "Se levanta con las piernas, no con la espalda.",
+   "opciones": [
+    "doblar la espalda con las piernas rectas",
+    "doblar las rodillas y mantener la espalda recta",
+    "tirar de él",
+    "cogerlo con una mano"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "ef-c039",
+   "bloque": "Ritmo",
+   "nivel": 1,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "En una danza en grupo es importante…",
+   "pista": "Hay que coordinarse.",
+   "explicacion": "La coordinación mejora el resultado.",
+   "opciones": [
+    "ir cada uno a su aire",
+    "gritar",
+    "seguir el compás y escuchar a los compañeros",
+    "salir corriendo"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "ef-c040",
+   "bloque": "Salud",
+   "nivel": 2,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "Durante el ejercicio, el ritmo del corazón…",
+   "pista": "El corazón bombea más sangre.",
+   "explicacion": "La frecuencia cardíaca sube.",
+   "opciones": [
+    "disminuye",
+    "se para",
+    "no cambia",
+    "aumenta"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "ef-c041",
+   "bloque": "Calentamiento",
+   "nivel": 1,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "tf",
+   "enunciado": "Estirar al terminar el ejercicio ayuda a volver a la calma.",
+   "pista": "Es parte de la vuelta a la calma.",
+   "explicacion": "Los estiramientos finales relajan los músculos.",
+   "correcta": true
+  },
+  {
+   "id": "ef-c042",
+   "bloque": "Juego limpio",
+   "nivel": 1,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "Un jugador del otro equipo se cae. El juego limpio es…",
+   "pista": "Respeto ante todo.",
+   "explicacion": "Se ayuda al que se hace daño.",
+   "opciones": [
+    "reírse",
+    "interesarse por él y ayudarle",
+    "meter un gol",
+    "ignorarlo"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "ef-c043",
+   "bloque": "Orientación",
+   "nivel": 1,
+   "cursos": [
+    4,
+    4
+   ],
+   "tipo": "mc",
+   "enunciado": "Para orientarte con un mapa en el campo necesitas…",
+   "pista": "Señala el norte.",
+   "explicacion": "La brújula indica el norte.",
+   "opciones": [
+    "un balón",
+    "una cuerda",
+    "una brújula",
+    "un silbato"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "ef-c044",
+   "bloque": "Salud",
+   "nivel": 2,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "El pulso se puede tomar en…",
+   "pista": "Donde se notan latidos.",
+   "explicacion": "Se nota en las arterias de la muñeca o el cuello.",
+   "opciones": [
+    "en la rodilla",
+    "en el codo",
+    "en la oreja",
+    "la muñeca o en el cuello"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "ef-c045",
+   "bloque": "Capacidades físicas",
+   "nivel": 2,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "Para mejorar la resistencia es mejor…",
+   "pista": "Esfuerzos largos.",
+   "explicacion": "Se mejora con carrera continua.",
+   "opciones": [
+    "correr suave durante mucho tiempo",
+    "hacer solo un sprint",
+    "estar quieto",
+    "levantar mucho peso"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "ef-c046",
+   "bloque": "Alimentación",
+   "nivel": 1,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "Durante un esfuerzo intenso en verano, lo mejor es beber…",
+   "pista": "Evitar la deshidratación.",
+   "explicacion": "Bebe poco y a menudo.",
+   "opciones": [
+    "refrescos azucarados",
+    "agua en pequeños sorbos regularmente",
+    "nada",
+    "mucha agua de golpe al final"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "ef-c047",
+   "bloque": "Salud",
+   "nivel": 1,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "tf",
+   "enunciado": "Hay que beber agua solo cuando se tiene mucha sed.",
+   "pista": "La sed ya indica deshidratación.",
+   "explicacion": "Conviene beber antes de tener mucha sed.",
+   "correcta": false
+  },
+  {
+   "id": "ef-c048",
+   "bloque": "Juegos y deportes canarios",
+   "nivel": 1,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "La lucha canaria se disputa en…",
+   "pista": "Es un círculo de arena.",
+   "explicacion": "El terrero es el lugar de la lucha canaria.",
+   "opciones": [
+    "el campo de fútbol",
+    "la piscina",
+    "el tatami",
+    "el terrero"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "ef-c049",
+   "bloque": "Juegos y deportes canarios",
+   "nivel": 2,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "tf",
+   "enunciado": "En la lucha canaria cada equipo tiene 12 luchadores.",
+   "pista": "Es una competición por equipos.",
+   "explicacion": "Los equipos se componen de 12 luchadores.",
+   "correcta": true
+  },
+  {
+   "id": "ef-c050",
+   "bloque": "Juegos y deportes canarios",
+   "nivel": 2,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "El salto del pastor se hace con…",
+   "pista": "Servía para salvar barrancos.",
+   "explicacion": "El pastor usa una astia para saltar.",
+   "opciones": [
+    "una pelota",
+    "una lanza o astia",
+    "una raqueta",
+    "una cuerda"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "ef-c051",
+   "bloque": "Primeros auxilios",
+   "nivel": 2,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "Si te tuerces el tobillo, lo primero es…",
+   "pista": "Reduce la inflamación.",
+   "explicacion": "Reposo, frío local y elevación.",
+   "opciones": [
+    "seguir corriendo",
+    "darle un masaje fuerte",
+    "reposo, frío y elevar la pierna",
+    "ponerle calor intenso"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "ef-c052",
+   "bloque": "Primeros auxilios",
+   "nivel": 2,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "PAS significa…",
+   "pista": "Son los pasos ante un accidente.",
+   "explicacion": "Primero se protege la zona, luego se avisa y se socorre.",
+   "opciones": [
+    "Parar, Andar y Salir",
+    "Pedir, Ayudar y Salvar",
+    "Preparar, Alejar y Sentar",
+    "Proteger, Avisar y Socorrer"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "ef-c053",
+   "bloque": "Seguridad",
+   "nivel": 1,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "Al montar en bicicleta es importante llevar…",
+   "pista": "Protege la cabeza.",
+   "explicacion": "El casco evita lesiones graves.",
+   "opciones": [
+    "casco",
+    "gorra",
+    "sombrero",
+    "bufanda"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "ef-c054",
+   "bloque": "Medio natural",
+   "nivel": 1,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "mc",
+   "enunciado": "En una excursión de senderismo conviene llevar…",
+   "pista": "Para el sol y el camino.",
+   "explicacion": "Protegerse del sol e hidratarse.",
+   "opciones": [
+    "solo un balón",
+    "agua, gorra y calzado adecuado",
+    "tacones",
+    "nada"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "ef-c055",
+   "bloque": "Juegos y deportes canarios",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "En la lucha canaria se gana derribando al contrario de modo que toque la arena con…",
+   "pista": "Solo se puede apoyar los pies.",
+   "explicacion": "Cae cualquier parte salvo las plantas de los pies.",
+   "opciones": [
+    "solo las manos",
+    "solo la espalda",
+    "cualquier parte del cuerpo que no sean las plantas de los pies",
+    "solo la cabeza"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "ef-c056",
+   "bloque": "Juegos y deportes canarios",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "El juego del palo canario se practica con…",
+   "pista": "Es una forma tradicional de lucha.",
+   "explicacion": "Se usa un palo (garrote).",
+   "opciones": [
+    "una pelota",
+    "una cuerda",
+    "una raqueta",
+    "un palo o garrote"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "ef-c057",
+   "bloque": "Juegos y deportes canarios",
+   "nivel": 3,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "En la bola canaria, el objetivo pequeño se llama…",
+   "pista": "Hay que acercar las bolas.",
+   "explicacion": "Las bolas se lanzan hacia el boliche.",
+   "opciones": [
+    "boliche",
+    "canasta",
+    "portería",
+    "diana"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "ef-c058",
+   "bloque": "Seguridad",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "En la playa, una bandera roja significa…",
+   "pista": "Rojo = peligro.",
+   "explicacion": "Roja: peligro, prohibido bañarse.",
+   "opciones": [
+    "baño seguro",
+    "baño prohibido",
+    "baño con precaución",
+    "fin de la playa"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "ef-c059",
+   "bloque": "Seguridad",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "match",
+   "enunciado": "Une cada bandera de playa con su significado.",
+   "pista": "Como un semáforo.",
+   "explicacion": "Verde: seguro · amarilla: precaución · roja: prohibido.",
+   "pares": [
+    [
+     "Verde",
+     "baño seguro"
+    ],
+    [
+     "Amarilla",
+     "baño con precaución"
+    ],
+    [
+     "Roja",
+     "baño prohibido"
+    ]
+   ]
+  },
+  {
+   "id": "ef-c060",
+   "bloque": "Primeros auxilios",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "Si sangras por la nariz, debes…",
+   "pista": "Evita tragar sangre.",
+   "explicacion": "Cabeza hacia delante y presión.",
+   "opciones": [
+    "echar la cabeza hacia atrás",
+    "sonarte con fuerza",
+    "no hacer nada",
+    "inclinar la cabeza hacia delante y apretar la nariz"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "ef-c061",
+   "bloque": "Calentamiento",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "tf",
+   "enunciado": "Calentar antes de hacer deporte ayuda a evitar lesiones.",
+   "pista": "Prepara los músculos.",
+   "explicacion": "El calentamiento reduce el riesgo de lesiones.",
+   "correcta": true
+  },
+  {
+   "id": "ef-c062",
+   "bloque": "Calentamiento",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuál es el orden correcto de una sesión?",
+   "pista": "Empieza preparando el cuerpo.",
+   "explicacion": "Primero se calienta y al final se relaja.",
+   "opciones": [
+    "Vuelta a la calma, calentamiento y parte principal",
+    "Calentamiento, parte principal y vuelta a la calma",
+    "Parte principal, calentamiento y vuelta a la calma",
+    "Solo parte principal"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "ef-c063",
+   "bloque": "Deportes colectivos",
+   "nivel": 2,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Cuántos jugadores tiene un equipo de balonmano en pista (con portero)?",
+   "pista": "Seis jugadores y un portero.",
+   "explicacion": "Hay 7 jugadores por equipo.",
+   "opciones": [
+    "5",
+    "9",
+    "7",
+    "11"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "ef-c064",
+   "bloque": "Salud",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "El pulso, ¿qué indica?",
+   "pista": "Notas un golpecito en la muñeca.",
+   "explicacion": "Mide los latidos por minuto.",
+   "opciones": [
+    "los pasos por hora",
+    "la altura",
+    "el peso",
+    "los latidos del corazón por minuto"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "ef-c065",
+   "bloque": "Expresión corporal",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "En una dramatización, ¿cómo puedes expresar alegría sin palabras?",
+   "pista": "Es expresión corporal.",
+   "explicacion": "Los gestos comunican emociones.",
+   "opciones": [
+    "con gestos y la postura del cuerpo",
+    "quedándote quieto",
+    "mirando al suelo",
+    "mirando el reloj"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "ef-c066",
+   "bloque": "Cooperación",
+   "nivel": 1,
+   "cursos": [
+    6,
+    6
+   ],
+   "tipo": "mc",
+   "enunciado": "Cuando un equipo pierde, lo adecuado es…",
+   "pista": "Respeto.",
+   "explicacion": "Saber perder forma parte del juego limpio.",
+   "opciones": [
+    "enfadarse",
+    "felicitar al otro equipo y aprender",
+    "echar la culpa a alguien",
+    "abandonar"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "ef-c067",
+   "bloque": "El cuerpo y el movimiento",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Qué parte del cuerpo usamos sobre todo para saltar?",
+   "pista": "Nos impulsamos desde el suelo.",
+   "explicacion": "Saltamos con las piernas.",
+   "opciones": [
+    "Los brazos",
+    "La cabeza",
+    "Las piernas",
+    "Las orejas"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "ef-c068",
+   "bloque": "Calentamiento",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "Para empezar a hacer deporte, primero…",
+   "pista": "Preparamos los músculos.",
+   "explicacion": "Se empieza con movimientos suaves.",
+   "opciones": [
+    "corremos muy rápido",
+    "nos sentamos",
+    "comemos",
+    "movemos suavemente el cuerpo"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "ef-c069",
+   "bloque": "Higiene",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "Para hacer deporte es mejor llevar…",
+   "pista": "Para movernos con seguridad.",
+   "explicacion": "La ropa cómoda y las zapatillas evitan lesiones.",
+   "opciones": [
+    "zapatillas deportivas y ropa cómoda",
+    "zapatos de vestir",
+    "chancletas",
+    "un abrigo muy grueso"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "ef-c070",
+   "bloque": "Juegos",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "tf",
+   "enunciado": "En los juegos hay que esperar el turno.",
+   "pista": "Todos quieren jugar.",
+   "explicacion": "Respetar el turno es respetar a los demás.",
+   "correcta": true
+  },
+  {
+   "id": "ef-c071",
+   "bloque": "Deportes",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "Un juego con balón y porterías es el…",
+   "pista": "Se marcan goles.",
+   "explicacion": "El fútbol se juega con balón y porterías.",
+   "opciones": [
+    "ajedrez",
+    "senderismo",
+    "fútbol",
+    "yoga"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "ef-c072",
+   "bloque": "Salud",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "Cuando estamos cansados después de jugar, lo mejor es…",
+   "pista": "El cuerpo necesita recuperarse.",
+   "explicacion": "Descansar e hidratarse.",
+   "opciones": [
+    "seguir corriendo",
+    "no beber",
+    "comer muchos dulces",
+    "descansar y beber agua"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "ef-c073",
+   "bloque": "Cooperación",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "Si un amigo corre más despacio, nosotros…",
+   "pista": "Compañerismo.",
+   "explicacion": "Animar y esperar es de buenos compañeros.",
+   "opciones": [
+    "le esperamos y le animamos",
+    "nos reímos",
+    "le empujamos",
+    "le dejamos solo"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "ef-c074",
+   "bloque": "Habilidades",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "Reptar es avanzar…",
+   "pista": "Como una serpiente.",
+   "explicacion": "Se avanza pegado al suelo.",
+   "opciones": [
+    "saltando",
+    "arrastrándose por el suelo",
+    "corriendo",
+    "volando"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "ef-c075",
+   "bloque": "Juegos",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "Para saltar a la comba necesitamos…",
+   "pista": "Se mueve sobre nuestra cabeza.",
+   "explicacion": "La comba es una cuerda.",
+   "opciones": [
+    "un balón",
+    "una raqueta",
+    "una cuerda",
+    "una red"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "ef-c076",
+   "bloque": "Higiene",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "tf",
+   "enunciado": "Es bueno estirar los brazos y las piernas.",
+   "pista": "El cuerpo se relaja.",
+   "explicacion": "Estirar mejora la flexibilidad.",
+   "correcta": true
+  },
+  {
+   "id": "ef-c077",
+   "bloque": "Relajación",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "Respirar por la nariz y soltar el aire por la boca ayuda a…",
+   "pista": "Respira despacio.",
+   "explicacion": "Respirar con calma relaja el cuerpo.",
+   "opciones": [
+    "relajarnos",
+    "correr más",
+    "saltar más",
+    "tener hambre"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "ef-c078",
+   "bloque": "Juegos",
+   "nivel": 1,
+   "cursos": [
+    1,
+    1
+   ],
+   "tipo": "mc",
+   "enunciado": "En el escondite, ¿qué hacemos?",
+   "pista": "Un jugador cuenta.",
+   "explicacion": "Unos se esconden y otro busca.",
+   "opciones": [
+    "Corremos en círculo",
+    "Nos escondemos y otro nos busca",
+    "Cantamos",
+    "Dormimos"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "ef-c079",
+   "bloque": "Equilibrio",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "¿Qué actividad trabaja el equilibrio?",
+   "pista": "Mantenerse estable.",
+   "explicacion": "Caminar sobre una línea trabaja el equilibrio.",
+   "opciones": [
+    "Estar tumbado",
+    "Comer",
+    "Caminar sobre una línea",
+    "Leer"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "ef-c080",
+   "bloque": "Deportes",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "Un deporte que se practica en el agua es la…",
+   "pista": "Se nada.",
+   "explicacion": "La natación se hace en el agua.",
+   "opciones": [
+    "gimnasia rítmica",
+    "carrera",
+    "escalada",
+    "natación"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "ef-c081",
+   "bloque": "Higiene",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "Las zapatillas deportivas sirven para…",
+   "pista": "Agarran bien el suelo.",
+   "explicacion": "Protegen y dan estabilidad.",
+   "opciones": [
+    "proteger los pies y no resbalar",
+    "ir más despacio",
+    "hacer ruido",
+    "no cansarse nunca"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "ef-c082",
+   "bloque": "Cooperación",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "tf",
+   "enunciado": "Jugar en equipo es compartir y ayudarse.",
+   "pista": "Nadie juega solo.",
+   "explicacion": "El juego en equipo requiere cooperación.",
+   "correcta": true
+  },
+  {
+   "id": "ef-c083",
+   "bloque": "Calentamiento",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "Al terminar la actividad hacemos la…",
+   "pista": "Bajamos el ritmo.",
+   "explicacion": "La vuelta a la calma relaja el cuerpo.",
+   "opciones": [
+    "salida",
+    "carrera",
+    "vuelta a la calma",
+    "competición"
+   ],
+   "correcta": 2
+  },
+  {
+   "id": "ef-c084",
+   "bloque": "Habilidades",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "Lanzar una pelota a una diana trabaja la…",
+   "pista": "Apuntar y acertar.",
+   "explicacion": "Es la puntería (coordinación óculo-manual).",
+   "opciones": [
+    "velocidad",
+    "flexibilidad",
+    "memoria",
+    "puntería"
+   ],
+   "correcta": 3
+  },
+  {
+   "id": "ef-c085",
+   "bloque": "Salud",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "Después de correr, el corazón late…",
+   "pista": "Pon la mano en el pecho.",
+   "explicacion": "Con el esfuerzo el corazón se acelera.",
+   "opciones": [
+    "más rápido",
+    "más lento",
+    "igual",
+    "se para"
+   ],
+   "correcta": 0
+  },
+  {
+   "id": "ef-c086",
+   "bloque": "Seguridad",
+   "nivel": 1,
+   "cursos": [
+    2,
+    2
+   ],
+   "tipo": "mc",
+   "enunciado": "Si hace mucho calor, nos protegemos la cabeza con…",
+   "pista": "Para el sol.",
+   "explicacion": "La gorra protege del sol.",
+   "opciones": [
+    "una bufanda",
+    "una gorra",
+    "unos guantes",
+    "un gorro de lana"
+   ],
+   "correcta": 1
+  },
+  {
+   "id": "ef-c087",
+   "bloque": "Capacidades físicas",
+   "nivel": 1,
+   "cursos": [
+    5,
+    5
+   ],
+   "tipo": "match",
+   "enunciado": "Une cada capacidad física con un ejemplo.",
+   "pista": "Piensa qué trabaja cada ejercicio.",
+   "explicacion": "Cada ejemplo trabaja una capacidad distinta.",
+   "pares": [
+    [
+     "Velocidad",
+     "carrera de 50 metros"
+    ],
+    [
+     "Resistencia",
+     "correr 20 minutos seguidos"
+    ],
+    [
+     "Flexibilidad",
+     "tocar la punta de los pies"
+    ],
+    [
+     "Fuerza",
+     "trepar por una cuerda"
+    ]
+   ]
+  },
+  {
+   "id": "ef-c088",
+   "bloque": "Deportes",
+   "nivel": 1,
+   "cursos": [
+    3,
+    3
+   ],
+   "tipo": "match",
+   "enunciado": "Une cada deporte con su material.",
+   "pista": "Piensa en lo que se necesita para jugar.",
+   "explicacion": "Cada deporte usa un material diferente.",
+   "pares": [
+    [
+     "Fútbol",
+     "balón y porterías"
+    ],
+    [
+     "Natación",
+     "piscina"
+    ],
+    [
+     "Tenis",
+     "raqueta"
+    ],
+    [
+     "Ciclismo",
+     "bicicleta"
+    ]
+   ]
+  }
+ ]
+}

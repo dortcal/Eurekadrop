@@ -83,7 +83,7 @@
 
       // ---- Contenido por sala ----
       const nEnemies = [0, 1, 2, 3][lv];
-      const speeds = [0, 55, 72, 90][lv];
+      const speeds = [0, 55, 72, 90][lv] * EZ.ease();
       const addEnemy = (room, kind) => {
         const p = free(room, { avoidPath: false, margin: 2 });
         if (!p) return;

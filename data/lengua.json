@@ -1296,6 +1296,121 @@
     "pista": "Nave que viaja al espacio",
     "trampas": "Q",
     "nivel": 3
+   },
+   {
+    "palabra": "CASA",
+    "pista": "El lugar donde vivimos",
+    "trampas": "ZK",
+    "nivel": 1,
+    "cursos": [
+     1,
+     2
+    ]
+   },
+   {
+    "palabra": "GATO",
+    "pista": "Animal que maúlla",
+    "trampas": "CK",
+    "nivel": 1,
+    "cursos": [
+     1,
+     2
+    ]
+   },
+   {
+    "palabra": "LUNA",
+    "pista": "Brilla en el cielo de noche",
+    "trampas": "OM",
+    "nivel": 1,
+    "cursos": [
+     1,
+     2
+    ]
+   },
+   {
+    "palabra": "MESA",
+    "pista": "Mueble donde comemos",
+    "trampas": "NZ",
+    "nivel": 1,
+    "cursos": [
+     1,
+     2
+    ]
+   },
+   {
+    "palabra": "PATO",
+    "pista": "Ave que nada y hace cuac",
+    "trampas": "BM",
+    "nivel": 1,
+    "cursos": [
+     1,
+     2
+    ]
+   },
+   {
+    "palabra": "NUBE",
+    "pista": "Flota en el cielo y da lluvia",
+    "trampas": "VK",
+    "nivel": 1,
+    "cursos": [
+     1,
+     2
+    ],
+    "aviso": "¡Ojo! «nube» se escribe con b."
+   },
+   {
+    "palabra": "LIBRO",
+    "pista": "Lo leemos y tiene páginas",
+    "trampas": "VM",
+    "nivel": 1,
+    "cursos": [
+     1,
+     2
+    ],
+    "aviso": "¡Ojo! «libro» se escribe con b."
+   },
+   {
+    "palabra": "SOL",
+    "pista": "La estrella que nos da luz",
+    "trampas": "ZC",
+    "nivel": 1,
+    "cursos": [
+     1,
+     2
+    ]
+   },
+   {
+    "palabra": "GUITARRA",
+    "pista": "Instrumento musical de seis cuerdas",
+    "trampas": "KC",
+    "nivel": 1,
+    "cursos": [
+     3,
+     4
+    ],
+    "aviso": "¡Ojo! «guitarra» lleva gu."
+   },
+   {
+    "palabra": "BARCO",
+    "pista": "Navega por el mar",
+    "trampas": "VP",
+    "nivel": 1,
+    "cursos": [
+     3,
+     4
+    ],
+    "aviso": "¡Ojo! «barco» se escribe con b."
+   },
+   {
+    "palabra": "QUESO",
+    "pista": "Se hace con la leche",
+    "trampas": "KC",
+    "nivel": 1,
+    "cursos": [
+     3,
+     4
+    ],
+    "aviso": "¡Ojo! «queso» lleva qu."
    }
   ]
  }

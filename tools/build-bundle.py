@@ -14,6 +14,10 @@ out = {}
 for f in FILES:
     with open(os.path.join(ROOT, 'data', f + '.json'), encoding='utf-8') as fh:
         out[f] = json.load(fh)
+    extra = os.path.join(ROOT, 'data', f + '-cursos.json')
+    if os.path.exists(extra):
+        with open(extra, encoding='utf-8') as fh:
+            out[f + '-cursos'] = json.load(fh)
 js = ('/* Archivo generado por tools/build-bundle.py. NO lo edites a mano: edita los .json */\n'
       'window.EZ_BUNDLE = ' + json.dumps(out, ensure_ascii=False, separators=(',', ':')) + ';\n')
 with open(os.path.join(ROOT, 'data', 'bundle.js'), 'w', encoding='utf-8') as fh:
