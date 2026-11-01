@@ -4,7 +4,7 @@
    sirve desde la caché y actualiza en segundo plano.
    Si cambias archivos, sube el número de VERSION.
    ========================================================== */
-const VERSION = 'eureka-drop-v1.2.0';
+const VERSION = 'eureka-drop-v1.2.1';
 const FILES = [
   './', 'index.html', 'manifest.webmanifest',
   'css/style.css', 'css/menu.css', 'css/game.css',

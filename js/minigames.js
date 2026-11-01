@@ -37,18 +37,18 @@
       const el = overlay(`<div class="mini-hud"><span class="mini-title">PISTA TURBO</span><span id="mg-info"></span></div>
         <canvas id="mg-cv" aria-label="Carrera de obstáculos"></canvas>
         <div class="mini-btns"><button class="btn btn-go" id="mg-jump" type="button">SALTA ↑</button>${lv >= 2 ? '<button class="btn btn-hint" id="mg-duck" type="button">AGÁCHATE ↓</button>' : ''}</div>`);
-      await intro(el, 'Pista Turbo', `Corre ${[0, 25, 30, 35][lv]} segundos. Salta las vallas${lv >= 2 ? ' y agáchate bajo las barras voladoras' : ''}. Si chocas 3 veces, se acaba. Las estrellas dan puntos extra.`,
+      await intro(el, 'Pista Turbo', `Corre ${[0, 20, 25, 30][lv]} segundos. Salta las vallas${lv >= 2 ? ' y agáchate bajo las barras voladoras' : ''}. Si chocas 5 veces, se acaba. Las estrellas dan puntos extra.`,
         `Teclado: ESPACIO / ↑ saltar${lv >= 2 ? ' · ↓ agacharse' : ''}. Táctil: botones de abajo.`);
       const cv = U.$('#mg-cv'), ctx = cv.getContext('2d'), info = U.$('#mg-info');
       const dpr = Math.min(2, window.devicePixelRatio || 1);
       let W = 0, H = 0;
       const resize = () => { W = cv.clientWidth; H = cv.clientHeight; cv.width = W * dpr; cv.height = H * dpr; ctx.setTransform(dpr, 0, 0, dpr, 0, 0); };
       resize(); window.addEventListener('resize', resize);
-      const dur = [0, 25, 30, 35][lv];
-      let speed = [0, 300, 350, 400][lv] * EZ.ease(), t = 0, hits = 0, stars = 0, inv = 0, spawn = 1.2, last = performance.now(), done = false, py = 0, vy = 0, duck = 0, walk = 0;
+      const dur = [0, 20, 25, 30][lv];
+      let speed = [0, 260, 300, 340][lv] * EZ.ease(), t = 0, hits = 0, stars = 0, inv = 0, spawn = 1.2, last = performance.now(), done = false, py = 0, vy = 0, duck = 0, walk = 0;
       const obs = [];
       const ground = () => H * 0.78;
-      const jump = () => { if (py === 0 && duck <= 0) { vy = 760; EZ.audio.play('jump'); } };
+      const jump = () => { if (py === 0 && duck <= 0) { vy = 820; EZ.audio.play('jump'); } };
       const doDuck = () => { if (lv >= 2 && py === 0) { duck = 0.65; EZ.audio.play('whoosh'); } };
       const key = (e) => {
         if ([' ', 'ArrowUp', 'w', 'W'].includes(e.key)) { e.preventDefault(); e.stopPropagation(); jump(); }
@@ -62,15 +62,15 @@
       function frame(now) {
         if (done) return;
         const dt = Math.min(0.05, (now - last) / 1000); last = now;
-        t += dt; walk += dt; speed += dt * 6; inv = Math.max(0, inv - dt); duck = Math.max(0, duck - dt);
+        t += dt; walk += dt; speed += dt * 3; inv = Math.max(0, inv - dt); duck = Math.max(0, duck - dt);
         // física
         if (py > 0 || vy > 0) { vy -= 2100 * dt; py = Math.max(0, py + vy * dt); if (py === 0) vy = 0; }
         spawn -= dt;
         if (spawn <= 0 && t < dur - 1.5) {
-          const bar = lv >= 2 && Math.random() < 0.35;
+          const bar = lv >= 2 && Math.random() < 0.25;
           obs.push({ x: W + 40, kind: bar ? 'bar' : 'hurdle' });
           if (Math.random() < 0.6) obs.push({ x: W + 40 + U.rand(120, 220), kind: 'star', h: Math.random() < 0.5 ? 0 : 120 });
-          spawn = U.rand(0.95, 1.5) * (300 / speed) * 1.25;
+          spawn = U.rand(1.2, 1.8) * (300 / speed) * 1.25;
         }
         const px = W * 0.2, g = ground();
         const ph = duck > 0 ? 34 : 64;
@@ -78,15 +78,15 @@
           o.x -= speed * dt;
           if (o.hit) continue;
           let box;
-          if (o.kind === 'hurdle') box = { x: o.x - 16, y: g - 44, w: 32, h: 44 };
+          if (o.kind === 'hurdle') box = { x: o.x - 14, y: g - 40, w: 28, h: 40 };
           else if (o.kind === 'bar') box = { x: o.x - 30, y: g - 110, w: 60, h: 64 };
           else box = { x: o.x - 14, y: g - 40 - o.h - 14, w: 28, h: 28 };
-          const pb = { x: px - 14, y: g - py - ph, w: 28, h: ph };
+          const pb = { x: px - 12, y: g - py - ph, w: 24, h: ph };
           const hit = pb.x < box.x + box.w && pb.x + pb.w > box.x && pb.y < box.y + box.h && pb.y + pb.h > box.y;
           if (hit) {
             o.hit = true;
             if (o.kind === 'star') { stars++; EZ.audio.play('coin'); }
-            else if (inv <= 0) { hits++; inv = 1; EZ.audio.play('hit'); }
+            else if (inv <= 0) { hits++; inv = 1.5; EZ.audio.play('hit'); }
           }
         }
         while (obs.length && obs[0].x < -80) obs.shift();
@@ -110,8 +110,8 @@
           ART.drawPlayer(ctx, px, g, py, 'right', walk, avatar, { moving: py === 0, scale: 1.2 });
           ctx.restore();
         }
-        info.textContent = `Tiempo ${Math.max(0, Math.ceil(dur - t))} s · Choques ${hits}/3 · Estrellas ${stars}`;
-        if (hits >= 3 || t >= dur) { finish(hits < 3); return; }
+        info.textContent = `Tiempo ${Math.max(0, Math.ceil(dur - t))} s · Choques ${hits}/5 · Estrellas ${stars}`;
+        if (hits >= 5 || t >= dur) { finish(hits < 5); return; }
         requestAnimationFrame(frame);
       }
       function finish(ok) {
@@ -119,7 +119,7 @@
         document.removeEventListener('keydown', key, true);
         window.removeEventListener('resize', resize);
         EZ.audio.play(ok ? 'achievement' : 'wrong');
-        const box = U.el('div', { class: 'mini-intro' }, `<h2>${ok ? '¡Meta superada!' : '¡Tropiezo!'}</h2><p>${ok ? `Estrellas: ${stars}. Coordinación y reacción a tope.` : 'Tres choques. Mira la valla, calcula y salta un poco antes.'}</p><button class="btn btn-go" type="button">Continuar</button>`);
+        const box = U.el('div', { class: 'mini-intro' }, `<h2>${ok ? '¡Meta superada!' : '¡Tropiezo!'}</h2><p>${ok ? `Estrellas: ${stars}. Coordinación y reacción a tope.` : 'Cinco choques. Mira la valla, calcula y salta un poco antes.'}</p><button class="btn btn-go" type="button">Continuar</button>`);
         U.$('#mini').appendChild(box);
         const b = U.$('button', box);
         const k2 = (e) => { if (e.key === 'Enter') { e.preventDefault(); e.stopPropagation(); b.click(); } };
@@ -142,13 +142,13 @@
       const freqs = { up: 523, right: 659, down: 784, left: 440 };
       const el = overlay(`<div class="mini-hud"><span class="mini-title">CALENTAMIENTO AL RITMO</span><span id="mg-info" aria-live="polite"></span></div>
         <div class="simon">${moves.slice(0, 4).map((m) => `<button type="button" class="simon-pad pad-${m.k}" data-k="${m.k}"><span class="arrow">${arrows[m.k]}</span><span>${U.esc(m.n)}</span></button>`).join('')}</div>`);
-      await intro(el, 'Calentamiento al ritmo', 'Observa la secuencia de movimientos y repítela en el mismo orden. Cada ronda añade un movimiento. Tienes 3 intentos.', 'Teclado: flechas. Táctil o ratón: pulsa los paneles.');
+      await intro(el, 'Calentamiento al ritmo', 'Observa la secuencia de movimientos y repítela en el mismo orden. Cada ronda añade un movimiento. Tienes 4 intentos.', 'Teclado: flechas. Táctil o ratón: pulsa los paneles.');
       const info = U.$('#mg-info');
-      const target = [0, 4, 5, 6][lv];
+      const target = [0, 3, 4, 5][lv];
       const seq = [];
       const keys = moves.slice(0, 4).map((m) => m.k);
       for (let i = 0; i < target; i++) seq.push(U.pick(keys));
-      let len = 3, pos = 0, accepting = false, mistakes = 0, done = false;
+      let len = 2, pos = 0, accepting = false, mistakes = 0, done = false;
       const pad = (k) => U.$(`.simon-pad[data-k="${k}"]`, el);
       const light = async (k, ms = 480) => {
         const p = pad(k); p.classList.add('lit');
@@ -158,8 +158,8 @@
       async function showSeq() {
         accepting = false; info.textContent = `Observa… (${len} movimientos)`;
         await U.wait(500);
-        for (let i = 0; i < len; i++) await light(seq[i], lv === 3 ? 380 : 480);
-        pos = 0; accepting = true; info.textContent = `¡Tu turno! ${len} movimientos · intentos ${3 - mistakes}`;
+        for (let i = 0; i < len; i++) await light(seq[i], lv === 3 ? 460 : 540);
+        pos = 0; accepting = true; info.textContent = `¡Tu turno! ${len} movimientos · intentos ${4 - mistakes}`;
       }
       async function press(k) {
         if (!accepting || done) return;
@@ -175,7 +175,7 @@
           accepting = true;
         } else {
           mistakes++; EZ.audio.play('wrong');
-          if (mistakes >= 3) return end(false);
+          if (mistakes >= 4) return end(false);
           info.textContent = `¡Uy! Era «${moves.find((m) => m.k === seq[pos]).n}». Otra vez.`;
           await U.wait(1100); showSeq();
         }
